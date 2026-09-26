@@ -29,6 +29,9 @@ SITE = json.loads((DATA / "site.json").read_text(encoding="utf-8"))
 DB = json.loads((DATA / "products.json").read_text(encoding="utf-8"))
 PRODUCTS = DB["products"]
 BY_ID = {p["id"]: p for p in PRODUCTS}
+_MU = DATA / "matchups.json"
+MATCHUPS = [m for m in (json.loads(_MU.read_text(encoding="utf-8"))["matchups"] if _MU.exists() else [])
+            if m["a"] in BY_ID and m["b"] in BY_ID]
 
 E = lambda s: html.escape("" if s is None else str(s), quote=True)  # noqa: E731
 
@@ -225,6 +228,15 @@ def guide_score(p, kind: str) -> float:
                      sc(p, "portability") * .10 + sc(p, "range") * .05 + sc(p, "speed") * .05, 2)
     if kind == "speed":
         return p["specs"].get("top_speed_mph") or 0
+    if kind == "heavy":
+        return round(sc(p, "safety") * .25 + sc(p, "power") * .25 + sc(p, "comfort") * .20 +
+                     sc(p, "value") * .20 + sc(p, "range") * .10, 2)
+    if kind == "range":
+        # Manufacturer's claimed range first; editor score only breaks ties.
+        return (p["specs"].get("range_mi") or 0) + editor_score(p) / 100
+    if kind == "portable":
+        return round(sc(p, "portability") * .35 + sc(p, "safety") * .20 + sc(p, "value") * .20 +
+                     sc(p, "range") * .15 + sc(p, "comfort") * .10, 2)
     return editor_score(p)
 
 
@@ -327,7 +339,7 @@ def footer() -> str:
       </div>
       <div><h3>Categories</h3><ul>{cats}</ul></div>
       <div><h3>Guides</h3><ul>{guides}</ul></div>
-      <div><h3>Site</h3><ul><li><a href="/compare/">Compare scooters</a></li><li><a href="/deals/">Deals</a></li><li><a href="/how-we-rate/">How we rate</a></li><li><a href="/about/">About &amp; contact</a></li><li><a href="/affiliate-disclosure/">Affiliate disclosure</a></li><li><a href="/privacy/">Privacy &amp; cookies</a></li></ul></div>
+      <div><h3>Site</h3><ul><li><a href="/compare/">Compare scooters</a></li><li><a href="/vs/">Head-to-head comparisons</a></li><li><a href="/range-map/">Range map</a></li><li><a href="/deals/">Deals</a></li><li><a href="/how-we-rate/">How we rate</a></li><li><a href="/about/">About &amp; contact</a></li><li><a href="/affiliate-disclosure/">Affiliate disclosure</a></li><li><a href="/privacy/">Privacy &amp; cookies</a></li></ul></div>
     </div>
     <div class="site-footer__legal">
       <p><strong>Affiliate disclosure:</strong> {E(SITE['name'])} is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. As an Amazon Associate we earn from qualifying purchases, at no extra cost to you.</p>
@@ -658,6 +670,10 @@ def build_product(p):
     if similar:
         sim_html = f'<section class="section section--tint"><div class="wrap"><div class="section__head"><div><p class="eyebrow">Alternatives</p><h2>Similar scooters</h2></div><a class="link-arrow" href="/compare/#ids={p["id"]},{",".join(q["id"] for q in similar[:3])}">Compare them all<svg class="ico"><use href="#i-arrow"/></svg></a></div>{cards_grid(similar[:3])}</div></section>'
 
+    my_vs = [m for m in MATCHUPS if p["id"] in (m["a"], m["b"])]
+    if my_vs:
+        vs_links = "".join(f'<a class="vs-chip" href="{vs_url(m)}"><span>{E(display_name(BY_ID[m["a"]]))}</span><b>vs</b><span>{E(display_name(BY_ID[m["b"]]))}</span></a>' for m in my_vs)
+        sim_html = f'<section class="section section--flush"><div class="wrap"><p class="eyebrow">Head to head</p><div class="vs-chips">{vs_links}</div></div></section>' + sim_html
     body = f"""
 <section class="pdp">
   <div class="wrap">
@@ -825,7 +841,7 @@ def build_guides():
         picks_html = ""
         for i, p in enumerate(picks):
             ed = p["editorial"]
-            real = f'<p class="note"><strong>Real world:</strong> {E(p["specs"]["range_note"])}</p>' if p["specs"].get("range_note") and kind == "speed" else ""
+            real = f'<p class="note"><strong>Real world:</strong> {E(p["specs"]["range_note"])}</p>' if p["specs"].get("range_note") and kind in ("speed", "range") else ""
             picks_html += f"""<article class="pick" id="pick-{p['id']}">
   <div class="pick__media"><span class="pick__rank">#{i + 1}</span><img src="{img(p['images'][0], 800)}" alt="{E(display_name(p))}" loading="lazy" width="600" height="600"></div>
   <div class="pick__body">
@@ -908,6 +924,7 @@ def build_compare():
       <div class="cmp-picker__list" data-cmp-options></div>
     </div>
     <div data-cmp-result></div>
+    {('<div class="vs-strip"><h2>Popular head-to-heads</h2><div class="vs-chips">' + "".join(f'<a class="vs-chip" href="{vs_url(m)}"><span>{E(short_name(BY_ID[m["a"]]))}</span><b>vs</b><span>{E(short_name(BY_ID[m["b"]]))}</span></a>' for m in MATCHUPS) + '</div></div>') if MATCHUPS else ''}
     <noscript><div class="table-scroll"><table class="cmp-static"><thead><tr><th></th>{head}</tr></thead><tbody>{rows}</tbody></table></div></noscript>
     {disclosure_box()}
   </div>
@@ -915,6 +932,168 @@ def build_compare():
     page("/compare/", "Compare electric scooters side by side",
          "Compare up to four electric scooters: top speed, range, battery, power, weight, brakes and editor scores in one table with an overlaid radar chart.",
          body, active="/compare/", jsonld=[ld], body_class="is-compare")
+
+
+def vs_url(m) -> str:
+    return f"/vs/{m['a']}-vs-{m['b']}/"
+
+
+def short_name(p) -> str:
+    return display_name(p).replace("Segway Ninebot ", "Segway ").replace("Segway SuperScooter ", "Segway ")
+
+
+def vs_differences(a, b) -> list[str]:
+    """Auto-generated, data-only difference bullets (only when both values exist and differ)."""
+    na, nb = short_name(a), short_name(b)
+    sa, sb = a["specs"], b["specs"]
+    out = []
+
+    def cmp(val_a, val_b, higher_better, fmt, word_hi, word_lo):
+        if val_a is None or val_b is None or val_a == val_b:
+            return
+        a_wins = (val_a > val_b) == higher_better
+        w, l = (na, nb) if a_wins else (nb, na)
+        wv, lv = (val_a, val_b) if a_wins else (val_b, val_a)
+        out.append(f"<li><b>{E(w)}</b> {word_hi if higher_better else word_lo}: {fmt(wv)} vs {fmt(lv)}</li>")
+
+    n = lambda u: (lambda v: f"{fmt_num(v)} {u}")  # noqa: E731
+    if SITE.get("show_prices") and a.get("price") and b.get("price") and a["price"] != b["price"]:
+        lo, hi = (a, b) if a["price"] < b["price"] else (b, a)
+        out.append(f"<li><b>{E(short_name(lo))}</b> costs less: {money(lo['price'])} vs {money(hi['price'])} "
+                   f"(${round(hi['price'] - lo['price']):,} difference, Amazon prices as of {nice_date(lo['price_date'])})</li>")
+    cmp(sa.get("top_speed_mph"), sb.get("top_speed_mph"), True, n("mph"), "is faster", "")
+    cmp(sa.get("range_mi"), sb.get("range_mi"), True, n("mi"), "has more claimed range", "")
+    cmp(sa.get("battery_wh"), sb.get("battery_wh"), True, n("Wh"), "has the bigger battery", "")
+    cmp(sa.get("motor_peak_w"), sb.get("motor_peak_w"), True, n("W peak"), "has more motor power", "")
+    cmp(sa.get("weight_lb"), sb.get("weight_lb"), False, n("lb"), "", "is lighter")
+    cmp(sa.get("max_load_lb"), sb.get("max_load_lb"), True, n("lb"), "carries heavier riders", "")
+    cmp(sa.get("charge_time_h"), sb.get("charge_time_h"), False, n("h"), "", "charges faster")
+    if a.get("rating") and b.get("rating") and a["rating"] != b["rating"]:
+        w, l = (a, b) if a["rating"] > b["rating"] else (b, a)
+        out.append(f"<li><b>{E(short_name(w))}</b> is rated higher on Amazon: {w['rating']:.1f}★ ({w['reviews_count']:,} ratings) vs "
+                   f"{l['rating']:.1f}★ ({l['reviews_count']:,})</li>")
+    return out
+
+
+def vs_table(a, b) -> str:
+    rows = ""
+    wins = [0, 0]
+    for gname, specs in SPEC_GROUPS:
+        rows += f'<tr class="grp"><th colspan="3">{E(gname)}</th></tr>'
+        for key, label, unit, better in specs:
+            va, vb = a["specs"].get(key), b["specs"].get(key)
+            if va in (None, "") and vb in (None, ""):
+                continue
+            best = set()
+            if better and va not in (None, "") and vb not in (None, "") and va != vb:
+                if better == "true":
+                    best = {0} if va is True else {1} if vb is True else set()
+                elif better == "max":
+                    best = {0} if va > vb else {1}
+                elif better == "min":
+                    best = {0} if va < vb else {1}
+            for i in best:
+                wins[i] += 1
+            rows += (f'<tr><th scope="row">{E(label)}</th>' +
+                     "".join(f'<td class="{"is-best" if i in best else ""}">{fmt_spec(v, unit)}</td>' for i, v in enumerate((va, vb))) + "</tr>")
+    rows += '<tr class="grp"><th colspan="3">Editor scores (0–10)</th></tr>'
+    for k, lab in SCORE_AXES:
+        va, vb = a["scores"].get(k), b["scores"].get(k)
+        best = set() if va is None or vb is None or va == vb else ({0} if va > vb else {1})
+        rows += (f'<tr><th scope="row">{E(lab)}</th>' + "".join(
+            f'<td class="{"is-best" if i in best else ""}">{"n/a" if v is None else v}</td>' for i, v in enumerate((va, vb))) + "</tr>")
+    ea, eb = editor_score(a), editor_score(b)
+    rows += (f'<tr><th scope="row"><b>Overall editor score</b></th><td class="{"is-best" if ea > eb else ""}">{ea}</td>'
+             f'<td class="{"is-best" if eb > ea else ""}">{eb}</td></tr>')
+    head = "".join(f'<th scope="col"><a href="{url_of(p)}">{E(short_name(p))}</a></th>' for p in (a, b))
+    return (f'<div class="table-scroll"><table class="cmp-table vs-table"><colgroup><col class="c-label"><col><col></colgroup>'
+            f'<thead><tr><th scope="col"><span class="sr">Spec</span></th>{head}</tr></thead><tbody>{rows}</tbody></table></div>'), wins
+
+
+def build_vs():
+    if not MATCHUPS:
+        return
+    def tile(m):
+        a, b = BY_ID[m["a"]], BY_ID[m["b"]]
+        return (f'<a class="vs-tile" href="{vs_url(m)}"><div class="vs-tile__imgs"><img src="{img(a["images"][0], 300)}" alt="" loading="lazy">'
+                f'<span class="vs-badge">VS</span><img src="{img(b["images"][0], 300)}" alt="" loading="lazy"></div>'
+                f'<h3>{E(short_name(a))} <span>vs</span> {E(short_name(b))}</h3><span class="link-arrow">See the comparison<svg class="ico"><use href="#i-arrow"/></svg></span></a>')
+    crumbs, ld = breadcrumbs([("/", "Home"), ("/compare/", "Compare"), (None, "Head to head")])
+    page("/vs/", "Electric scooter head-to-head comparisons",
+         "Side-by-side comparisons of popular electric scooters: specs, real-world notes, editor scores and which one to buy.",
+         f'<section class="page-head page-head--dark"><div class="wrap">{crumbs}<p class="eyebrow eyebrow--volt">Head to head</p><h1>Scooter vs scooter</h1><p class="lead">The matchups shoppers ask about most, compared spec by spec with a clear recommendation. Want a different pair? Build it in the <a href="/compare/" style="color:#fff">comparator</a>.</p></div></section>'
+         f'<section class="section section--flush"><div class="wrap"><div class="vs-tiles">{"".join(tile(m) for m in MATCHUPS)}</div></div></section>',
+         active="/compare/", jsonld=[ld])
+
+    for m in MATCHUPS:
+        a, b = BY_ID[m["a"]], BY_ID[m["b"]]
+        na, nb = short_name(a), short_name(b)
+        title = f"{na} vs {nb}: Which to Buy? ({SITE['year']})"
+        desc = f"{na} vs {nb} compared: speed, range, battery, weight, brakes, price and owner reviews, plus which one we'd buy and why."
+        crumbs, bld = breadcrumbs([("/", "Home"), ("/vs/", "Head to head"), (None, f"{na} vs {nb}")])
+        table, wins = vs_table(a, b)
+        diffs = vs_differences(a, b)
+
+        def side(p, i):
+            return f"""<div class="vs-side" style="--c:{SERIES_COLORS[i]}">
+  <a class="vs-side__img" href="{url_of(p)}"><img src="{img(p['images'][0], 600)}" alt="{E(display_name(p))}" width="400" height="400" {'fetchpriority="high"' if i == 0 else 'loading="lazy"'}></a>
+  <p class="vs-side__brand">{E(p['brand'])}</p>
+  <h2><a href="{url_of(p)}">{E(display_name(p))}</a></h2>
+  <div class="vs-side__rating">{stars(p.get('rating'), p.get('reviews_count'), small=True)}<span class="score-pill" title="Editor score">{editor_score(p)}</span></div>
+  {key_specs(p)}
+  {price_block(p)}
+  <div class="vs-side__actions">{buy_button(p, 'Check price on Amazon', 'btn btn--amazon btn--block')}<a class="btn btn--ghost btn--block" href="{url_of(p)}">Full review</a></div>
+</div>"""
+
+        def pc(p):
+            ed = p["editorial"]
+            return (f'<div class="vs-pc"><h3>{E(short_name(p))}</h3><ul class="mini mini--pro">{"".join(f"<li>{E(x)}</li>" for x in ed["pros"][:4])}</ul>'
+                    f'<ul class="mini mini--con">{"".join(f"<li>{E(x)}</li>" for x in ed["cons"][:3])}</ul></div>')
+
+        radar = radar_svg([(a["scores"], SERIES_COLORS[0]), (b["scores"], SERIES_COLORS[1])], 360)
+        legend = f'<ul class="legend"><li><i style="--c:{SERIES_COLORS[0]}"></i>{E(na)}</li><li><i style="--c:{SERIES_COLORS[1]}"></i>{E(nb)}</li></ul>'
+        links = f'<a class="link-arrow" href="/compare/#ids={a["id"]},{b["id"]}">Open in the interactive comparator<svg class="ico"><use href="#i-arrow"/></svg></a>'
+        if a["specs"].get("range_mi") and b["specs"].get("range_mi"):
+            links += f'<a class="link-arrow" href="/range-map/?ids={a["id"]},{b["id"]}">See both ranges on a map<svg class="ico"><use href="#i-arrow"/></svg></a>'
+        others = [o for o in MATCHUPS if o is not m][:6]
+        others_html = "".join(f'<li><a href="{vs_url(o)}">{E(short_name(BY_ID[o["a"]]))} vs {E(short_name(BY_ID[o["b"]]))}</a></li>' for o in others)
+        faq = "".join(f"<details class='faq'><summary>{E(q)}</summary><p>{E(ans)}</p></details>" for q, ans in m.get("faq", []))
+        body = f"""<section class="page-head page-head--dark vs-head"><div class="wrap">{crumbs}<p class="eyebrow eyebrow--volt">Head to head · Updated {nice_date(DB['_meta']['updated'])}</p><h1>{E(na)} <span class="vs-head__vs">vs</span> {E(nb)}</h1><p class="lead">{E(m['intro'])}</p></div></section>
+<section class="section section--flush"><div class="wrap">
+  <div class="vs-sides">{side(a, 0)}<span class="vs-badge vs-badge--lg" aria-hidden="true">VS</span>{side(b, 1)}</div>
+  {disclosure_box()}
+</div></section>
+<section class="section"><div class="wrap narrow">
+  <p class="eyebrow">Quick verdict</p>
+  <h2>Which one should you buy?</h2>
+  <p class="lead vs-bottom">{E(m['bottom_line'])}</p>
+  <div class="vs-choose">
+    <div class="vs-choose__box" style="--c:{SERIES_COLORS[0]}"><h3>Choose the {E(na)} if…</h3><p>{E(m['choose_a'])}</p>{buy_button(a, 'Check price', 'btn btn--amazon btn--sm')}</div>
+    <div class="vs-choose__box" style="--c:{SERIES_COLORS[1]}"><h3>Choose the {E(nb)} if…</h3><p>{E(m['choose_b'])}</p>{buy_button(b, 'Check price', 'btn btn--amazon btn--sm')}</div>
+  </div>
+</div></section>
+<section class="section section--tint"><div class="wrap vs-scores">
+  <div class="vs-scores__chart"><p class="eyebrow">Editor scores</p><h2>How they stack up</h2>{radar}{legend}</div>
+  <div class="vs-scores__diffs"><p class="eyebrow">Key differences</p><h2>By the numbers</h2><ul class="vs-diffs">{"".join(diffs)}</ul><div class="vs-links">{links}</div></div>
+</div></section>
+<section class="section"><div class="wrap narrow">
+  <p class="eyebrow">Full specs</p><h2>Spec by spec</h2>
+  <div class="cmp-table-wrap">{table}</div>
+  <p class="note note--muted">“Best” marks the stronger value in each row. A dash means the value isn’t published. {E(na)} wins {wins[0]} spec row{'s' if wins[0] != 1 else ''}, {E(nb)} wins {wins[1]}. Scores follow our <a href="/how-we-rate/">rating rules</a>.</p>
+</div></section>
+<section class="section section--tint"><div class="wrap narrow">
+  <p class="eyebrow">Pros &amp; cons</p><h2>What owners and specs say</h2>
+  <div class="vs-pcs">{pc(a)}{pc(b)}</div>
+</div></section>
+<section class="section"><div class="wrap narrow">
+  {f'<section class="faqs"><h2>Frequently asked questions</h2>{faq}</section>' if faq else ''}
+  <div class="vs-more"><h2>More head-to-heads</h2><ul>{others_html}</ul><a class="link-arrow" href="/vs/">All comparisons<svg class="ico"><use href="#i-arrow"/></svg></a></div>
+</div></section>"""
+        faq_ld = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+            {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": ans}} for q, ans in m.get("faq", [])]}
+        art_ld = {"@context": "https://schema.org", "@type": "Article", "headline": f"{na} vs {nb}",
+                  "dateModified": DB["_meta"]["updated"], "author": {"@type": "Organization", "name": SITE["name"]}}
+        page(vs_url(m), title, desc, body, active="/compare/", jsonld=[art_ld, faq_ld, bld], og_image=img(a["images"][0], 1000), body_class="is-vs")
 
 
 def build_range_map():
@@ -1081,6 +1260,7 @@ def main():
     build_guides()
     build_deals()
     build_compare()
+    build_vs()
     build_range_map()
     build_static_pages()
     build_db_js()

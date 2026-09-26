@@ -5,7 +5,7 @@
  "lang": "en",
  "year": 2026,
  "show_prices": true,
- "contact_email": "hello@microtools.lat",
+ "contact_email": "soporte.microtools.lat@gmail.com",
  "categories": [
   {
    "slug": "budget",
@@ -310,6 +310,186 @@
     [
      "Do kids need a helmet on an electric scooter?",
      "Yes. A properly fitted helmet is essential, and many states require one for minors on e-scooters. Knee and elbow pads are a good idea for beginners."
+    ]
+   ]
+  },
+  {
+   "slug": "best-electric-scooter-under-500",
+   "title": "Best Electric Scooter Under $500 (2026)",
+   "h1": "The best electric scooters under $500 in 2026",
+   "description": "The best adult electric scooters under $500, ranked on value, safety, comfort and real-world performance — with the trade-offs owners report.",
+   "rank_by": "value",
+   "filter": "price<=500",
+   "limit": 4,
+   "intro": [
+    "Under $500 you're buying a commuter for short, mostly flat trips: 15–22 mph, 12–25 miles of claimed range and solid or air tires around 8.5–10 inches. The differences that matter at this price are battery size, whether it's UL 2272 certified and how the tires ride.",
+    "We rank adult scooters under $500 on value first, then safety, comfort and performance. Prices are Amazon snapshots and change often, so check the current price before you buy."
+   ],
+   "criteria": [
+    [
+     "Battery size",
+     "Look at watt-hours (Wh), not just the range claim. Around 180–200 Wh suits trips under 5 miles; 400 Wh+ handles a daily 10-mile round trip."
+    ],
+    [
+     "UL 2272",
+     "At this price, certification is the clearest sign the battery and charger passed US fire-safety testing. Skip scooters that don't list it."
+    ],
+    [
+     "Tires",
+     "Solid and honeycomb tires never go flat but ride harsh. Air tires are smoother and grip better in the rain but can puncture."
+    ],
+    [
+     "Weight limit",
+     "Most budget scooters are rated for 220–265 lb. If you're near the limit, expect less speed on hills and shorter range."
+    ]
+   ],
+   "faq": [
+    [
+     "Can a $300 electric scooter handle a daily commute?",
+     "Yes, for short, flat commutes. Budget scooters struggle on long hills and with heavier riders, and their real range is usually well under the claim."
+    ],
+    [
+     "Are cheap electric scooters safe?",
+     "The safest budget models are UL 2272 certified, have two independent brakes and bright lights. Avoid listings that don't state a certification."
+    ],
+    [
+     "What do you give up under $500?",
+     "Mostly range, hill power, suspension quality and warranty length. Hydraulic brakes, traction control and big batteries start around $700–$900."
+    ]
+   ]
+  },
+  {
+   "slug": "best-electric-scooter-for-heavy-adults",
+   "title": "Best Electric Scooters for Heavy Adults (300 lb+) (2026)",
+   "h1": "The best electric scooters for heavy adults (300 lb+)",
+   "description": "Electric scooters rated for riders of 300 lb or more, ranked on safety, power and comfort — with the weight limits manufacturers actually publish.",
+   "rank_by": "heavy",
+   "filter": "max_load_lb>=300",
+   "limit": 5,
+   "intro": [
+    "Every scooter here is rated by its manufacturer for at least 300 lb. That rating matters: riding over the limit strains the frame, stem and brakes, and range and hill-climbing drop sharply.",
+    "For heavier riders we weight safety and power most — strong brakes, stable frames and enough motor to keep speed on hills — then comfort and value."
+   ],
+   "criteria": [
+    [
+     "Published weight limit",
+     "Use the manufacturer's maximum load, not a reviewer's guess. Leave a margin of 20–30 lb for a backpack or groceries."
+    ],
+    [
+     "Motor power",
+     "Heavier riders need more power to hold speed on hills. Look for 1,500 W peak or more, or dual motors."
+    ],
+    [
+     "Brakes",
+     "Stopping distance grows with weight. Disc brakes front and rear are the minimum; hydraulic discs are better."
+    ],
+    [
+     "Deck and stem",
+     "A wide deck and a stiff, well-locked stem make a big difference to stability at speed."
+    ]
+   ],
+   "faq": [
+    [
+     "What happens if I exceed a scooter's weight limit?",
+     "You'll see less speed and range, and more stress on the frame, folding joint and brakes. It can also void the warranty."
+    ],
+    [
+     "Do heavier riders get less range?",
+     "Yes. Range claims are usually measured with a light rider at low speed. Expect noticeably less than the claim if you weigh 250 lb or more."
+    ],
+    [
+     "Are dual-motor scooters better for heavy riders?",
+     "Usually. Two motors share the load, climb better and keep speed on hills, but they add weight and cost."
+    ]
+   ]
+  },
+  {
+   "slug": "longest-range-electric-scooters",
+   "title": "Longest-Range Electric Scooters (2026)",
+   "h1": "The longest-range electric scooters in 2026",
+   "description": "Electric scooters with the most claimed range, ranked by range — with battery sizes and what owners actually get in the real world.",
+   "rank_by": "range",
+   "filter": null,
+   "limit": 5,
+   "intro": [
+    "Range claims are measured in ideal conditions: a light rider, eco mode, flat ground and mild weather. They're still the best way to compare scooters, because every brand tests the same optimistic way.",
+    "We rank by the manufacturer's claimed range and show battery size in watt-hours next to it, which is the most honest single number for comparing range. Each pick also notes what owners and independent testers report."
+   ],
+   "criteria": [
+    [
+     "Watt-hours beat miles",
+     "Battery capacity (Wh) is harder to exaggerate than a range claim. As a rule of thumb, adult scooters use roughly 15–25 Wh per mile in real riding."
+    ],
+    [
+     "Plan for 60–75%",
+     "Independent tests and owners typically get 60–75% of the claimed range. Use our range map to see what that means on your streets."
+    ],
+    [
+     "Charging time",
+     "Big batteries take longer to charge. Some models offer fast chargers that cut this dramatically."
+    ],
+    [
+     "Weight",
+     "More battery means more weight. Long-range scooters are often 60–120 lb."
+    ]
+   ],
+   "faq": [
+    [
+     "Which electric scooter has the longest range?",
+     "In our catalog, the Segway GT3 Pro claims the most (86 mi in eco mode), followed by the Hiboy Titan Pro (80 mi at 9.3 mph)."
+    ],
+    [
+     "How much real range should I expect?",
+     "Usually 60–75% of the claim. Riding fast, cold weather, hills and a heavier rider all reduce it further."
+    ],
+    [
+     "Does riding mode affect range?",
+     "A lot. Sport or race modes can cut range roughly in half compared with eco mode."
+    ]
+   ]
+  },
+  {
+   "slug": "best-lightweight-electric-scooter",
+   "title": "Best Lightweight Electric Scooters (Under 45 lb) (2026)",
+   "h1": "The best lightweight electric scooters (under 45 lb)",
+   "description": "Adult electric scooters under 45 lb you can actually carry up stairs or onto a train, ranked on portability, safety and value.",
+   "rank_by": "portable",
+   "filter": "weight_lb<=45",
+   "limit": 5,
+   "intro": [
+    "If you'll carry your scooter up stairs, onto a bus or into an office, weight matters more than top speed. Every adult scooter here weighs 45 lb or less by its manufacturer's figure.",
+    "We rank them on portability first, then safety, value and range. Scooters without a published weight aren't included, because we can't verify them."
+   ],
+   "criteria": [
+    [
+     "Carry weight",
+     "Under 30 lb is easy to carry one-handed for short distances; 35–45 lb is manageable for a flight of stairs but tiring every day."
+    ],
+    [
+     "Folding mechanism",
+     "A quick, secure fold and a latch that locks the stem to the deck make carrying much easier."
+    ],
+    [
+     "Battery vs weight",
+     "Lighter scooters carry smaller batteries. Check watt-hours to make sure the range covers your trip."
+    ],
+    [
+     "Brakes and certification",
+     "Light doesn't have to mean flimsy: look for UL 2272 and two independent brakes."
+    ]
+   ],
+   "faq": [
+    [
+     "What's a good weight for a commuter scooter?",
+     "Around 30–40 lb balances portability with enough battery for a 10–20 mile round trip."
+    ],
+    [
+     "Are lightweight scooters less safe?",
+     "Not necessarily, but they usually have smaller wheels and less suspension, so they feel less stable on rough roads."
+    ],
+    [
+     "Can I take an electric scooter on a train or bus?",
+     "Many transit systems allow folded scooters, but rules vary by city. A light, compact fold makes it much easier."
     ]
    ]
   }

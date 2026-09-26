@@ -1,0 +1,109 @@
+{
+ "_note": "Head-to-head pages (/vs/<a>-vs-<b>/). Specs, prices, scores and the difference list are generated from products.json; only the editorial text lives here.",
+ "matchups": [
+  {
+   "a": "segway-max-g2",
+   "b": "segway-f3",
+   "intro": "Segway's two best-selling commuters sit about $50 apart on Amazon. Both use a 1,000 W-peak motor, 10-inch tubeless tires, front hydraulic suspension, UL 2272 and UL 2271 certification and a 2-year limited warranty. The differences are weight, brakes, weather sealing and battery size.",
+   "choose_a": "You want the bigger built-in battery (551 Wh vs 477 Wh) and the extra 2 mph (22 vs 20 mph), you mostly ride from ground-level storage, and you like having traction control and turn signals built in.",
+   "choose_b": "You carry the scooter often: its magnesium frame makes it 12.5 lb lighter (41 vs 53.5 lb). You also get a front disc brake instead of a drum, IPX6 instead of IPX5, and the option of a 460 Wh add-on battery.",
+   "bottom_line": "For most commuters the F3 is worth the extra $50: lighter, better braked and more weatherproof. Pick the MAX G2 if you want the larger built-in battery and never have to lift it.",
+   "faq": [
+    ["Is the Segway F3 better than the MAX G2?", "For daily use, mostly yes. The F3 is lighter (41 vs 53.5 lb), has a front disc brake instead of a drum and is rated IPX6 instead of IPX5. The MAX G2 has the bigger battery (551 Wh vs 477 Wh) and a 2 mph higher top speed."],
+    ["Which has more range?", "Their claims are nearly identical (43 vs 44 mi in eco mode). ERideHero measured about 30 miles on the MAX G2 in real riding. Segway sells an optional 460 Wh external battery for the F3 and says it raises the claim to 81 mi."],
+    ["Are both UL certified?", "Yes. Both list UL 2272 and UL 2271 certification and come with a 2-year limited warranty, and both are sold by Amazon."]
+   ]
+  },
+  {
+   "a": "hiboy-s2-pro",
+   "b": "segway-max-g2",
+   "intro": "These are the two names most commuters end up choosing between. The Hiboy S2 Pro costs about $330 less and is 16 lb lighter; the Segway MAX G2 goes further, climbs better, rides softer and carries heavier riders.",
+   "choose_a": "Your commute is under about 10 miles each way, you weigh under 220 lb, you need to carry the scooter up stairs (37.4 vs 53.5 lb), and you like solid tires that can never go flat.",
+   "choose_b": "You ride longer distances (551 Wh vs 418 Wh), have hills (1,000 W vs 600 W peak), weigh up to 265 lb, or want front hydraulic suspension, traction control, turn signals and a 2-year warranty.",
+   "bottom_line": "The S2 Pro is the smart budget pick for short, flat commutes. If your ride is long, hilly or you're a heavier rider, the MAX G2 justifies the extra money.",
+   "faq": [
+    ["Is the Segway MAX G2 worth the extra money over the Hiboy S2 Pro?", "If you ride more than about 10 miles a day, have hills or weigh over 220 lb, yes: it has a 32% bigger battery, a stronger motor, better suspension and a 265 lb rating. For short, flat trips the S2 Pro does the job for much less."],
+    ["Which one is lighter?", "The Hiboy S2 Pro at 37.4 lb, versus 53.5 lb for the MAX G2."],
+    ["Which has the better warranty?", "Segway gives the MAX G2 a 2-year limited warranty. Hiboy lists 12 months for the S2 Pro, with 6 months on some parts."]
+   ]
+  },
+  {
+   "a": "hiboy-s2-pro",
+   "b": "gotrax-gxl-v2",
+   "intro": "Two of the most-reviewed budget commuters on Amazon, both sold directly by Amazon. The Gotrax GXL V2 costs about $200 less; the Hiboy S2 Pro has more than double the battery and a noticeably stronger motor.",
+   "choose_a": "Your trip is longer than about 5 miles each way, there are hills, or you want a smoother ride from 10-inch tires and rear shocks plus an app to lock the scooter and tune the brakes.",
+   "choose_b": "Your trips are short and flat, you need the lightest option (27 vs 37.4 lb), and you want the lowest price from a big brand with thousands of ratings.",
+   "bottom_line": "The S2 Pro is the better daily commuter. The GXL V2 is the better cheap, light last-mile scooter.",
+   "faq": [
+    ["How far does each go on a charge?", "Claimed range is 25.6 mi for the S2 Pro (418 Wh battery) and 12 mi for the GXL V2 (187 Wh). Real range is lower with heavier riders, hills and cold weather."],
+    ["Which is better for heavier riders?", "Both are rated for 220 lb. Heavier GXL V2 owners say it feels slow; the S2 Pro's motor (600 W peak) copes better with weight and hills."],
+    ["Do both have flat-free tires?", "Yes. The S2 Pro uses 10-inch solid tires and the GXL V2 8.5-inch honeycomb tires. Neither can puncture, but both ride firmer and grip less in the wet than air tires."]
+   ]
+  },
+  {
+   "a": "segway-max-g2",
+   "b": "hiboy-max-pro",
+   "intro": "Both are 22 mph long-range commuters weighing about 52 lb. The Hiboy MAX Pro has the bigger battery (720 Wh vs 551 Wh) for roughly $90 less; the Segway MAX G2 has the stronger motor, traction control, self-healing tires and a longer warranty.",
+   "choose_a": "You have hills (1,000 W vs 650 W peak), want tires that seal small punctures on their own, value traction control, turn signals and dual UL certification, or want a 2-year warranty.",
+   "choose_b": "You want the most claimed range for the money, prefer the softer ride of 11-inch air tires with suspension front and rear, and your routes are mostly flat.",
+   "bottom_line": "Hilly city or a rider near the weight limit: MAX G2. Long, flat commutes on a tighter budget: MAX Pro.",
+   "faq": [
+    ["Which has more range?", "On paper the Hiboy MAX Pro: 46.6 mi from a 720 Wh battery versus 43 mi from 551 Wh on the MAX G2. Owners of both say the claims are best-case figures."],
+    ["Which climbs hills better?", "The MAX G2. Its motor peaks at 1,000 W versus 650 W on the MAX Pro, which Hiboy rates for 20% grades."],
+    ["Which is easier to maintain?", "Both use sealed drum brakes that need little adjustment. The MAX G2's self-healing tubeless tires seal small punctures; the MAX Pro's 11-inch air tires ride softer, but some owners say flats are hard to fix."]
+   ]
+  },
+  {
+   "a": "segway-zt3-pro",
+   "b": "cunfon-rz800",
+   "intro": "Two all-terrain scooters under $900, both with 1,600 W-peak motors and disc brakes front and rear. The CUNFON RZ800 is faster, has a bigger battery and a higher weight limit for about $100 less; the Segway ZT3 Pro has better ratings, dual UL certification and is sold by Amazon.",
+   "choose_a": "You want the safest bet: 4.5 stars from almost 400 owners, easy Amazon returns, UL 2272 and UL 2271, a roughly 4-hour flash charge and Apple Find My.",
+   "choose_b": "You want speed (31 vs 24.9 mph), range (864 Wh vs 597 Wh) or a higher weight limit (330 vs 265 lb), and you like adjustable suspension. It's also 5.5 lb lighter.",
+   "bottom_line": "Riders over 265 lb, or anyone who wants more speed per dollar: RZ800. If you'd rather have a big brand and hassle-free returns: ZT3 Pro.",
+   "faq": [
+    ["Which is faster?", "The CUNFON RZ800, at up to 31 mph versus 24.9 mph for the ZT3 Pro. CUNFON also sells a 20 mph version for New York and California."],
+    ["Which is better for heavy riders?", "The RZ800 is rated for 330 lb, the ZT3 Pro for 265 lb."],
+    ["Can both go off-road?", "Yes. Both have off-road tires, suspension at both ends and disc brakes front and rear. The ZT3 Pro uses 11-inch tubeless tires; the RZ800 uses 10.5-inch air tires with adjustable spring suspension."]
+   ]
+  },
+  {
+   "a": "segway-gt3",
+   "b": "segway-gt3-pro",
+   "intro": "Same family and the same premium suspension idea, but very different machines. The GT3 Pro costs $1,000 more and adds 19 mph of top speed, more than double the battery, dual motors and hydraulic brakes — along with 30 more pounds.",
+   "choose_a": "You ride in the city and 31 mph is plenty, you want the GT3's dual hydraulic suspension and IPX6 sealing for much less, and 87 lb is already as heavy as you want to go.",
+   "choose_b": "You want 50 mph, 86 miles of claimed range, dual motors with 7,000 W peak, hydraulic disc brakes with ABS and adjustable front suspension, and you have ground-level storage for a 117 lb scooter.",
+   "bottom_line": "For commuting, the GT3 gives you most of the premium ride for $1,000 less. Pay for the Pro only if you'll really use its speed and range.",
+   "faq": [
+    ["What's the difference between the Segway GT3 and GT3 Pro?", "The Pro has dual motors (7,000 W peak vs 2,400 W), a 2,160 Wh battery (vs 899 Wh), 50 mph top speed (vs 31 mph), 86 mi claimed range (vs 45.6 mi) and hydraulic brakes with ABS. It also weighs 117 lb versus 87 lb."],
+    ["Do they share the same safety features?", "Both are IPX6 and certified to UL 2272 and UL 2271, with self-sealing 11-inch tubeless tires and dual suspension. The Pro adds hydraulic brakes with ABS and 15-level adjustable front suspension."],
+    ["Which is better for commuting?", "The GT3. It's 30 lb lighter, much cheaper and its 31 mph top speed is already beyond most city speed limits."]
+   ]
+  },
+  {
+   "a": "hiboy-titan-pro",
+   "b": "navee-xt5-pro",
+   "intro": "Both reach 31 mph and handle rough ground for around $1,200 to $1,300. The Hiboy Titan Pro is built around range, with nearly three times the battery; the NAVEE XT5 Pro is 27 lb lighter, better sealed against water and charges in about 90 minutes.",
+   "choose_a": "Range is your priority (1,728 Wh, 80 mi claimed), you want dual motors, hydraulic disc brakes and 35% climbing, and you can store a 104 lb scooter at ground level.",
+   "choose_b": "You want something easier to handle (77 lb), IPX6 water resistance, big 12-inch off-road tires, a ~1.5 hour flash charge, a 330 lb limit and a 2-year warranty.",
+   "bottom_line": "Long rides with no charger in sight: Titan Pro. Mixed riding in any weather with quick top-ups: XT5 Pro.",
+   "faq": [
+    ["Which one goes further?", "The Hiboy Titan Pro by a wide margin: a 1,728 Wh battery with an 80 mi claim (tested by Hiboy at 9.3 mph), versus 597 Wh and 46.6 mi on the XT5 Pro."],
+    ["Which charges faster?", "The NAVEE XT5 Pro: about 1.25–1.5 hours with its flash charger (5–6 hours standard). The Titan Pro takes about 8.5–9.5 hours."],
+    ["How reliable are the ratings?", "Both are lightly reviewed. The Titan Pro has 17 ratings, and the XT5 Pro's 59 ratings are shared with other NAVEE models on the same Amazon listing."]
+   ]
+  },
+  {
+   "a": "segway-c2-lite",
+   "b": "gotrax-gks-mini",
+   "intro": "Two starter e-scooters for young kids, both sold by Amazon. The Gotrax GKS Mini costs about half as much; the Segway C2 Lite adds a hand brake, a walk-along mode, more range and dual UL certification.",
+   "choose_a": "You want the most safety features: UL 2272 and UL 2271, IPX4, a mechanical hand brake plus rear drum, a slow mode for walking alongside and a speed cap at 9.9 mph. It fits riders about 3'9\" to 4'9\".",
+   "choose_b": "You want the lowest price, a gentler 7.5 mph top speed for the youngest riders and a slightly higher 120 lb limit. It's UL 2272 and CPC certified with 7,000+ ratings.",
+   "bottom_line": "The C2 Lite is our pick for ages 6–10. The GKS Mini is a sensible budget choice — but read about safe charging below.",
+   "faq": [
+    ["Which is safer for a young child?", "The C2 Lite has more safety equipment: dual UL certification, IPX4, a mechanical hand brake and a walk-along slow mode. The GKS Mini is slower (7.5 vs 9.9 mph) and also UL 2272 certified."],
+    ["Is it true a Gotrax GKS Mini caught fire?", "One recent Amazon review says the scooter caught fire while charging after about two months. It's a single report among 7,000+ ratings, but charge any e-scooter on a hard surface, away from anything flammable, and never unattended overnight."],
+    ["How far do they go?", "The C2 Lite is rated for up to 70 minutes or 8.7 mi (5.6 mi at top speed); the GKS Mini for about 3.75 mi."]
+   ]
+  }
+ ]
+}

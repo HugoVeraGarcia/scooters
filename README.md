@@ -30,3 +30,6 @@ Draws the area each scooter can reach on real streets (isochrone by distance), n
 - Settings in `data/site.json` → `range_map`: `isochrone_url`, `geocoder_url`, `max_km`, `real_world_factor` (0.7), `costing` (bicycle), `default_place`, `default_ids`.
 - If traffic grows, switch `isochrone_url` to a commercial Valhalla host (e.g. Stadia Maps `https://api.stadiamaps.com/isochrone/v1?api_key=...`) — same request format.
 - Links: `/range-map/?ids=a,b&trip=one&basis=claimed&at=lat,lon`
+
+## Head-to-head pages (/vs/)
+`data/matchups.json` lists the pairs (`a`, `b` = product ids) with the editorial text (intro, choose_a, choose_b, bottom_line, faq). Specs, prices, differences, table and radar are generated from `products.json`. If prices change a lot, re-check any price wording in the intro/bottom line.
