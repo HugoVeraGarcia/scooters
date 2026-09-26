@@ -1,0 +1,331 @@
+{
+ "name": "ScooterScope",
+ "tagline": "Electric scooter reviews & side-by-side comparisons",
+ "base_url": "https://scooters.specversus.com",
+ "lang": "en",
+ "year": 2026,
+ "show_prices": true,
+ "contact_email": "hello@microtools.lat",
+ "categories": [
+  {
+   "slug": "budget",
+   "name": "Budget (under $500)",
+   "short": "Under $500",
+   "rule": "price<=500",
+   "icon": "tag",
+   "intro": "Affordable electric scooters under $500 for short commutes, campus trips and kids. Expect single motors, smaller batteries and simpler brakes — so check weight limits, hill performance and owner reviews before you buy.",
+   "guide": null
+  },
+  {
+   "slug": "urban",
+   "name": "Urban & Commuter",
+   "short": "Urban",
+   "rule": "tag:urban",
+   "icon": "city",
+   "intro": "Commuter scooters live on pavement: they need predictable brakes, water resistance, lights that make you visible and tires that shrug off glass and potholes. Speed matters less than control, and range should cover a round trip with margin to spare.",
+   "guide": "best-electric-scooter-for-city-2026"
+  },
+  {
+   "slug": "folding",
+   "name": "Folding Scooters",
+   "short": "Folding",
+   "rule": "spec:foldable",
+   "icon": "fold",
+   "intro": "A folding stem makes storage and car transport easier. Remember that folding doesn't mean light: the heavier high-power scooters fold to save space, not to be carried.",
+   "guide": null
+  },
+  {
+   "slug": "high-power",
+   "name": "High-Power & Fast",
+   "short": "High-power",
+   "rule": "peak_w>=2000",
+   "icon": "bolt",
+   "intro": "Dual-motor scooters with 2,000 W or more of peak power. Expect strong acceleration, hill-climbing ability and top speeds that call for full protective gear and a close look at your local laws.",
+   "guide": "fastest-electric-scooters-2026"
+  },
+  {
+   "slug": "off-road",
+   "name": "Off-Road / All-Terrain",
+   "short": "Off-road",
+   "rule": "spec:off_road",
+   "icon": "mountain",
+   "intro": "Off-road scooters combine big pneumatic tires with knobby tread, suspension at both ends and enough torque to climb loose ground. They trade portability for grip and comfort on dirt, gravel and sand.",
+   "guide": "best-off-road-electric-scooter-2026"
+  },
+  {
+   "slug": "adults",
+   "name": "For Adults",
+   "short": "Adults",
+   "rule": "tag:adults",
+   "icon": "user",
+   "intro": "Full-size scooters built for adult riders, with wide decks, taller stems and higher weight limits. Heavier riders should look at real-world speed and range reports, not just the headline numbers.",
+   "guide": null
+  },
+  {
+   "slug": "lightweight",
+   "name": "Lightweight",
+   "short": "Lightweight",
+   "rule": "weight_lb<=45",
+   "icon": "feather",
+   "intro": "Scooters at 45 lb or less that you can realistically carry up stairs, onto a train or into a car trunk. They usually have single motors and smaller batteries — perfect for last-mile trips and younger riders.",
+   "guide": null
+  },
+  {
+   "slug": "kids",
+   "name": "Kids & Teens",
+   "short": "Kids",
+   "rule": "tag:kids",
+   "icon": "kid",
+   "intro": "Electric scooters designed for children, with limited top speeds, lighter frames and adjustable handlebars. Look for UL 2272 certification, a reliable brake and a speed you're comfortable with before anything else.",
+   "guide": "best-electric-scooter-for-kids-2026"
+  }
+ ],
+ "guides": [
+  {
+   "slug": "best-electric-scooter-for-city-2026",
+   "title": "Best Electric Scooter for City Commuting (2026)",
+   "h1": "The best electric scooter for city commuting in 2026",
+   "description": "What actually matters for a city scooter — brakes, water resistance, weight and real range — and the models in our catalog that deliver it.",
+   "rank_by": "city",
+   "limit": 5,
+   "intro": [
+    "A city scooter has a different job than a trail machine. You'll ride in traffic, in the rain, over potholes and tram tracks, and at some point you'll need to stop fast. So we rank commuters on control and practicality first, speed second.",
+    "Our city score weights safety (brakes, ABS, certification, lighting) and comfort most heavily, then range and portability, and gives only a small bonus for top speed. Off-road scooters are penalized: knobby tires and 125-lb frames are hard work on pavement."
+   ],
+   "criteria": [
+    [
+     "Brakes & safety",
+     "Hydraulic or mechanical discs at both ends, ideally with ABS. Look for UL 2272 certification — many buildings and transit systems require it."
+    ],
+    [
+     "Water resistance",
+     "An IP rating of IPX5 or better means you can ride through rain without worry."
+    ],
+    [
+     "Real range",
+     "Halve the advertised figure for fast riding or heavier riders. Aim for at least 1.5× your round trip."
+    ],
+    [
+     "Weight",
+     "If you have stairs, every pound counts. Under 45 lb is carryable; over 70 lb is ground-floor only."
+    ],
+    [
+     "Tires",
+     "Tubeless or self-sealing pneumatic tires give the best mix of comfort and puncture resistance."
+    ]
+   ],
+   "faq": [
+    [
+     "How fast should a commuter scooter be?",
+     "15–25 mph covers most bike lanes and city streets. Many cities cap shared-path speeds around 15–20 mph, so extra top speed mostly adds weight and cost."
+    ],
+    [
+     "Do I need a license for an electric scooter in the US?",
+     "It depends on your state and city. Low-speed scooters are usually treated like bicycles, but high-speed models (30+ mph) can fall under moped or motorcycle rules. Check your state DMV before buying."
+    ],
+    [
+     "How much range do I really get?",
+     "Expect roughly 50–70% of the manufacturer's figure at normal speeds, less in cold weather, on hills or with a heavier rider."
+    ]
+   ]
+  },
+  {
+   "slug": "best-electric-scooter-under-1000",
+   "title": "Best Electric Scooter Under $1,000 (2026)",
+   "h1": "The best electric scooters under $1,000 in 2026",
+   "description": "From $160 commuters to 50 mph dual-motor bargains: the adult electric scooters under $1,000 that give you the most for your money.",
+   "rank_by": "value",
+   "filter": "price<=1000",
+   "limit": 5,
+   "intro": [
+    "Under $1,000 is where most people shop — and where the spread is widest. The same budget buys a 24 lb last-mile scooter, a comfortable 22 mph commuter, a trail-ready all-rounder or a 50 mph dual-motor bargain.",
+    "We rank adult scooters under $1,000 on value first, then safety, comfort and performance. Kids' scooters have their own guide."
+   ],
+   "criteria": [
+    [
+     "Match the scooter to the trip",
+     "Under 5 miles on flat ground: a light single-motor scooter is enough. Hills or 10+ miles: look for 48 V or more and at least 500 Wh."
+    ],
+    [
+     "Certification",
+     "UL 2272 means the battery and electrical system passed US fire-safety testing. It's worth paying a little more for."
+    ],
+    [
+     "Tires",
+     "Solid or honeycomb tires never go flat; pneumatic (air) tires ride smoother and grip better in the wet."
+    ],
+    [
+     "Brakes",
+     "At 25+ mph you want disc brakes, ideally hydraulic, on both wheels."
+    ],
+    [
+     "Reviews",
+     "Look past the star average: read the 1-star reviews for patterns like loose bolts or batteries that stop charging."
+    ]
+   ],
+   "faq": [
+    [
+     "What's the best cheap electric scooter for adults?",
+     "For flat, short commutes a $150–$300 scooter works well. Spend a bit more for suspension, bigger tires and UL 2272 certification if you ride daily."
+    ],
+    [
+     "Can I get a dual-motor scooter under $1,000?",
+     "Yes. Dual-motor models under $1,000 exist, but expect less polish, a manual that needs a video guide and some setup before your first ride."
+    ],
+    [
+     "How long do budget scooter batteries last?",
+     "Typically 300–500 full charge cycles before noticeable capacity loss. Avoid storing the scooter fully empty, and charge it at room temperature."
+    ]
+   ]
+  },
+  {
+   "slug": "best-off-road-electric-scooter-2026",
+   "title": "Best Off-Road Electric Scooter (2026)",
+   "h1": "The best off-road electric scooters in 2026",
+   "description": "Dual motors, big tires and real suspension: the all-terrain electric scooters worth your money, ranked on power, comfort and value.",
+   "rank_by": "offroad",
+   "filter": "spec:off_road",
+   "limit": 5,
+   "intro": [
+    "Off-road scooters are the SUVs of personal electric vehicles: heavy, powerful and happiest when the pavement ends. The formula is consistent — two motors, 11- to 14-inch pneumatic tires with deep tread, and hydraulic suspension at both ends.",
+    "We rank them on power and comfort first, then range and value. Every scooter here is heavy, so portability doesn't count; build quality and seller support do, because you will eventually need a part."
+   ],
+   "criteria": [
+    [
+     "Tires",
+     "13–14\" pneumatic tires with knobby tread grip gravel, sand and dirt. Tubeless is a bonus."
+    ],
+    [
+     "Suspension",
+     "Hydraulic shocks front and rear, ideally adjustable, keep the wheels planted."
+    ],
+    [
+     "Power",
+     "Dual motors matter more than peak watts; being able to switch to one motor extends range on easy ground."
+    ],
+    [
+     "Brakes",
+     "Hydraulic discs at both ends are the minimum at these speeds and weights."
+    ],
+    [
+     "Support",
+     "Check reviews for how the seller handles parts and warranty claims."
+    ]
+   ],
+   "faq": [
+    [
+     "Can I ride an off-road scooter on the street?",
+     "Physically yes, but knobby tires wear quickly and are noisier on asphalt, and many high-power models aren't street-legal without registration in some states."
+    ],
+    [
+     "Are these scooters waterproof?",
+     "Most off-road models only claim waterproof connectors without a formal IP rating. Avoid deep water and dry the scooter after muddy rides."
+    ],
+    [
+     "What protective gear do I need?",
+     "At 40+ mph treat it like a motorcycle: full-face helmet, gloves, jacket with armor and sturdy boots."
+    ]
+   ]
+  },
+  {
+   "slug": "fastest-electric-scooters-2026",
+   "title": "Fastest Electric Scooters (2026)",
+   "h1": "The fastest electric scooters you can buy on Amazon in 2026",
+   "description": "Ranked by claimed top speed, with the real-world numbers owners actually hit — and what that speed costs in weight and safety.",
+   "rank_by": "speed",
+   "filter": "peak_w>=2000",
+   "limit": 6,
+   "intro": [
+    "Top-speed claims are the most inflated number in the scooter world. We rank by the manufacturer's figure because that's what's comparable, but every entry shows what owners report in the real world.",
+    "At 50+ mph, brakes, stability and tires matter more than another 5 mph. Read the safety score alongside the speed."
+   ],
+   "criteria": [
+    [
+     "Claimed vs real speed",
+     "Rider weight, battery charge and temperature all cut top speed; 10–20% below the claim is typical."
+    ],
+    [
+     "Stability",
+     "Longer wheelbases, steering dampers and traction control are what make high speed feel calm."
+    ],
+    [
+     "Braking",
+     "Hydraulic discs with ABS are the gold standard."
+    ]
+   ],
+   "faq": [
+    [
+     "Why don't I reach the advertised top speed?",
+     "Claims are measured with light riders on a full battery and flat ground. Heavier riders, a partial charge, hills and wind all reduce it."
+    ],
+    [
+     "Is a 60+ mph scooter legal?",
+     "In most US states a scooter this fast has to be registered as a moped or motorcycle to ride on public roads. Check your local rules."
+    ]
+   ]
+  },
+  {
+   "slug": "best-electric-scooter-for-kids-2026",
+   "title": "Best Electric Scooter for Kids (2026)",
+   "h1": "The best electric scooters for kids in 2026",
+   "description": "Safe, sensible first e-scooters for children: what to check (UL 2272, speed, brakes, weight) and the models in our catalog that get it right.",
+   "rank_by": "kids",
+   "filter": "tag:kids",
+   "limit": 5,
+   "intro": [
+    "A child's first electric scooter should be boring in the best way: a modest top speed, brakes that work every time, a frame light enough for them to handle, and a safety certification you can check.",
+    "We rank kids' scooters on safety first, then value, comfort and portability. Speed and range barely count — for most kids, 10–12 mph and a few miles are plenty."
+   ],
+   "criteria": [
+    [
+     "UL 2272 certification",
+     "The US safety standard for the electrical and battery system of personal e-mobility devices. Don't buy a kids' scooter without it."
+    ],
+    [
+     "Top speed",
+     "6–10 mph suits ages 6–9; 10–12 mph suits ages 10+. Speed modes let you start slow and unlock more later."
+    ],
+    [
+     "Brakes",
+     "A hand brake plus a rear foot brake is ideal: kids instinctively stamp on the rear fender."
+    ],
+    [
+     "Weight & fit",
+     "Under 20 lb so they can handle it themselves, and an adjustable handlebar so it lasts a few years."
+    ],
+    [
+     "Tires",
+     "Solid tires never go flat but feel harsher; air tires ride smoother but need pumping."
+    ]
+   ],
+   "faq": [
+    [
+     "What age is right for an electric scooter?",
+     "Most kids' e-scooters are designed for ages 6–8 and up. Check the manufacturer's age and weight limits, and supervise younger riders."
+    ],
+    [
+     "How fast should a kids' electric scooter go?",
+     "Around 10 mph is the sweet spot for ages 8–12. Many models have speed modes so you can cap it lower at first."
+    ],
+    [
+     "Do kids need a helmet on an electric scooter?",
+     "Yes. A properly fitted helmet is essential, and many states require one for minors on e-scooters. Knee and elbow pads are a good idea for beginners."
+    ]
+   ]
+  }
+ ],
+ "range_map": {
+  "isochrone_url": "https://valhalla1.openstreetmap.de/isochrone",
+  "geocoder_url": "https://nominatim.openstreetmap.org/search",
+  "max_km": 100,
+  "real_world_factor": 0.7,
+  "costing": "bicycle",
+  "default_place": {
+   "label": "Austin, TX",
+   "lat": 30.2672,
+   "lon": -97.7431
+  },
+  "default_ids": [],
+  "tiles_url": "https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+ }
+}

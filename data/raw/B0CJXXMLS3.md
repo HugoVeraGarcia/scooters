@@ -1,0 +1,5 @@
+link https://amzn.to/3TSg3VB tag ok ASIN B0CJXXMLS3 — CUNFON RZ800 (gray), sold by CUNFON Official Store, $798.99 typical $849.99 (-6%), only 17 left
+rating 4.3 (699) 5:74 4:8 3:5 2:4 1:9
+images 71MLjCvpFYL 81if3KFKUlL 81jz+rCbOQL 71MKF2sipSL 71+-10-9E+L 71AfMYX+I2L 71hLJ4w6CNL 71NbUcMaDvL
+specs: title 1000W / 1600W peak (multi-variant), up to 25-31 mph, 25-50 mi; product title (page) "1200W, 50 mi, 31 mph, 10.5\" off-road"; 30% climb; 10.5" pneumatic off-road low-pressure; front & rear disc + e-brake; dual spring front & rear suspension, damping adjustable; fingerprint unlock + app; turn signals, ambient light; "IPX56" (listing); UL 2272; charger 52V 2.5A (=> 48V pack); charge 6 h; max 330 lb; aluminum; ages 14-60, height 5'2"-6'6"; dims 50.1x20.8x49.5; warranty 2 years
+reviews: William 5/5 2026-01-09 fantastic, plenty of power; Marvin Elmer 5/5 2026-09-03 smooth, wide board, strong controllable brakes, bright lights; Casey Haines 5/5 2026-09-12 better than Hiboy; Brian 5/5 2025-09-13 very happy; MIKEGOF 4/5 2025-01-29 very good entry level; Seth 5/5 2026-04-25 easy setup (4 screws).

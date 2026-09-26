@@ -1,0 +1,4122 @@
+{
+ "_meta": {
+  "niche": "electric-scooters",
+  "marketplace": "amazon.com",
+  "currency": "USD",
+  "affiliate_tag": "microtools0f-20",
+  "updated": "2026-09-25",
+  "notes": "Facts come from the Amazon listing (captured on price_date) and, where Amazon was silent, from the manufacturer or a named retailer (see spec_sources). null = not found anywhere; never guessed. Scores are editorial (see /how-we-rate/)."
+ },
+ "products": [
+  {
+   "id": "segway-gt3-pro",
+   "asin": "B0FDGC3NH8",
+   "name": "Segway SuperScooter GT3 Pro",
+   "brand": "Segway",
+   "model": "GT3 Pro",
+   "variant": null,
+   "affiliate_url": "https://amzn.to/4d8rG1c",
+   "affiliate_tag": "microtools0f-20",
+   "canonical_url": "https://www.amazon.com/dp/B0FDGC3NH8",
+   "images": [
+    "61nc+MnT9KL",
+    "81Jq4rKf9zL",
+    "71SKId1RY-L",
+    "81Mwok21rOL",
+    "71VpkZLTgeL",
+    "811niojv-aL",
+    "71kyaeD715L",
+    "71NtgJ7+6RL"
+   ],
+   "tags": [
+    "urban",
+    "folding",
+    "high-power",
+    "adults"
+   ],
+   "featured": true,
+   "badge": "Editor's pick",
+   "seller": "Amazon.com",
+   "price": 2699.99,
+   "list_price": null,
+   "price_date": "2026-09-25",
+   "availability": "In stock",
+   "rating": 4.4,
+   "reviews_count": 32,
+   "rating_breakdown": {
+    "5": 76,
+    "4": 8,
+    "3": 8,
+    "2": 1,
+    "1": 7
+   },
+   "specs": {
+    "top_speed_mph": 50,
+    "range_mi": 86,
+    "range_note": "86 mi in ECO, 45 mi in SPORT, 34 mi in RACE (manufacturer). Independent testing: 30–50 mi real-world.",
+    "motor_config": "Dual hub motors (front + rear)",
+    "motor_rated_w": 3400,
+    "motor_peak_w": 7000,
+    "battery_v": 72,
+    "battery_ah": 30,
+    "battery_wh": 2160,
+    "battery_removable": false,
+    "charge_time_h": 8,
+    "weight_lb": 117,
+    "max_load_lb": 330,
+    "tire_size_in": 11,
+    "tire_type": "Self-sealing tubeless (seals punctures up to 4 mm)",
+    "brakes": "Front & rear hydraulic disc",
+    "abs": true,
+    "suspension": "Dual hydraulic, 15-level adjustable front",
+    "ip_rating": "IPX6",
+    "foldable": true,
+    "seat": false,
+    "certification": "UL 2272 (TÜV Rheinland), UL 2271",
+    "display": "2.4\" color TFT with navigation & call alerts",
+    "max_incline": "38%",
+    "frame": "Alloy steel",
+    "off_road": false
+   },
+   "specs_extra": {
+    "Riding modes": "Walk, ECO, Sport, Race",
+    "Traction control": "SDTC dynamic traction control",
+    "Smart features": "App, Apple Find My, code lock, cruise control",
+    "Lights": "Auto high/low headlight, front & rear turn signals, hazard lights",
+    "Ground clearance": "5.5 in",
+    "Wheelbase": "41 in",
+    "Rider height": "5'3\"–6'6\" (ages 18–60)",
+    "Dimensions (unfolded)": "53.7 × 26.2 × 53.9 in",
+    "Folded height": "27.6 in",
+    "Warranty": "1-year manufacturer warranty"
+   },
+   "spec_sources": "Amazon listing; weight, rated power, incline and folded height from FreshlyCharged's GT3 Pro review.",
+   "scores": {
+    "speed": 7,
+    "range": 8,
+    "power": 9,
+    "comfort": 8,
+    "portability": 1,
+    "safety": 10,
+    "value": 8
+   },
+   "editorial": {
+    "tagline": "The most refined fast scooter here: 50 mph that feels calm, not scary.",
+    "summary": "Segway's flagship pairs dual motors (7,000 W peak) with a 2,160 Wh battery, hydraulic suspension and the most complete safety package in our catalog: ABS, traction control, IPX6 and UL 2272 certification.",
+    "body": [
+     "The GT3 Pro is what happens when a mass-market brand builds a performance scooter. Numbers first: two hub motors peaking at 7,000 W, a 72 V / 30 Ah (2,160 Wh) pack and a top speed around 50 mph. Segway quotes up to 86 miles in ECO mode, but that's a best case: 45 miles in SPORT and 34 in RACE are more realistic, and independent testers landed between 30 and 50 miles.",
+     "Where it pulls ahead of the raw-spec monsters in this category is control. S-ABS pulses the brakes 25 times a second, SDTC traction control keeps the rear from spinning on wet surfaces, and the stability system smooths out acceleration. Owners repeatedly describe it as stable and quiet at speed, with none of the wobble cheaper fast scooters are known for.",
+     "It's also the most 'daily-drivable' of the big machines: self-sealing 11-inch tubeless tires, IPX6 water resistance, a color TFT with navigation, Apple Find My and a code lock. The trade-off is weight — at 117 lb this is a garage-to-street scooter, not something you carry up stairs."
+    ],
+    "pros": [
+     "Most complete safety package: hydraulic discs + ABS + traction control",
+     "Stable, smooth power delivery at high speed",
+     "IPX6 and UL 2272 certified — rare at this power level",
+     "Self-sealing tubeless tires",
+     "Sold and shipped by Amazon.com"
+    ],
+    "cons": [
+     "117 lb — not portable",
+     "Realistic range is well below the 86-mile claim",
+     "No seat option",
+     "Some buyers received shipping-damaged units"
+    ],
+    "ideal_for": "Experienced riders who want motorcycle-like speed for a daily commute, with real safety tech and a big-brand warranty.",
+    "not_for": "Anyone who needs to carry the scooter, or wants to ride dirt trails.",
+    "verdict": "The safest bet among high-speed scooters. You give up a little top speed versus the 10,000 W crowd and gain far better brakes, stability and support.",
+    "review_summary": "Verified buyers (4.4★ from 32 ratings) praise the stability at speed, accurate range estimate, strong brakes and quick setup (under 10 minutes). The recurring complaints are weight and shipping: a few units arrived damaged, and one buyer got the wrong-size Allen key.",
+    "reviews": [
+     {
+      "author": "Firstinlastout74",
+      "stars": 5,
+      "date": "2026-08-15",
+      "title": "Refined, Modern, and Built for Speed",
+      "excerpt": "While regular scooters get twitchy when you pick up speed, the GT3 Pro stays rock solid."
+     },
+     {
+      "author": "Jay",
+      "stars": 5,
+      "date": "2026-08-13",
+      "title": "Dream Scooter",
+      "excerpt": "I have about 100+ miles on it and no problems yet. … The range seems very accurate so far."
+     },
+     {
+      "author": "Soheil Soltani",
+      "stars": 5,
+      "date": "2026-09-18",
+      "title": "Amazing scooter",
+      "excerpt": "Other than being on the heavier side, this scooter is an amazing ride."
+     },
+     {
+      "author": "lee",
+      "stars": 3,
+      "date": "2026-07-01",
+      "title": "delivery was unacceptable",
+      "excerpt": "Damage during shipment! The scooter itself is awesome."
+     }
+    ]
+   }
+  },
+  {
+   "id": "tryndamere-t90-pro",
+   "asin": "B0F9WTGV3P",
+   "name": "Tryndamere T90 Pro",
+   "brand": "Tryndamere",
+   "model": "T90 Pro",
+   "variant": null,
+   "affiliate_url": "https://amzn.to/4hea5Ya",
+   "affiliate_tag": "microtools0f-20",
+   "canonical_url": "https://www.amazon.com/dp/B0F9WTGV3P",
+   "images": [
+    "71Dv7ukMOhL",
+    "71AvgPaVa1L",
+    "713dVLyO9bL",
+    "71dcszRgjFL",
+    "71TP+217UHL",
+    "71TlcjnS5WL",
+    "71b9x0EbHqL"
+   ],
+   "tags": [
+    "off-road",
+    "folding",
+    "high-power",
+    "adults"
+   ],
+   "featured": true,
+   "badge": "Most power per dollar",
+   "seller": "Tryndamere scooter-us",
+   "price": 2598.0,
+   "list_price": null,
+   "price_date": "2026-09-25",
+   "availability": "In stock",
+   "rating": 3.5,
+   "reviews_count": 22,
+   "rating_breakdown": {
+    "5": 41,
+    "4": 20,
+    "3": 9,
+    "2": 8,
+    "1": 22
+   },
+   "specs": {
+    "top_speed_mph": 68,
+    "range_mi": 65,
+    "range_note": "Claimed 65 mi (104.6 km) per charge. Owners report 54–59 mph real top speed for 200–275 lb riders.",
+    "motor_config": "Dual 5,000 W motors",
+    "motor_rated_w": null,
+    "motor_peak_w": 10000,
+    "battery_v": 72,
+    "battery_ah": 45,
+    "battery_wh": 3240,
+    "battery_removable": true,
+    "charge_time_h": 7,
+    "weight_lb": 125,
+    "max_load_lb": 800,
+    "tire_size_in": 14,
+    "tire_type": "Pneumatic off-road, deep tread",
+    "brakes": "Front & rear hydraulic disc",
+    "abs": false,
+    "suspension": "Front & rear hydraulic",
+    "ip_rating": null,
+    "foldable": true,
+    "seat": false,
+    "certification": "UL 2272",
+    "display": "Multifunction dashboard",
+    "max_incline": null,
+    "frame": "Aluminum",
+    "off_road": true
+   },
+   "specs_extra": {
+    "Water protection": "Waterproof connectors, sealed dustproof build (no IP rating published)",
+    "Lights": "RGB headlight with built-in music speaker, owl-eye front & rear turn signals",
+    "Folding": "4-step folding frame",
+    "Dimensions": "57.17 × 26.06 × 56.14 in",
+    "In the box": "Scooter, battery charger",
+    "Warranty": "Limited warranty (term not published)",
+    "Seat": "Not included on this listing (sold separately in a seated version)"
+   },
+   "spec_sources": "Amazon listing; weight (125 lb) from retailer spec sheet (shopabunda.com). Battery Wh = 72 V × 45 Ah.",
+   "scores": {
+    "speed": 9,
+    "range": 7,
+    "power": 10,
+    "comfort": 7,
+    "portability": 0,
+    "safety": 6,
+    "value": 6
+   },
+   "editorial": {
+    "tagline": "Brutal 10,000 W and a swappable 3.2 kWh battery for less than a GT3 Pro.",
+    "summary": "Twin 5,000 W motors, a removable 72 V 45 Ah battery and 14-inch knobby tires make the T90 Pro the most powerful scooter per dollar here — with the quality-control caveats that usually come with it.",
+    "body": [
+     "On paper the T90 Pro is a monster: two 5,000 W motors, a 72 V / 45 Ah pack (about 3,240 Wh — the biggest in our catalog) and a claimed 68 mph top speed. The battery slides out, so you can charge it indoors without dragging a 125 lb scooter through the house.",
+     "Real-world owners are more measured. Riders between 200 and 275 lb report top speeds of 54–59 mph, which is still extremely fast. Range impressions are positive — one owner of more than a year says it keeps surprising him — and the 14-inch off-road tires with front and rear hydraulic suspension make it at home on gravel, dirt and sand.",
+     "The weak spots are fit and finish: reports of stiff shocks, an app that doesn't save settings, a weak horn, cracked mudguards and stripped screws. Seller support gets mixed marks — some owners got replacement parts quickly, others struggled. Budget for protective gear and check your state's rules: at this speed some places require a license."
+    ],
+    "pros": [
+     "10,000 W dual motors — relentless acceleration and hill climbing",
+     "Largest battery in our catalog, and it's removable",
+     "14\" off-road tires + dual hydraulic suspension",
+     "Hydraulic disc brakes front and rear",
+     "800 lb listed load capacity"
+    ],
+    "cons": [
+     "Real top speed is closer to 55–59 mph than 68",
+     "Quality-control complaints (screws, mudguards, alignment)",
+     "No ABS and no published IP rating",
+     "125 lb and huge when folded",
+     "22% of ratings are 1-star"
+    ],
+    "ideal_for": "Experienced, heavier riders who want maximum power and off-road ability for the money and can handle some wrenching.",
+    "not_for": "Beginners, apartment dwellers, or anyone who wants a polished, trouble-free ownership experience.",
+    "verdict": "Unbeatable raw specs for the price, but buy it knowing you may have to tighten, adjust and email support.",
+    "review_summary": "3.5★ from 22 ratings, and polarized: 61% give 4–5 stars for the power, range and head-turning looks; 22% give 1 star over damaged deliveries, app problems and build quality. Several owners confirm it's very fast but doesn't reach the advertised 68 mph.",
+    "reviews": [
+     {
+      "author": "Keith Baxter",
+      "stars": 5,
+      "date": "2026-01-01",
+      "title": "Great to get around",
+      "excerpt": "So far the fastest I have gotten on it been 59 mph … I'm a bigger guy (275 pounds) so I'm realistic."
+     },
+     {
+      "author": "Matt Clifford",
+      "stars": 5,
+      "date": "2026-09-04",
+      "title": "Fantastic scooter with incredible range and great customer support",
+      "excerpt": "I had a motor go out on the rear. I contacted the seller and they promptly sent me a replacement motor."
+     },
+     {
+      "author": "Gisselle M",
+      "stars": 3,
+      "date": "2025-10-10",
+      "title": "price is ok for what you get",
+      "excerpt": "Scooter doesn't hit 68 mph and I'm 200lbs … I top it off at 54 mph."
+     },
+     {
+      "author": "Wulfie",
+      "stars": 5,
+      "date": "2025-10-19",
+      "title": "Support is being helpful and generous with their understanding.",
+      "excerpt": "The scooter is fast. But definitely not 68 mph speed. The seat is not comfortable and will need a replacement."
+     }
+    ]
+   }
+  },
+  {
+   "id": "toursor-x14",
+   "asin": "B0FH4YP87L",
+   "name": "Toursor X14 (X1472VPRO)",
+   "brand": "Toursor",
+   "model": "X14 72V",
+   "variant": null,
+   "affiliate_url": "https://amzn.to/3VdqV0B",
+   "affiliate_tag": "microtools0f-20",
+   "canonical_url": "https://www.amazon.com/dp/B0FH4YP87L",
+   "images": [
+    "61C-xmn15GL",
+    "81+3ex6Z-BL",
+    "81+56ZLCNEL",
+    "81FCG0iOrfL",
+    "81XBccUgSEL",
+    "81JwMKZr2dL",
+    "81WqgARJVAL"
+   ],
+   "tags": [
+    "off-road",
+    "folding",
+    "high-power",
+    "adults"
+   ],
+   "featured": false,
+   "badge": "Cheapest 10,000 W",
+   "seller": "Toursor store",
+   "price": 2299.0,
+   "list_price": null,
+   "price_date": "2026-09-25",
+   "availability": "Only 10 left in stock",
+   "rating": null,
+   "reviews_count": 0,
+   "rating_breakdown": null,
+   "specs": {
+    "top_speed_mph": 65,
+    "range_mi": 70,
+    "range_note": "Listing claims 70 mi (title says 75 mi). Retailers quote up to 120 km (75 mi) in single-motor mode and ~70 km (43 mi) in dual-motor mode. Top speed: title 65 mph, bullets 55–60 mph.",
+    "motor_config": "Dual 5,000 W brushless motors, single/dual drive switch",
+    "motor_rated_w": null,
+    "motor_peak_w": 10000,
+    "battery_v": 72,
+    "battery_ah": 40,
+    "battery_wh": 2880,
+    "battery_removable": false,
+    "charge_time_h": 9,
+    "weight_lb": null,
+    "max_load_lb": 440,
+    "tire_size_in": 14,
+    "tire_type": "Pneumatic off-road",
+    "brakes": "Front & rear XOD hydraulic disc",
+    "abs": false,
+    "suspension": "Front dual hydraulic, rear independent C-type",
+    "ip_rating": null,
+    "foldable": true,
+    "seat": true,
+    "certification": null,
+    "display": "LCD screen, thumb throttle",
+    "max_incline": "50° (claimed)",
+    "frame": "6063 aluminum alloy (CNC)",
+    "off_road": true
+   },
+   "specs_extra": {
+    "Charging": "Dual charging ports, 2 chargers included, 8–10 h",
+    "Battery management": "Smart BMS (overcharge & thermal protection), 21700 cells",
+    "Security": "Key ignition + NFC card start",
+    "Lights": "4× U7 headlights, turn signals, brake lights, RGB deck lighting",
+    "Seat": "Folding seat (lifts up/down)",
+    "Cruise control": "Yes",
+    "Dimensions": "53 × 12 × 53 in (listing); retailers: 59 × 9 × 53 in unfolded",
+    "Shipping weight": "~68 kg / 150 lb gross (retailers); net weight not published",
+    "Ships from": "Commerce, CA"
+   },
+   "spec_sources": "Amazon listing; suspension type and battery cells from Toursor retailers (ebikescootermall.com, trotinetch.pt). Charge time = midpoint of the listed 8–10 h. Battery Wh = 72 V × 40 Ah.",
+   "scores": {
+    "speed": 8,
+    "range": 7,
+    "power": 10,
+    "comfort": 8,
+    "portability": null,
+    "safety": 6,
+    "value": 7
+   },
+   "editorial": {
+    "tagline": "10,000 W, a seat and hydraulic brakes for less than any other 10,000 W scooter here.",
+    "summary": "Toursor's X14 gives you dual 5,000 W motors, a 72 V 40 Ah battery, 14\" off-road tires and a folding seat for about $300 less than the T90 Pro — but with no reviews yet on this listing.",
+    "body": [
+     "The X14 is the value play among the 10,000 W off-roaders. Dual 5,000 W brushless motors (switchable to single-motor drive to stretch range), a 72 V / 40 Ah battery (about 2,880 Wh), XOD hydraulic disc brakes at both ends and 14-inch off-road tires. A folding seat comes standard, as do two chargers so you can use both charge ports and cut charging to 8–10 hours.",
+     "Toursor's claims vary between sources: the listing title says 65 mph and 75 miles, while the bullet points say 55–60 mph and 70 miles. Retailers selling the same X14 quote up to 75 miles only in single-motor mode and closer to 43 miles with both motors engaged — plan around the lower numbers.",
+     "Nice touches include a key-plus-NFC-card ignition (no app needed), four U7 headlights and RGB deck lighting. What's missing: a published net weight, an IP rating and any safety certification on the listing. With zero reviews on this Amazon listing, you're buying on specs and seller reputation."
+    ],
+    "pros": [
+     "Lowest price among the 10,000 W scooters",
+     "Folding seat included",
+     "XOD hydraulic disc brakes front and rear",
+     "Single/dual motor switch to extend range",
+     "Key + NFC card anti-theft ignition"
+    ],
+    "cons": [
+     "No reviews yet on this listing",
+     "Inconsistent speed/range claims (55–65 mph, 70–75 mi)",
+     "No published net weight, IP rating or certification",
+     "Fixed (non-removable) battery",
+     "Third-party seller, limited stock"
+    ],
+    "ideal_for": "Riders who want 10,000 W power and a seat at the lowest price in that class, and are comfortable being early adopters.",
+    "not_for": "Anyone who wants proven reliability, certifications or a big-brand warranty.",
+    "verdict": "Great spec sheet for the money; the lack of reviews and certifications is the price you pay for the discount.",
+    "review_summary": "No customer reviews on this Amazon listing yet. Toursor's other X-series models on its storefront average 3.6–5★ across a handful of ratings.",
+    "reviews": []
+   }
+  },
+  {
+   "id": "reywmer-kullter",
+   "asin": "B0DKBJ2PW8",
+   "name": "REYWMER Kullter",
+   "brand": "REYWMER",
+   "model": "Kullter 60V",
+   "variant": null,
+   "affiliate_url": "https://amzn.to/4yPNC9I",
+   "affiliate_tag": "microtools0f-20",
+   "canonical_url": "https://www.amazon.com/dp/B0DKBJ2PW8",
+   "images": [
+    "61WdPKDb+EL",
+    "71QE22a7G4L",
+    "71AQVIWRZ-L",
+    "71RyQYvLXNL",
+    "71EY+kIoK6L",
+    "81TH-fjfVgL",
+    "61ChsbqXsRL",
+    "81eEDWg50HL"
+   ],
+   "tags": [
+    "off-road",
+    "folding",
+    "high-power",
+    "adults"
+   ],
+   "featured": true,
+   "badge": "Best value under $1,000",
+   "seller": "REYWMER",
+   "price": 849.0,
+   "list_price": null,
+   "price_date": "2026-09-25",
+   "availability": "In stock · Amazon's Choice",
+   "rating": 4.2,
+   "reviews_count": 30,
+   "rating_breakdown": {
+    "5": 60,
+    "4": 24,
+    "3": 3,
+    "2": 8,
+    "1": 5
+   },
+   "specs": {
+    "top_speed_mph": 50,
+    "range_mi": 50,
+    "range_note": "Claimed 50 mph and 50 mi. Owners report 37–50 mph depending on rider weight (40 mph at 250 lb is a common figure); one 230 lb owner gets about 30 mi in dual-motor sport mode.",
+    "motor_config": "Dual 1,300 W hub motors, single/dual switch",
+    "motor_rated_w": 2600,
+    "motor_peak_w": 4000,
+    "battery_v": 60,
+    "battery_ah": 23.4,
+    "battery_wh": 1404,
+    "battery_removable": false,
+    "charge_time_h": 13,
+    "weight_lb": null,
+    "max_load_lb": 300,
+    "tire_size_in": 10,
+    "tire_type": "Pneumatic off-road",
+    "brakes": "Front & rear disc (owners report hydraulic)",
+    "abs": false,
+    "suspension": "Front & rear dual spring suspension",
+    "ip_rating": null,
+    "foldable": true,
+    "seat": false,
+    "certification": null,
+    "display": "LCD display, trigger throttle",
+    "max_incline": "30°",
+    "frame": "Aluminum",
+    "off_road": true
+   },
+   "specs_extra": {
+    "Controllers": "Dual 60 V 30 A (square-wave; acceleration tunable in P-settings)",
+    "Lights": "360° LED lighting with ground projection, stem light bar, turn signals, brake light (remote-controlled)",
+    "Folding": "3-second quick fold, folding handlebars",
+    "Security": "No key or lock",
+    "Dimensions": "50.2 × 10 × 48.8 in",
+    "In the box": "Scooter, charger, user manual, universal screwdriver",
+    "Warranty": "Battery, controller and motor covered (term not stated on listing)",
+    "Also sold as": "Kullter Max (5,600 W peak) on a separate REYWMER listing"
+   },
+   "spec_sources": "Amazon listing; controllers from WocoMotors' Kullter Max review; range figure for a 230 lb rider from an owner review on reywmer.com. Rated power = 2 × 1,300 W. Battery Wh = 60 V × 23.4 Ah. Weight isn't published anywhere we could verify.",
+   "scores": {
+    "speed": 6,
+    "range": 5,
+    "power": 8,
+    "comfort": 7,
+    "portability": null,
+    "safety": 5,
+    "value": 9
+   },
+   "editorial": {
+    "tagline": "50 mph-class dual motors for under $900 — the bargain of the fast crowd.",
+    "summary": "Two 1,300 W motors (4,000 W peak), a 60 V 23.4 Ah battery, dual suspension and 10\" off-road tires for about a third of the price of a Segway GT3 Pro. Owners love the value; you'll need to set it up carefully.",
+    "body": [
+     "The Kullter is the scooter enthusiasts recommend when someone asks for 'hyper-scooter speed without the hyper-scooter price'. For $849 you get dual hub motors peaking at 4,000 W, a 60 V / 23.4 Ah (about 1,400 Wh) battery, suspension front and rear and 10-inch knobby pneumatic tires.",
+     "Real-world speed depends on the rider: owners around 250–260 lb report a stable 40–50 mph, others top out in the high 30s. The square-wave controllers make acceleration a bit abrupt out of the box and the electronic braking is aggressive, but both can be tuned in the P-settings menu — the English manual won't help much, so plan on watching a video guide.",
+     "Downsides are the usual ones at this price: no key or lock, a remote for the lights that's fiddly, no published weight or water rating, and a 13-hour charge on the stock charger. One owner crashed after a rear brake that wasn't working properly — check and adjust both brakes before your first ride."
+    ],
+    "pros": [
+     "Dual motors, 50 mph class for $849",
+     "Stable at speed according to heavier owners",
+     "Front & rear suspension with 10\" off-road tires",
+     "Arrives almost fully assembled",
+     "Amazon's Choice with 84% 4–5★ ratings"
+    ],
+    "cons": [
+     "No key, lock or app",
+     "13-hour charge time",
+     "Aggressive default braking; manual is poor",
+     "Brake setup must be checked before riding",
+     "Weight and IP rating not published"
+    ],
+    "ideal_for": "Riders who want dual-motor performance on a mid-range budget and don't mind tuning settings themselves.",
+    "not_for": "Beginners, or anyone who needs to leave the scooter parked without a lock.",
+    "verdict": "The best performance per dollar in our catalog — as long as you spend 20 minutes checking the brakes and settings before you ride.",
+    "review_summary": "4.2★ from 30 ratings, 84% of them 4–5 stars. Owners call it the best value in its class, praising stability at 40–50 mph, the lighting and near-complete assembly. Complaints: aggressive default braking, a rough English manual, no key, and one serious crash blamed on a poorly adjusted rear brake.",
+    "reviews": [
+     {
+      "author": "Firstinlastout74",
+      "stars": 5,
+      "date": "2026-01-14",
+      "title": "Hands Down the Best Value Entry-Level Hyper-Scooter on Amazon, Period.",
+      "excerpt": "Even at 260 lbs, the acceleration is an absolute beast. It stays rock-solid at 45–50 mph."
+     },
+     {
+      "author": "Sean S",
+      "stars": 5,
+      "date": "2025-05-01",
+      "title": "It's the best bang for the buck. Highly recommended!",
+      "excerpt": "This allows it to easily reach 40 mph, even when the battery level is around 30%."
+     },
+     {
+      "author": "Dooley D",
+      "stars": 5,
+      "date": "2025-03-11",
+      "title": "Good Value",
+      "excerpt": "The brakes are dual hydraulic and work well. … There is no key or lock."
+     },
+     {
+      "author": "Eel Janes",
+      "stars": 4,
+      "date": "2026-07-21",
+      "title": "Check the brakes.",
+      "excerpt": "My max speed on it has been 37. … Check to make sure the brakes work well before driving."
+     }
+    ]
+   }
+  },
+  {
+   "id": "zondoo-zo03-plus",
+   "asin": "B0CP5T8LQW",
+   "name": "ZonDoo ZO03 Plus",
+   "brand": "ZonDoo",
+   "model": "ZO03 Plus",
+   "variant": null,
+   "affiliate_url": "https://amzn.to/46GkN3B",
+   "affiliate_tag": "microtools0f-20",
+   "canonical_url": "https://www.amazon.com/dp/B0CP5T8LQW",
+   "images": [
+    "71pTpPWwQ+L",
+    "81kFnPfX2PL",
+    "71AlV2ntwZL",
+    "81CvKa7mQiL",
+    "71DrkjIh66L",
+    "81p3E5D3YZL",
+    "81dDogQXGdL",
+    "71UtlQtsawL"
+   ],
+   "tags": [
+    "off-road",
+    "folding",
+    "high-power",
+    "adults"
+   ],
+   "featured": false,
+   "badge": "Seat + steering damper",
+   "seller": "ZonDoo Direct",
+   "price": 1299.0,
+   "list_price": null,
+   "price_date": "2026-09-25",
+   "availability": "Only 3 left in stock",
+   "rating": 4.1,
+   "reviews_count": 84,
+   "rating_breakdown": {
+    "5": 64,
+    "4": 11,
+    "3": 9,
+    "2": 3,
+    "1": 13
+   },
+   "specs": {
+    "top_speed_mph": 55,
+    "range_mi": 60,
+    "range_note": "Claimed 50–60 mi and 55 mph. A 350 lb owner reports 15–20 mi per charge; lighter riders report hitting the claimed speed.",
+    "motor_config": "Dual 3,000 W brushless hub motors, single/dual switch",
+    "motor_rated_w": null,
+    "motor_peak_w": 6000,
+    "battery_v": 60,
+    "battery_ah": 35,
+    "battery_wh": 2100,
+    "battery_removable": false,
+    "charge_time_h": 6,
+    "weight_lb": null,
+    "max_load_lb": 450,
+    "tire_size_in": 11,
+    "tire_type": "Tubeless off-road fat tires",
+    "brakes": "Front & rear hydraulic disc + EABS",
+    "abs": false,
+    "suspension": "Front & rear hydraulic",
+    "ip_rating": "IPX5",
+    "foldable": true,
+    "seat": true,
+    "certification": "UL 2272 (brand statement)",
+    "display": "Large center LCD, thumb throttle",
+    "max_incline": "45°–50° (claimed)",
+    "frame": "Alloy steel",
+    "off_road": true
+   },
+   "specs_extra": {
+    "Controller": "Dual sine-wave controllers",
+    "Charging": "Two 60 V 2 A chargers included, 5–7 h",
+    "Security": "NFC card start (2 cards included)",
+    "Deck": "22 × 11 in, telescopic stem 50–56.7 in",
+    "Included": "Detachable seat, steering damper, tool kit, bag",
+    "Weight": "Not published; one owner describes it as 105 lb",
+    "Dimensions": "50 × 28 × 55 in",
+    "Newer model": "ZonDoo sells a newer ZO03/RoadHitter on Amazon (about $1,049 at our check)",
+    "Warranty": "12 months frame/forks/stem, 6 months motor/battery/controller/display, 3 months throttle & lights"
+   },
+   "spec_sources": "Amazon listing; battery (60 V 35 Ah), max load 450 lb, IPX5 and warranty from ZonDoo's official product page (zondoomobility.com). The Amazon listing says 490 lb; we use the manufacturer's figure. Charge time = midpoint of 5–7 h.",
+   "scores": {
+    "speed": 7,
+    "range": 5,
+    "power": 9,
+    "comfort": 8,
+    "portability": null,
+    "safety": 7,
+    "value": 6
+   },
+   "editorial": {
+    "tagline": "6,000 W, a seat, a steering damper and hydraulic everything.",
+    "summary": "ZonDoo's ZO03 Plus pairs dual 3,000 W motors and a 60 V 35 Ah battery with hydraulic brakes, hydraulic suspension, 11\" tubeless tires and — unusually — a seat and steering damper in the box.",
+    "body": [
+     "The ZO03 Plus sits between the budget dual-motor scooters and the 10,000 W monsters. Two 3,000 W hub motors with sine-wave controllers give smooth, strong acceleration and a claimed 55 mph; ZonDoo's own spec sheet lists a 60 V 35 Ah (2,100 Wh) battery that charges in 5–7 hours with the two included chargers.",
+     "The equipment list is generous: hydraulic disc brakes with electronic ABS-style assist, hydraulic shocks front and rear, 11-inch tubeless off-road tires, NFC-card ignition, a steering damper for high-speed stability and a detachable seat. ZonDoo rates it IPX5 — one of the few off-roaders here with a water rating.",
+     "Owners are mostly thrilled with the power, but several found loose bolts on arrival and a few units arrived damaged. Tighten everything (especially the rear brake and deck) before riding, and note that ZonDoo now sells a newer ZO03 version for less."
+    ],
+    "pros": [
+     "Dual 3,000 W motors with smooth sine-wave control",
+     "Hydraulic brakes and suspension front and rear",
+     "Seat, steering damper and two chargers included",
+     "IPX5 water rating (manufacturer)",
+     "Carries riders up to 450 lb"
+    ],
+    "cons": [
+     "Loose bolts on arrival reported — inspect before riding",
+     "Some units arrived damaged; mixed warranty experiences",
+     "Heavy (owner-reported ~105 lb)",
+     "Newer ZonDoo model sells for less",
+     "13% of ratings are 1-star"
+    ],
+    "ideal_for": "Heavier riders who want a powerful off-road scooter with a seat and stability aids included.",
+    "not_for": "Anyone who wants a turnkey product with no pre-ride wrenching.",
+    "verdict": "Well equipped for the money, especially if you want a seat — but check every bolt before your first ride, and compare it with ZonDoo's newer model.",
+    "review_summary": "4.1★ from 84 ratings (75% 4–5 stars). Owners rave about the power, lighting, hill climbing and the seat. Recurring issues: bolts that arrive loose, occasional shipping damage, and slow parts/warranty support for some buyers. A 350 lb owner gets 15–20 mi per charge.",
+    "reviews": [
+     {
+      "author": "Charles R.",
+      "stars": 5,
+      "date": "2025-01-10",
+      "title": "This E Scooter is a Beast!",
+      "excerpt": "The mechanicals like breaks, deck, suspension and steering feel so stable and dialed in."
+     },
+     {
+      "author": "Matt Simons",
+      "stars": 4,
+      "date": "2023-08-18",
+      "title": "Overall good but a few things",
+      "excerpt": "After you unboxed it and set it up, many of the bolts are still loose. DO NOT RIDE until you tighten up the bolts."
+     },
+     {
+      "author": "Jason Brockopp",
+      "stars": 5,
+      "date": "2023-06-30",
+      "title": "Built Strong, Blazing Fast!!!",
+      "excerpt": "I put 30 miles on it the first day! Feels like it will last for years."
+     },
+     {
+      "author": "Lamar",
+      "stars": 1,
+      "date": "2024-05-21",
+      "title": "Don't recommend",
+      "excerpt": "It came damaged … I'm having a hard time buying brakes for it."
+     }
+    ]
+   }
+  },
+  {
+   "id": "wawscote-w3",
+   "asin": "B0GQSZ1BK6",
+   "name": "WAWSCOTE W3",
+   "brand": "WAWSCOTE",
+   "model": "W3 500W",
+   "variant": null,
+   "affiliate_url": "https://amzn.to/4dVp2fm",
+   "affiliate_tag": "microtools0f-20",
+   "canonical_url": "https://www.amazon.com/dp/B0GQSZ1BK6",
+   "images": [
+    "61XNDzoOQpL",
+    "71gaMn3z9YL",
+    "71tEmeXaSIL",
+    "71sirRUkZqL",
+    "71xrPS0yLoL",
+    "71Qh6MpHy5L",
+    "713wIBGyCiL",
+    "81JmEvxc50L"
+   ],
+   "tags": [
+    "urban",
+    "folding",
+    "adults"
+   ],
+   "featured": false,
+   "badge": "Best under $200",
+   "seller": "wawscote",
+   "price": 159.99,
+   "list_price": 189.99,
+   "price_date": "2026-09-25",
+   "availability": "In stock · 5K+ bought last month",
+   "rating": 3.9,
+   "reviews_count": 300,
+   "rating_breakdown": {
+    "5": 63,
+    "4": 10,
+    "3": 4,
+    "2": 3,
+    "1": 20
+   },
+   "specs": {
+    "top_speed_mph": 18,
+    "range_mi": 21,
+    "range_note": "Claimed 15–21 mi and 18 mph (Eco 6 / Drive 12 / Sport 18). Owners report about 15 mph on flat ground and a struggle on moderate hills.",
+    "motor_config": "Single hub motor",
+    "motor_rated_w": 350,
+    "motor_peak_w": 500,
+    "battery_v": 36,
+    "battery_ah": 7.8,
+    "battery_wh": 281,
+    "battery_removable": false,
+    "charge_time_h": 5,
+    "weight_lb": 24,
+    "max_load_lb": 220,
+    "tire_size_in": 8.5,
+    "tire_type": "Pneumatic",
+    "brakes": "Electronic front + rear drum",
+    "abs": false,
+    "suspension": "None",
+    "ip_rating": "IPX4",
+    "foldable": true,
+    "seat": false,
+    "certification": null,
+    "display": "LED display, app control",
+    "max_incline": "20° (claimed)",
+    "frame": "High-carbon steel",
+    "off_road": false
+   },
+   "specs_extra": {
+    "Folded size": "46.9 × 17.7 × 7.5 in",
+    "Lights": "Headlight, brake-activated rear light",
+    "Features": "App control, cruise control, 3 speed modes",
+    "Recommended age": "13+",
+    "Max rider": "220 lb per product description (264 lb in the listing's spec table)",
+    "In the box": "Scooter, charger, spare inner tube, manual",
+    "Listing note": "Multi-variant listing (500 W / 1000 W / 1200 W). Specs shown are for the 500 W model at this price.",
+    "Warranty": "6 months–1 year depending on part, 360-day repair support"
+   },
+   "spec_sources": "Amazon listing (500 W variant bullets). Charge time = midpoint of 4–6 h. Battery Wh = 36 V × 7.8 Ah. We use the lower 220 lb rider limit from the description.",
+   "scores": {
+    "speed": 1,
+    "range": 1,
+    "power": 2,
+    "comfort": 4,
+    "portability": 10,
+    "safety": 5,
+    "value": 6
+   },
+   "editorial": {
+    "tagline": "A 24 lb commuter for $160 — great for flat, short trips.",
+    "summary": "The WAWSCOTE W3 is a light, foldable last-mile scooter: 500 W peak, 18 mph, up to 21 miles, 8.5\" air tires, IPX4 and an app. It sells in huge numbers, but quality control is uneven.",
+    "body": [
+     "At 24 lb and $160, the W3 is the kind of scooter people buy for campus, the last mile from the train, or quick trips around the neighborhood. You get a 500 W peak motor (350 W rated), a 36 V 7.8 Ah battery rated for 15–21 miles, three speed modes topping out at 18 mph, 8.5-inch pneumatic tires, a headlight, brake light, IPX4 splash protection and app control with cruise mode.",
+     "It's a popular pick — over 5,000 sold last month — and most owners are happy: it's easy to assemble, folds into a car trunk and feels sturdier than the price suggests. Treat the numbers as best-case, though: owners see about 15 mph on the flat, and a 165 lb rider found it crawling up a gentle hill.",
+     "One in five ratings is 1-star, mostly for quality control: soft screws that strip, fasteners that loosen with vibration, a folding latch that failed, and at least one unit with damaged wiring out of the box. Buy it for flat, short commutes, check the fasteners regularly, and keep the return window in mind."
+    ],
+    "pros": [
+     "Only 24 lb and folds compactly",
+     "$160 with a real discount at our check",
+     "Pneumatic 8.5\" tires smooth out rough pavement",
+     "App, cruise control and brake light",
+     "IPX4 splash protection"
+    ],
+    "cons": [
+     "Weak on hills; real top speed ~15 mph",
+     "20% 1-star ratings, mostly quality control",
+     "Soft screws and loosening fasteners",
+     "No suspension",
+     "No safety certification stated"
+    ],
+    "ideal_for": "Students and commuters covering short, mostly flat trips who need something light to carry.",
+    "not_for": "Hilly routes, heavier riders, or anyone who wants a scooter that lasts years without maintenance.",
+    "verdict": "A lot of convenience for $160 on flat ground — but it's a budget scooter in every sense, so check it carefully when it arrives.",
+    "review_summary": "3.9★ from 300 ratings and polarized: 73% give 4–5 stars for the light weight, easy folding and value; 20% give 1 star over stripped screws, a broken folding latch, damaged wiring and weak hill climbing. Owners generally see ~15 mph rather than 18.",
+    "reviews": [
+     {
+      "author": "Miguel A.",
+      "stars": 5,
+      "date": "2026-09-14",
+      "title": "Review from a College Kid that Refuses to Pay for a Parking Permit",
+      "excerpt": "It can pick up to 15mph quick enough … Be wary of keeping it well screwed in."
+     },
+     {
+      "author": "Tom",
+      "stars": 5,
+      "date": "2026-09-13",
+      "title": "It is a great scooter",
+      "excerpt": "I really like that the rear light comes on when you squeeze the brake."
+     },
+     {
+      "author": "Ronda",
+      "stars": 4,
+      "date": "2026-09-06",
+      "title": "Surprise!!",
+      "excerpt": "Great for the last leg commute. … on the lighter end for this type of scooter."
+     },
+     {
+      "author": "Brandon Luthi",
+      "stars": 1,
+      "date": "2026-09-19",
+      "title": "Scooter has No torque. Cheap materials and has already broken after 2 days of use.",
+      "excerpt": "The folding mechanism stopped working after two uses."
+     }
+    ]
+   }
+  },
+  {
+   "id": "aolorozo-e200",
+   "asin": "B0DZWY35T6",
+   "name": "Aolorozo E200 Kids",
+   "brand": "Aolorozo",
+   "model": "E200 Classic",
+   "variant": null,
+   "affiliate_url": "https://amzn.to/47pbd5b",
+   "affiliate_tag": "microtools0f-20",
+   "canonical_url": "https://www.amazon.com/dp/B0DZWY35T6",
+   "images": [
+    "71DnbCPHOfL",
+    "71Gwsm-8QqL",
+    "812qUkHtIHL",
+    "71XpaqBHSHL",
+    "71TbkoYMNEL",
+    "81cLqD6I7wL",
+    "71OabRvCzPL",
+    "71HcAV-ws4L"
+   ],
+   "tags": [
+    "kids",
+    "folding"
+   ],
+   "featured": false,
+   "badge": "Best for kids",
+   "seller": "ANNELAWSON",
+   "price": 159.99,
+   "list_price": null,
+   "price_date": "2026-09-25",
+   "availability": "Only 11 left in stock",
+   "rating": 4.2,
+   "reviews_count": 99,
+   "rating_breakdown": {
+    "5": 70,
+    "4": 7,
+    "3": 8,
+    "2": 2,
+    "1": 13
+   },
+   "specs": {
+    "top_speed_mph": 12,
+    "range_mi": 12,
+    "range_note": "Claimed 12 mph and 12 mi. Most parents find the speed right for kids; one owner reports only about 4 mph.",
+    "motor_config": "Single hub motor",
+    "motor_rated_w": 200,
+    "motor_peak_w": 200,
+    "battery_v": null,
+    "battery_ah": null,
+    "battery_wh": null,
+    "battery_removable": false,
+    "charge_time_h": 4,
+    "weight_lb": 19,
+    "max_load_lb": 220,
+    "tire_size_in": 8,
+    "tire_type": "Solid, puncture-proof",
+    "brakes": "Electronic + rear foot brake",
+    "abs": false,
+    "suspension": "Front",
+    "ip_rating": null,
+    "foldable": true,
+    "seat": false,
+    "certification": "UL 2272",
+    "display": "Battery indicator",
+    "max_incline": null,
+    "frame": "Aluminum",
+    "off_road": false
+   },
+   "specs_extra": {
+    "Recommended age": "8+ (designed for 8–12, up to 220 lb)",
+    "Handlebar": "4 adjustable heights",
+    "Lights": "Colorful LED lights",
+    "Dimensions": "32 × 16 × 36 in",
+    "Assembly": "Arrives folded and nearly fully assembled",
+    "Newer model": "Aolorozo also sells a newer version of this scooter (about $170 at our check)",
+    "Warranty": "1 year"
+   },
+   "spec_sources": "Amazon listing. Battery voltage and capacity aren't published on the listing or anywhere we could verify.",
+   "scores": {
+    "speed": 0,
+    "range": 0,
+    "power": 0,
+    "comfort": 4,
+    "portability": 10,
+    "safety": 7,
+    "value": 7
+   },
+   "editorial": {
+    "tagline": "A UL-certified, 19 lb first e-scooter that tops out at a sensible 12 mph.",
+    "summary": "The Aolorozo E200 is a kids' electric scooter for ages 8+: 200 W motor, 12 mph, 12 miles, flat-proof 8\" solid tires, front suspension, UL 2272 certification and a handlebar that grows with the child.",
+    "body": [
+     "For a first electric scooter, the E200 gets the priorities right. The 200 W motor tops out at 12 mph — quick enough to be fun, slow enough for sidewalks and parks — and the listing quotes up to 12 miles of range with a 4-hour charge. It's UL 2272 certified, which is what you want to see on any child's e-scooter.",
+     "Solid 8-inch tires mean no flats, and front suspension takes the edge off cracks and curbs. The handlebar adjusts to four heights, it weighs just 19 lb, and it arrives almost fully assembled. Parents mostly praise the build quality, battery life and LED lights.",
+     "The complaints are about the details: instructions that don't explain the folding lock well, a charger with the wrong plug in one box, and an on/off button that's hard for small hands. One owner found it slow at about 4 mph, which may point to a speed mode or unit issue."
+    ],
+    "pros": [
+     "UL 2272 certified",
+     "Sensible 12 mph top speed for kids",
+     "Solid tires — no flats",
+     "Front suspension and 4 handlebar heights",
+     "Only 19 lb, arrives nearly assembled"
+    ],
+    "cons": [
+     "Folding/locking instructions are unclear",
+     "Power button hard for small kids to press",
+     "Solid tires transmit more vibration",
+     "Battery specs not published",
+     "A newer model exists"
+    ],
+    "ideal_for": "Kids aged about 8–12 getting their first electric scooter.",
+    "not_for": "Teens or adults who need more speed or hill-climbing power.",
+    "verdict": "A safe, sensible first e-scooter at a fair price — just be ready to figure out the folding latch yourself.",
+    "review_summary": "4.2★ from 99 ratings, 77% of them 4–5 stars. Parents praise the sturdy build, battery life, lights and near-complete assembly. Complaints: vague instructions for the folding lock, a stiff power button for small hands, one wrong-plug charger and one unit that felt too slow.",
+    "reviews": [
+     {
+      "author": "Farid ahmed Fahim",
+      "stars": 5,
+      "date": "2026-07-27",
+      "title": "Very good",
+      "excerpt": "I also like the solid tires since there's no need to worry about getting a flat."
+     },
+     {
+      "author": "Hunter H",
+      "stars": 5,
+      "date": "2026-08-11",
+      "title": "Fun and fast scooter",
+      "excerpt": "Perfect size for older kids and even adults. … it comes all the way assembled out of the box!"
+     },
+     {
+      "author": "Hamid Keivanfard",
+      "stars": 4,
+      "date": "2025-07-25",
+      "title": "It's good product with good quality",
+      "excerpt": "The On-Off button is challenging to turn and hold."
+     },
+     {
+      "author": "Mary Ann Benton",
+      "stars": 1,
+      "date": "2026-04-08",
+      "title": "Issue with scooters",
+      "excerpt": "The instructions were absolutely useless on locking the scooter … the grandkids loved them."
+     }
+    ]
+   }
+  },
+  {
+   "id": "ecoroad-ek8",
+   "asin": "B0HHHX6JCC",
+   "name": "ECOROAD EK8 Kids",
+   "brand": "ECOROAD",
+   "model": "EK8",
+   "variant": null,
+   "affiliate_url": "https://amzn.to/46F8uVb",
+   "affiliate_tag": "microtools0f-20",
+   "canonical_url": "https://www.amazon.com/dp/B0HHHX6JCC",
+   "images": [
+    "71CEZAkXYFL",
+    "71tdxnkFh4L",
+    "81f0ZZpbwKL",
+    "81TV8ckkacL",
+    "81Swf9pk3kL",
+    "716cqcLIgJL",
+    "816jHwc5FgL",
+    "71q9kv6yzhL"
+   ],
+   "tags": [
+    "kids",
+    "folding"
+   ],
+   "featured": false,
+   "badge": "Sit or stand",
+   "seller": "Amazon.com",
+   "price": 199.99,
+   "list_price": null,
+   "price_date": "2026-09-25",
+   "availability": "In stock · Sold by Amazon",
+   "rating": 5.0,
+   "reviews_count": 4,
+   "rating_breakdown": {
+    "5": 100,
+    "4": 0,
+    "3": 0,
+    "2": 0,
+    "1": 0
+   },
+   "specs": {
+    "top_speed_mph": 10,
+    "range_mi": 9,
+    "range_note": "Three speed modes: 5, 8 and 10 mph. Typical range 5–9 mi.",
+    "motor_config": "Single brushless motor",
+    "motor_rated_w": 200,
+    "motor_peak_w": 200,
+    "battery_v": 21.6,
+    "battery_ah": 2.6,
+    "battery_wh": 56,
+    "battery_removable": false,
+    "charge_time_h": 5,
+    "weight_lb": 15.4,
+    "max_load_lb": 154,
+    "tire_size_in": 6.5,
+    "tire_type": "Solid",
+    "brakes": "Hand (electronic) + rear foot brake",
+    "abs": false,
+    "suspension": "None",
+    "ip_rating": "IPX4",
+    "foldable": true,
+    "seat": true,
+    "certification": "UL 2272 (TÜV Rheinland)",
+    "display": "None",
+    "max_incline": null,
+    "frame": null,
+    "off_road": false
+   },
+   "specs_extra": {
+    "Recommended age": "6–12 (riders about 110–160 cm tall)",
+    "Seat": "Removable padded seat — ride sitting or standing",
+    "Handlebar": "3 heights: 35.4 / 38.2 / 40.7 in",
+    "Extras": "RGB lights, Bluetooth music speaker, auto shut-off",
+    "Folding": "Folds in about 3 seconds",
+    "Battery note": "Amazon lists 21.6 V 5.2 Ah; ECOROAD's own spec page lists 21.6 V 2.6 Ah — we use the manufacturer's figure",
+    "Warranty": "1 year"
+   },
+   "spec_sources": "Amazon listing; net weight (15.4 lb), battery (21.6 V 2.6 Ah) and IPX4 from ECOROAD's official EK8 page (ecoroad.com). Battery Wh = 21.6 V × 2.6 Ah.",
+   "scores": {
+    "speed": 0,
+    "range": 0,
+    "power": 0,
+    "comfort": 3,
+    "portability": 10,
+    "safety": 8,
+    "value": 6
+   },
+   "editorial": {
+    "tagline": "A 2-in-1 sit-or-stand scooter with Bluetooth music for ages 6–12.",
+    "summary": "ECOROAD's EK8 lets younger kids ride seated and switch to standing as they gain confidence: 200 W brushless motor, 5/8/10 mph modes, UL 2272 by TÜV Rheinland, IPX4, a Bluetooth speaker and just 15.4 lb.",
+    "body": [
+     "The EK8 is built for younger riders than most kids' e-scooters. The removable padded seat means a 6-year-old can start sitting down, then stand once they're confident. Three speed modes (5, 8 and 10 mph) let parents raise the limit gradually, and the handlebar adjusts to three heights for riders roughly 110–160 cm tall.",
+     "Safety credentials are solid for the price: UL 2272 certification from TÜV Rheinland, an IPX4 splash rating, a hand brake plus a rear foot brake, and auto shut-off. The fun extras — RGB lights and a Bluetooth speaker — are what kids end up loving most, according to parents.",
+     "What to know before buying: range is modest (5–9 miles), the 6.5-inch solid tires suit smooth pavement only, and the 154 lb limit keeps it firmly in kid territory. The listing is new: its four 5-star reviews were all posted on the same day and none is marked as a verified purchase, so give them less weight than a long review history. It is sold and shipped by Amazon, which makes returns straightforward."
+    ],
+    "pros": [
+     "Seat for beginners, stand mode as they grow",
+     "UL 2272 (TÜV Rheinland) and IPX4",
+     "5 / 8 / 10 mph modes for gradual progression",
+     "Very light at 15.4 lb",
+     "Sold by Amazon — easy returns"
+    ],
+    "cons": [
+     "Short range (5–9 mi)",
+     "Small solid tires — smooth surfaces only",
+     "Only 4 reviews, all posted the same day, none verified",
+     "No suspension",
+     "Battery capacity differs between Amazon and the manufacturer"
+    ],
+    "ideal_for": "Parents of 6–10 year-olds who want a gentle first electric scooter with a seat.",
+    "not_for": "Older kids who want speed, or rough and hilly neighborhoods.",
+    "verdict": "Smart design for younger kids and strong safety certification, but the review history is too thin to trust yet — buy from Amazon's return policy, not the ratings.",
+    "review_summary": "5.0★ from only 4 ratings. All four were posted on September 4, 2026 and none is marked as a verified purchase, so treat them with caution. They praise the adjustable height, Bluetooth speaker, easy folding and the hand + rear brake setup.",
+    "reviews": [
+     {
+      "author": "neely williams",
+      "stars": 5,
+      "date": "2026-09-04",
+      "title": "Great scooter for my kid",
+      "excerpt": "I really like that the height can be adjusted, so it feels like something he can use for a while as he grows."
+     },
+     {
+      "author": "Ken Golden",
+      "stars": 5,
+      "date": "2026-09-04",
+      "title": "My kid loves the Bluetooth speaker",
+      "excerpt": "I like having both the hand brake and rear brake for extra control."
+     }
+    ]
+   }
+  },
+  {
+   "id": "maxshot-v1s-pro",
+   "asin": "B0DHD74RHP",
+   "name": "MAXSHOT V1S Pro",
+   "brand": "MAXSHOT",
+   "model": "V1S Pro",
+   "variant": null,
+   "affiliate_url": "https://amzn.to/4hso1fQ",
+   "affiliate_tag": "microtools0f-20",
+   "canonical_url": "https://www.amazon.com/dp/B0DHD74RHP",
+   "images": [
+    "71epeXq0V9L",
+    "71FqQlm2wdL",
+    "81nCzrxE9JL",
+    "81ATapKbbQL",
+    "81OfChRTPdL",
+    "81UIS14iYZL",
+    "71wCgc+7RWL",
+    "81YjPE4oy8L"
+   ],
+   "tags": [
+    "urban",
+    "folding",
+    "adults"
+   ],
+   "featured": true,
+   "badge": "Best commuter under $300",
+   "seller": "MAXSHOT Direct",
+   "price": 279.99,
+   "list_price": 335.99,
+   "price_date": "2026-09-25",
+   "availability": "In stock · 500+ bought last month",
+   "rating": 4.2,
+   "reviews_count": 1252,
+   "rating_breakdown": {
+    "5": 69,
+    "4": 9,
+    "3": 7,
+    "2": 3,
+    "1": 12
+   },
+   "specs": {
+    "top_speed_mph": 22,
+    "range_mi": 22,
+    "range_note": "Claimed 22 mph and 22 mi. Owners say it's quick on the flat but slows a lot on hills with full-size adults, and real range is lower than claimed on hilly routes.",
+    "motor_config": "Single brushless hub motor",
+    "motor_rated_w": null,
+    "motor_peak_w": 500,
+    "battery_v": null,
+    "battery_ah": 10.5,
+    "battery_wh": null,
+    "battery_removable": true,
+    "charge_time_h": 5,
+    "weight_lb": 36,
+    "max_load_lb": 265,
+    "tire_size_in": 10,
+    "tire_type": "Solid honeycomb (no flats)",
+    "brakes": "Dual braking system",
+    "abs": false,
+    "suspension": "Front & rear",
+    "ip_rating": null,
+    "foldable": true,
+    "seat": false,
+    "certification": "UL 2272",
+    "display": "LED display, app (lock, cruise control)",
+    "max_incline": null,
+    "frame": "Aluminum",
+    "off_road": false
+   },
+   "specs_extra": {
+    "Battery": "10.5 Ah replaceable pack (listing states 42 V, which is the charging voltage of a 36 V pack; nominal voltage not published)",
+    "Folded size": "44.5 × 16.9 × 24.4 in",
+    "Lights": "LED headlight, brake light",
+    "Smart features": "App lock/unlock, cruise control, speedometer",
+    "Charging": "First charge 6 h, then up to 5 h",
+    "Warranty": "1 year"
+   },
+   "spec_sources": "Amazon listing (V1S Pro, 10\" variant). Charge time = the listing's 'no more than 5 hours'. Battery Wh isn't stated because the nominal voltage isn't published.",
+   "scores": {
+    "speed": 2,
+    "range": 2,
+    "power": 2,
+    "comfort": 6,
+    "portability": 9,
+    "safety": 7,
+    "value": 8
+   },
+   "editorial": {
+    "tagline": "A 36 lb, UL-certified commuter with suspension and no-flat tires for under $300.",
+    "summary": "The V1S Pro covers the basics most commuters need: 500 W motor, 22 mph, up to 22 miles, dual suspension, 10\" solid honeycomb tires that never go flat, UL 2272 and an app with lock and cruise control — with more than 1,200 ratings behind it.",
+    "body": [
+     "The V1S Pro is a classic mid-size commuter. A 500 W hub motor tops out at 22 mph, a replaceable 10.5 Ah battery is rated for up to 22 miles, and suspension at both ends works with 10-inch honeycomb tires to take the edge off rough pavement — without ever needing a pump or a patch kit.",
+     "It's UL 2272 certified, has a dual braking system, a bright headlight and brake light, and an app that locks the scooter and adds cruise control. At 36 lb it folds to 24 inches tall, light enough for a car trunk or a short flight of stairs. Owners call it easy to set up (four screws), quiet and comfortable on flat ground.",
+     "Hills are the weak spot: several full-size riders say it crawls up inclines and drains the battery quickly when climbing. About 12% of ratings are 1-star, including one owner who calls the wheel area poorly built. If your commute is mostly flat, it's one of the better values in its class."
+    ],
+    "pros": [
+     "UL 2272 certified",
+     "No-flat 10\" honeycomb tires + dual suspension",
+     "36 lb and folds compactly",
+     "App lock and cruise control",
+     "1,200+ ratings, 78% 4–5 stars"
+    ],
+    "cons": [
+     "Struggles on hills with heavier riders",
+     "Real range drops fast when climbing",
+     "Solid tires grip less in the wet than air tires",
+     "Brake type and battery voltage not clearly stated"
+    ],
+    "ideal_for": "Adults with mostly flat commutes of up to about 10 miles each way.",
+    "not_for": "Hilly routes or riders near the 265 lb limit.",
+    "verdict": "A well-rounded, certified commuter at a fair price — just keep it on flat ground.",
+    "review_summary": "4.2★ from 1,252 ratings (78% 4–5 stars). Owners like the easy setup, smooth ride, quiet motor and how easily it folds into a car or boat. The recurring complaint is hill performance for full-size adults, with range well below the claim when climbing; 12% of ratings are 1-star.",
+    "reviews": [
+     {
+      "author": "ArcticFire1",
+      "stars": 5,
+      "date": "2026-09-02",
+      "title": "Excellent value for the money.",
+      "excerpt": "They fold up and store easily on the boat, and man, what a great addition!"
+     },
+     {
+      "author": "Bowen",
+      "stars": 5,
+      "date": "2026-09-01",
+      "title": "Easy Setup and Easy to Ride",
+      "excerpt": "The setup was super easy—only four screws needed to be installed, and it was ready to go."
+     },
+     {
+      "author": "Algae",
+      "stars": 4,
+      "date": "2026-07-14",
+      "title": "Meets expectations.",
+      "excerpt": "If you're a full size adult male it'll be an absolute dog going up any inclines."
+     },
+     {
+      "author": "Adi Reviews",
+      "stars": 5,
+      "date": "2026-09-10",
+      "title": "Amazing",
+      "excerpt": "It does not go up very steep hills well aside from that it's easy to use and maneuver."
+     }
+    ]
+   }
+  },
+  {
+   "id": "eoeotwo-gt06",
+   "asin": "B0FFH1WFXM",
+   "name": "EOEOTWO GT06",
+   "brand": "EOEOTWO",
+   "model": "GT06 1200W 48V 23.4Ah",
+   "variant": null,
+   "affiliate_url": "https://amzn.to/4xLoXCc",
+   "affiliate_tag": "microtools0f-20",
+   "canonical_url": "https://www.amazon.com/dp/B0FFH1WFXM",
+   "images": [
+    "71wEXye+TsL",
+    "81Xk4GQWTpL",
+    "71Mo7t-1MkL",
+    "91GDNMm4-QL",
+    "91hkxsLCT1L",
+    "81z0IPXQl3L",
+    "71BnYzxMSHL",
+    "7116QGsdwpL"
+   ],
+   "tags": [
+    "off-road",
+    "folding",
+    "adults"
+   ],
+   "featured": false,
+   "badge": "All-terrain under $650",
+   "seller": "EOEOTWO Direct",
+   "price": 612.97,
+   "list_price": null,
+   "price_date": "2026-09-25",
+   "availability": "In stock",
+   "rating": 4.2,
+   "reviews_count": 43,
+   "rating_breakdown": {
+    "5": 70,
+    "4": 11,
+    "3": 5,
+    "2": 0,
+    "1": 14
+   },
+   "specs": {
+    "top_speed_mph": 31,
+    "range_mi": 40,
+    "range_note": "Claimed 28–31 mph and 30–40 mi. Owners report 25 mph at 270 lb, 33 mph at 200 lb and 30+ mph for a 100 lb rider; one owner only saw 17–20 mph.",
+    "motor_config": "Single 1,200 W brushless hub motor",
+    "motor_rated_w": 1200,
+    "motor_peak_w": 1200,
+    "battery_v": 48,
+    "battery_ah": 23.4,
+    "battery_wh": 1123,
+    "battery_removable": false,
+    "charge_time_h": 6,
+    "weight_lb": null,
+    "max_load_lb": 330,
+    "tire_size_in": 11,
+    "tire_type": "Pneumatic off-road",
+    "brakes": "Front hydraulic disc + rear disc",
+    "abs": false,
+    "suspension": "Front & rear",
+    "ip_rating": null,
+    "foldable": true,
+    "seat": false,
+    "certification": "UL-certified battery",
+    "display": "Digital display",
+    "max_incline": "35%",
+    "frame": "Aluminum alloy + iron",
+    "off_road": true
+   },
+   "specs_extra": {
+    "Lights": "High-power headlight, turn signals, brake lights",
+    "Dimensions": "51 × 27 × 48 in",
+    "Charging": "4–6 h (listing); 6–7 h (manufacturer)",
+    "Also available": "48 V 13 Ah and 2,400 W dual-motor versions on the same listing",
+    "Warranty": "1 year"
+   },
+   "spec_sources": "Amazon listing (1,200 W / 48 V 23.4 Ah variant); charge time cross-checked with EOEOTWO's product page (eoeo2.com). Weight isn't published anywhere we could verify.",
+   "scores": {
+    "speed": 3,
+    "range": 4,
+    "power": 4,
+    "comfort": 7,
+    "portability": null,
+    "safety": 6,
+    "value": 8
+   },
+   "editorial": {
+    "tagline": "11\" off-road tires, dual suspension and a 1.1 kWh battery for about $600.",
+    "summary": "The GT06 is an affordable all-terrain scooter: 1,200 W motor, around 30 mph, a 48 V 23.4 Ah (1,123 Wh) battery for 30–40 miles, 11\" knobby tires, suspension front and rear, a hydraulic front brake and turn signals.",
+    "body": [
+     "If the 10,000 W monsters are overkill but you still want to leave the pavement, the GT06 hits a sweet spot. One 1,200 W motor gives around 30 mph and a claimed 35% climbing grade, and the 1,123 Wh battery — large for this price — is rated for 30–40 miles.",
+     "Eleven-inch off-road tires and dual suspension make trails comfortable; one owner rides 10–15 miles of Everglades trail a night and has put 262 miles on it without trouble. Turn signals and brake lights make it road-friendly too, and several owners use it as their main transport.",
+     "Speed depends heavily on rider weight: from 25 mph at 270 lb to 30+ mph for a light teen, and one owner only saw 17–20 mph. EOEOTWO doesn't publish the weight, but with 11\" tires and a big battery, expect a heavy, ground-floor scooter."
+    ],
+    "pros": [
+     "Big 1,123 Wh battery for the price",
+     "11\" off-road tires + dual suspension",
+     "Hydraulic front brake, turn signals, brake lights",
+     "Owners report good range and reliability",
+     "Responsive seller support"
+    ],
+    "cons": [
+     "Single motor — speed drops with heavier riders",
+     "Weight not published",
+     "No IP rating",
+     "14% of ratings are 1-star"
+    ],
+    "ideal_for": "Riders who want trail-capable comfort and long range without paying for dual motors.",
+    "not_for": "Riders over about 250 lb who want the full 30 mph, or anyone who needs to carry it.",
+    "verdict": "The value pick for light off-road riding: big battery, real suspension and decent brakes at a mid-range price.",
+    "review_summary": "4.2★ from 43 ratings (81% 4–5 stars). Owners praise range, trail comfort, visible turn signals and responsive support; the main complaint is lower-than-claimed speed for heavier riders.",
+    "reviews": [
+     {
+      "author": "Nathan Gutierrez",
+      "stars": 5,
+      "date": "2026-09-01",
+      "title": "Well worth the money",
+      "excerpt": "I have had this scooter for about 4 months now and exactly 262 miles on the odometer."
+     },
+     {
+      "author": "Johanathon Holliday",
+      "stars": 5,
+      "date": "2025-12-25",
+      "title": "I weight 200+ lbs and I can get up to 33 mph on pavement and it handles great off road",
+      "excerpt": "I love that it has headlight, brake lights and turn signals."
+     },
+     {
+      "author": "Skyler crouch",
+      "stars": 4,
+      "date": "2026-06-14",
+      "title": "Scooter",
+      "excerpt": "Im 270lbs and it carries me at 25 mph."
+     },
+     {
+      "author": "Jesus Reyes Lopez",
+      "stars": 1,
+      "date": "2026-05-06",
+      "title": "It's not what I thought—totally disappointed.",
+      "excerpt": "Once I hop on, it only goes 20 mph—and sometimes as low as 17 mph."
+     }
+    ]
+   }
+  },
+  {
+   "id": "metamoov-zo01-plus",
+   "asin": "B0F4CYC24K",
+   "name": "MetaMoov ZO01 Plus",
+   "brand": "MetaMoov",
+   "model": "ZO01 Plus",
+   "variant": null,
+   "affiliate_url": "https://amzn.to/4yzHSkR",
+   "affiliate_tag": "microtools0f-20",
+   "canonical_url": "https://www.amazon.com/dp/B0F4CYC24K",
+   "images": [
+    "71Y3CH+LlpL",
+    "811msq2SyHL",
+    "71xQy+tSj0L",
+    "71Zdnm+NApL",
+    "71wZUL4UjDL",
+    "81iU4qqt8NL",
+    "81aHczkQg0L",
+    "817sSsFAhSL"
+   ],
+   "tags": [
+    "off-road",
+    "folding",
+    "high-power",
+    "adults"
+   ],
+   "featured": true,
+   "badge": "UL 2272 + steering damper",
+   "seller": "MetaMoov-US",
+   "price": 1259.0,
+   "list_price": 1389.0,
+   "price_date": "2026-09-25",
+   "availability": "In stock",
+   "rating": 4.1,
+   "reviews_count": 47,
+   "rating_breakdown": {
+    "5": 62,
+    "4": 17,
+    "3": 3,
+    "2": 3,
+    "1": 15
+   },
+   "specs": {
+    "top_speed_mph": 55,
+    "range_mi": 60,
+    "range_note": "Amazon claims 55 mph and 60 mi (MetaMoov's site says 58 mph and 45–52 mi in mixed riding). One owner rides 32 mi at 30 mph and still has 2 of 5 battery bars.",
+    "motor_config": "Dual 3,000 W brushless hub motors",
+    "motor_rated_w": null,
+    "motor_peak_w": 6000,
+    "battery_v": 60,
+    "battery_ah": 35,
+    "battery_wh": 2100,
+    "battery_removable": false,
+    "charge_time_h": 5,
+    "weight_lb": 108,
+    "max_load_lb": 490,
+    "tire_size_in": 11,
+    "tire_type": "Tubeless off-road fat tires",
+    "brakes": "Front & rear hydraulic disc",
+    "abs": false,
+    "suspension": "C-type front & rear",
+    "ip_rating": "IP54",
+    "foldable": true,
+    "seat": true,
+    "certification": "UL 2272",
+    "display": "Large LCD, NFC unlock",
+    "max_incline": "45° (claimed)",
+    "frame": "Alloy steel",
+    "off_road": true
+   },
+   "specs_extra": {
+    "Included": "Detachable seat, steering damper, storage bag, tool kit, 2 chargers",
+    "Charging": "5 h with both chargers, 10 h with one",
+    "Lights": "360° lighting",
+    "Maker": "Built by Shenzhen ZonD Technology, the same company behind ZonDoo scooters",
+    "Dimensions": "50 × 26 × 55 in",
+    "Warranty": "3–12 months depending on part"
+   },
+   "spec_sources": "Amazon listing; net weight (108 lb), IP54 and charge-time detail from MetaMoov's official site (metamoovscooter.com). Battery Wh = 60 V × 35 Ah.",
+   "scores": {
+    "speed": 7,
+    "range": 6,
+    "power": 9,
+    "comfort": 8,
+    "portability": 2,
+    "safety": 7,
+    "value": 7
+   },
+   "editorial": {
+    "tagline": "ZonDoo-built 6,000 W, UL 2272 and a steering damper — slightly cheaper than its sibling.",
+    "summary": "MetaMoov's ZO01 Plus comes from the same factory as ZonDoo: dual 3,000 W motors, a 60 V 35 Ah battery, hydraulic brakes, full C-type suspension, 11\" tubeless tires, a seat and a steering damper — plus UL 2272 certification and IP54.",
+    "body": [
+     "The ZO01 Plus is built by Shenzhen ZonD Technology, the company behind ZonDoo, and it shows: the spec sheet reads like a close cousin of the ZonDoo ZO03 Plus. Two 3,000 W hub motors, a 2,100 Wh battery with two chargers (5-hour charge), hydraulic disc brakes at both ends, C-type suspension front and rear and 11-inch tubeless off-road tires.",
+     "Differences that matter: MetaMoov publishes a UL 2272 certification, an IP54 rating and a real net weight (108 lb), and it was about $40 cheaper than the ZonDoo at our check, with a discount on top. The steering damper and seat come in the box.",
+     "Owners report high speeds with good stability — one rides 32 miles at 30 mph with 40% battery left. The negatives are familiar for this class: a unit that stopped charging after a month with slow vendor support, a caliper that arrived bad, and one serious crash blamed on a sticking throttle and loose screws. Inspect it carefully before your first ride."
+    ],
+    "pros": [
+     "UL 2272 certified and IP54",
+     "Dual 3,000 W motors and 2,100 Wh battery",
+     "Hydraulic brakes and full suspension",
+     "Seat, steering damper and two chargers included",
+     "Discounted at our check"
+    ],
+    "cons": [
+     "108 lb — not portable",
+     "Reports of a sticking throttle and loose screws",
+     "Short 3–6 month warranty on key parts",
+     "15% of ratings are 1-star"
+    ],
+    "ideal_for": "Experienced riders who want a well-equipped 50+ mph scooter with a seat and published safety certification.",
+    "not_for": "Beginners, or anyone who wants a long warranty on the battery and motors.",
+    "verdict": "Arguably the better buy than its ZonDoo sibling thanks to UL 2272, IP54 and a lower price — but check every bolt and the throttle before riding.",
+    "review_summary": "4.1★ from 47 ratings (79% 4–5 stars). Owners rave about speed, stability, suspension and battery life. Negative reports: a battery that stopped charging after a month with an unresponsive vendor, a bad brake caliper on arrival, and a crash attributed to a sticking throttle.",
+    "reviews": [
+     {
+      "author": "beartoe",
+      "stars": 5,
+      "date": "2026-06-11",
+      "title": "Outstanding!",
+      "excerpt": "At 30mph on flat trails, Im at 32 miles when I get home and still have 2 of 5 battery bars left."
+     },
+     {
+      "author": "Mat",
+      "stars": 5,
+      "date": "2025-11-08",
+      "title": "Absolutely Amazing E-Scooter!",
+      "excerpt": "The steering dampener helps a lot with keeping you in control at higher speeds."
+     },
+     {
+      "author": "kendall J.",
+      "stars": 4,
+      "date": "2026-07-03",
+      "title": "Be safe have fun",
+      "excerpt": "Seems the gas throttle sticks and make sure all screws are tight and assembled correctly."
+     },
+     {
+      "author": "t",
+      "stars": 1,
+      "date": "2026-08-28",
+      "title": "Bad scooter All around",
+      "excerpt": "Had my scooter for one month and it just stop working the battery won't charge."
+     }
+    ]
+   }
+  },
+  {
+   "id": "aotos-gt01-pro",
+   "asin": "B0G5X6NG99",
+   "name": "AOTOS GT01 Pro + Snow Kit",
+   "brand": "AOTOS",
+   "model": "GT01 Pro",
+   "variant": null,
+   "affiliate_url": "https://amzn.to/3VvW7Z1",
+   "affiliate_tag": "microtools0f-20",
+   "canonical_url": "https://www.amazon.com/dp/B0G5X6NG99",
+   "images": [
+    "71Arvptad4L",
+    "91FZXLvs5wL",
+    "71UGnvB5NXL",
+    "81vAcQTsJ2L",
+    "81vWz5HlZpL",
+    "6105vwcb3uL",
+    "71wNjZNoQhL",
+    "71WVgmq-LOL"
+   ],
+   "tags": [
+    "off-road",
+    "folding",
+    "adults"
+   ],
+   "featured": false,
+   "badge": "Rides on snow",
+   "seller": "SINO MEGWELL TECH INC",
+   "price": 1499.0,
+   "list_price": 1699.99,
+   "price_date": "2026-09-25",
+   "availability": "In stock",
+   "rating": null,
+   "reviews_count": 0,
+   "rating_breakdown": null,
+   "specs": {
+    "top_speed_mph": 25,
+    "range_mi": 62,
+    "range_note": "Ships limited to 15 mph; AOTOS support can unlock 25 mph outside New York and California. 14 mph on snow with the track kit. Claimed 62 mi range.",
+    "motor_config": "Single hub motor",
+    "motor_rated_w": null,
+    "motor_peak_w": 1500,
+    "battery_v": 48,
+    "battery_ah": 30,
+    "battery_wh": 1440,
+    "battery_removable": true,
+    "charge_time_h": null,
+    "weight_lb": null,
+    "max_load_lb": 265,
+    "tire_size_in": 10,
+    "tire_type": "Pneumatic front, solid rear (off-road)",
+    "brakes": "Front & rear hydraulic disc + EABS",
+    "abs": false,
+    "suspension": "Dual spring suspension",
+    "ip_rating": null,
+    "foldable": true,
+    "seat": false,
+    "certification": null,
+    "display": "NFC key + app",
+    "max_incline": "35%",
+    "frame": null,
+    "off_road": true
+   },
+   "specs_extra": {
+    "Snow kit": "Rear track + front ski included; ships in a separate box 2–3 days after the scooter",
+    "Lights": "7-color ambient side lighting",
+    "Recommended age": "14+",
+    "Dimensions": "54 × 24 × 53 in",
+    "Battery note": "Title says 48 V 29 Ah, bullets say 48 V 30 Ah",
+    "Warranty": "2 years"
+   },
+   "spec_sources": "Amazon listing. Battery Wh = 48 V × 30 Ah. Weight and charge time aren't published anywhere we could verify.",
+   "scores": {
+    "speed": 2,
+    "range": 6,
+    "power": 5,
+    "comfort": 6,
+    "portability": null,
+    "safety": 6,
+    "value": 5
+   },
+   "editorial": {
+    "tagline": "The only scooter here that converts into a snow sled.",
+    "summary": "AOTOS sells the GT01 Pro with a track-and-ski kit that turns it into a small snowmobile: 1,500 W peak, a removable 48 V 30 Ah battery for up to 62 miles, hydraulic brakes, dual suspension and a 2-year warranty — but no reviews yet.",
+    "body": [
+     "The GT01 Pro is a novelty with real hardware underneath. On wheels it's a 1,500 W off-road scooter with 10-inch tires, dual spring suspension, hydraulic disc brakes with electronic assist and a removable 48 V 30 Ah battery rated for up to 62 miles. NFC-key start, an app and seven-color side lighting round it out.",
+     "The twist is the bundled winter kit: a rear track and front ski that ship separately and convert it for snow, where it's rated at about 14 mph. It's the only scooter in our catalog you can ride at a ski cabin.",
+     "Things to know: it arrives limited to 15 mph (support can unlock 25 mph outside New York and California), weight and charge time aren't published, and this listing has no customer reviews yet. At $1,499 you're paying mostly for the snow versatility — as a pure road or trail scooter, the EOEOTWO GT06 offers more for less."
+    ],
+    "pros": [
+     "Snow track and ski kit included",
+     "Removable 1.4 kWh battery, up to 62 mi claimed",
+     "Hydraulic disc brakes + EABS",
+     "2-year warranty",
+     "Discounted at our check"
+    ],
+    "cons": [
+     "No reviews on this listing yet",
+     "Ships limited to 15 mph",
+     "Weight and charge time not published",
+     "Expensive for a single 1,500 W motor"
+    ],
+    "ideal_for": "Riders in snowy regions who want one machine for summer trails and winter snow.",
+    "not_for": "Anyone who just wants a fast road or trail scooter for the money.",
+    "verdict": "A unique four-season toy — buy it for the snow kit, not for the specs, and remember you're an early adopter.",
+    "review_summary": "No customer reviews on this Amazon listing yet.",
+    "reviews": []
+   }
+  },
+  {
+   "id": "zdza-zk01",
+   "asin": "B0H2D723QQ",
+   "name": "ZDZA ZK01 Kids",
+   "brand": "ZDZA",
+   "model": "ZK01",
+   "variant": null,
+   "affiliate_url": "https://amzn.to/4hqq2JE",
+   "affiliate_tag": "microtools0f-20",
+   "canonical_url": "https://www.amazon.com/dp/B0H2D723QQ",
+   "images": [
+    "51P-eiWm0zL",
+    "61jlXYG6TEL",
+    "712hNDOnUpL",
+    "71yTPQ+lhnL",
+    "710aRwTfjIL",
+    "81XepcyRJUL",
+    "71mGyximuBL",
+    "716B5RE6SQL"
+   ],
+   "tags": [
+    "kids",
+    "folding"
+   ],
+   "featured": false,
+   "badge": "Lightest kids' pick",
+   "seller": "Amazon.com",
+   "price": 149.99,
+   "list_price": null,
+   "price_date": "2026-09-25",
+   "availability": "In stock · Sold by Amazon",
+   "rating": 5.0,
+   "reviews_count": 5,
+   "rating_breakdown": {
+    "5": 100,
+    "4": 0,
+    "3": 0,
+    "2": 0,
+    "1": 0
+   },
+   "specs": {
+    "top_speed_mph": 10,
+    "range_mi": 5,
+    "range_note": "Three speed modes: 5, 8 and 10 mph. Up to 5 mi per charge.",
+    "motor_config": "Single hub motor",
+    "motor_rated_w": 130,
+    "motor_peak_w": 130,
+    "battery_v": null,
+    "battery_ah": null,
+    "battery_wh": null,
+    "battery_removable": false,
+    "charge_time_h": 3,
+    "weight_lb": 15,
+    "max_load_lb": 154,
+    "tire_size_in": 6.5,
+    "tire_type": "Solid rubber",
+    "brakes": "Electronic + rear foot brake",
+    "abs": false,
+    "suspension": "None",
+    "ip_rating": null,
+    "foldable": true,
+    "seat": false,
+    "certification": null,
+    "display": "LED speed & battery display",
+    "max_incline": null,
+    "frame": null,
+    "off_road": false
+   },
+   "specs_extra": {
+    "Recommended age": "6–12 (riders 3.6–5.2 ft)",
+    "Start": "Kick-to-start",
+    "Lights": "Headlight + switchable 3-color side lights",
+    "Dimensions": "31.5 × 12.6 × 36.2 in",
+    "Warranty": "12 months"
+   },
+   "spec_sources": "Amazon listing. Battery voltage/capacity and a safety certification aren't published on the listing.",
+   "scores": {
+    "speed": 0,
+    "range": 0,
+    "power": 0,
+    "comfort": 3,
+    "portability": 10,
+    "safety": 6,
+    "value": 6
+   },
+   "editorial": {
+    "tagline": "A 15 lb starter e-scooter with 5/8/10 mph modes and an LED display.",
+    "summary": "ZDZA's ZK01 is a simple, very light kids' e-scooter for ages 6–12: 130 W motor, three speed modes up to 10 mph, a 5-mile range, a 3-hour charge, an LED speed and battery display, and hand + foot brakes. Sold and shipped by Amazon.",
+    "body": [
+     "The ZK01 keeps things basic for younger riders. A 130 W motor with kick-to-start and three speed modes (5, 8 and 10 mph) lets beginners start slow, and an LED display shows speed and remaining battery so nobody gets stranded at the far end of the park.",
+     "At 15 lb it's the lightest scooter in our catalog — kids can carry it themselves — and the 6.5-inch solid tires never go flat. A rear foot brake plus an electronic brake, a headlight and color-changing side lights cover the safety basics.",
+     "Keep expectations in line with the price: range is only about 5 miles, there's no suspension, no safety certification is listed, and the five ratings so far are too few (and, in the ones we could see, not marked as verified) to judge durability. It is sold by Amazon, so returns are simple."
+    ],
+    "pros": [
+     "Very light: 15 lb",
+     "5 / 8 / 10 mph modes for beginners",
+     "LED speed and battery display",
+     "Hand + foot brakes",
+     "Sold by Amazon — easy returns"
+    ],
+    "cons": [
+     "Short 5-mile range",
+     "No suspension; small solid tires",
+     "No safety certification listed",
+     "Very few reviews so far"
+    ],
+    "ideal_for": "Ages 6–10 riding short distances around the neighborhood or park.",
+    "not_for": "Older kids who want range or speed, or rough pavement.",
+    "verdict": "A light, simple first e-scooter at a fair price — but for UL certification and a longer track record, the Aolorozo E200 is the safer bet.",
+    "review_summary": "5.0★ from only 5 ratings; the visible reviews were posted on the same day and aren't marked as verified purchases, so there isn't enough history yet to judge durability.",
+    "reviews": []
+   }
+  },
+  {
+   "id": "maxshot-pr-teen",
+   "asin": "B0FVDQYTXH",
+   "name": "MAXSHOT PR (Teens)",
+   "brand": "MAXSHOT",
+   "model": "PR",
+   "variant": null,
+   "affiliate_url": "https://amzn.to/3VQaTdc",
+   "affiliate_tag": "microtools0f-20",
+   "canonical_url": "https://www.amazon.com/dp/B0FVDQYTXH",
+   "images": [
+    "71zokek0NSL",
+    "819OdtdXH0L",
+    "91A5I2DK9vL",
+    "81OSDrpWyCL",
+    "81yxajoTXYL",
+    "71VcyOFQdWL",
+    "71TTLHru2bL",
+    "81aRcvNMujL"
+   ],
+   "tags": [
+    "kids",
+    "folding"
+   ],
+   "featured": false,
+   "badge": "For teens 10+",
+   "seller": "MAXSHOT Shop",
+   "price": 139.99,
+   "list_price": null,
+   "price_date": "2026-09-25",
+   "availability": "In stock · 900+ bought last month",
+   "rating": 3.7,
+   "reviews_count": 288,
+   "rating_breakdown": {
+    "5": 58,
+    "4": 8,
+    "3": 5,
+    "2": 4,
+    "1": 25
+   },
+   "specs": {
+    "top_speed_mph": 19,
+    "range_mi": 12,
+    "range_note": "Three modes: 7.5 / 11 / 19 mph. Claimed 12 mi per charge.",
+    "motor_config": "Single hub motor",
+    "motor_rated_w": 350,
+    "motor_peak_w": 350,
+    "battery_v": 36,
+    "battery_ah": 4.5,
+    "battery_wh": 162,
+    "battery_removable": false,
+    "charge_time_h": 5,
+    "weight_lb": 22,
+    "max_load_lb": 265,
+    "tire_size_in": 8.5,
+    "tire_type": "Solid",
+    "brakes": "Front EABS + rear drum",
+    "abs": false,
+    "suspension": "Front & rear",
+    "ip_rating": null,
+    "foldable": true,
+    "seat": false,
+    "certification": "UL 2272",
+    "display": "App (speed limit, modes, battery)",
+    "max_incline": "15%",
+    "frame": "Aluminum",
+    "off_road": false
+   },
+   "specs_extra": {
+    "Recommended age": "10+ (teens and small adults)",
+    "Lights": "Front and rear lights",
+    "Folding": "One-click fold in about 3 seconds",
+    "Listing note": "Multi-variant listing (6.5\"/8.5\"/14\" tires). Specs shown are for the 8.5\" PR model at this price.",
+    "Warranty": "12 months on main components (180–365 days by part)"
+   },
+   "spec_sources": "Amazon listing (PR, 8.5\" variant). Battery Wh = 36 V × 4.5 Ah. Charge time: bullets say 5 h, the spec table 4 h.",
+   "scores": {
+    "speed": 2,
+    "range": 0,
+    "power": 1,
+    "comfort": 5,
+    "portability": 10,
+    "safety": 6,
+    "value": 6
+   },
+   "editorial": {
+    "tagline": "A $140 UL-certified scooter for teens, with an app to cap the speed.",
+    "summary": "The MAXSHOT PR is aimed at ages 10+: 350 W motor, three modes up to 19 mph, 12-mile range, dual suspension, 8.5\" solid tires, front EABS + rear drum brakes, UL 2272 and an app that lets parents limit top speed.",
+    "body": [
+     "The PR sits between kids' scooters and adult commuters. A 350 W motor gives three modes — 7.5, 11 and 19 mph — and the app lets parents cap the speed, check the battery and change modes. Suspension at both ends softens the 8.5-inch solid tires, and it's UL 2272 certified.",
+     "It sells in big numbers (900+ last month) and at $140 it's the cheapest electric scooter in our catalog. Parents like the three speeds for different skill levels, the sturdy feel and the easy fold; one family praised MAXSHOT's support after a loose faceplate and a failed power button.",
+     "The flip side is consistency: a quarter of ratings are 1-star, citing missing screws, batteries that don't hold charge and a unit that only ran while plugged in. Inspect it on arrival, set a speed limit in the app, and keep the return window in mind."
+    ],
+    "pros": [
+     "Cheapest electric scooter in our catalog",
+     "UL 2272 certified",
+     "App speed limit for parents",
+     "Dual suspension",
+     "22 lb, folds in seconds"
+    ],
+    "cons": [
+     "25% 1-star ratings (battery and assembly issues)",
+     "Short 12-mile range",
+     "19 mph is fast for younger kids — use the limiter",
+     "Drum rear brake"
+    ],
+    "ideal_for": "Teens (10+) who've outgrown 10 mph kids' scooters, with a parent setting the speed limit.",
+    "not_for": "Younger children, or buyers who want proven quality control.",
+    "verdict": "Lots of scooter for $140 with a useful speed limiter — but quality is hit-and-miss, so check it thoroughly when it arrives.",
+    "review_summary": "3.7★ from 288 ratings and polarized: 66% give 4–5 stars for the speed modes, build and folding; 25% give 1 star for missing screws, batteries that won't hold a charge and electrical faults. Several reviewers say it suits kids 13+ better than younger ones.",
+    "reviews": [
+     {
+      "author": "Kimberly colon",
+      "stars": 5,
+      "date": "2026-08-25",
+      "title": "More for bigger kids 13+",
+      "excerpt": "This scooter was bigger than I thought. It's nice and fast has different modes."
+     },
+     {
+      "author": "Amazon Customer",
+      "stars": 5,
+      "date": "2026-08-13",
+      "title": "Excellent customer service",
+      "excerpt": "It's nice to have 3 different speed setting for their different skill levels."
+     },
+     {
+      "author": "Kentz",
+      "stars": 4,
+      "date": "2026-01-05",
+      "title": "Great Scooter With Strong Features, But Some Issues to Be Aware Of",
+      "excerpt": "The dual suspension makes a noticeable difference on rougher sidewalks and uneven pavement."
+     },
+     {
+      "author": "Kindle Customer",
+      "stars": 1,
+      "date": "2026-08-19",
+      "title": "Disappointing Experience-serious safety concern",
+      "excerpt": "From the beginning, it had issues and would only stay on while plugged in."
+     }
+    ]
+   }
+  },
+  {
+   "id": "gotrax-gxl-v2",
+   "asin": "B0CTC7B7LN",
+   "name": "Gotrax GXL V2",
+   "brand": "Gotrax",
+   "model": "GXL V2",
+   "variant": null,
+   "affiliate_url": "https://amzn.to/4hOjohu",
+   "affiliate_tag": "microtools0f-20",
+   "canonical_url": "https://www.amazon.com/dp/B0CTC7B7LN",
+   "images": [
+    "61PydAGLjQL",
+    "81sU1KTBzgL",
+    "81qKlPnmHEL",
+    "71HopuPmeQL",
+    "81gGFA3JIWL",
+    "81JeMRmswUL",
+    "8171+cRTeTL",
+    "611CI5RBM+L"
+   ],
+   "tags": [
+    "urban",
+    "folding",
+    "adults"
+   ],
+   "featured": true,
+   "badge": "Best-seller under $250",
+   "seller": "Amazon.com",
+   "price": 227.0,
+   "list_price": 299.99,
+   "price_date": "2026-09-25",
+   "availability": "In stock · 100+ bought last month",
+   "rating": 4.3,
+   "reviews_count": 3423,
+   "rating_breakdown": {
+    "5": 69,
+    "4": 14,
+    "3": 4,
+    "2": 3,
+    "1": 10
+   },
+   "specs": {
+    "top_speed_mph": 15.5,
+    "range_mi": 12,
+    "range_note": "Claimed 12 mi. A 190 lb owner says it isn't fast; lighter riders get closer to the claim.",
+    "motor_config": "Single brushless hub motor",
+    "motor_rated_w": 250,
+    "motor_peak_w": null,
+    "battery_v": 36,
+    "battery_ah": 5.2,
+    "battery_wh": 187,
+    "battery_removable": null,
+    "charge_time_h": 4,
+    "weight_lb": 27,
+    "max_load_lb": 220,
+    "tire_size_in": 8.5,
+    "tire_type": "Solid honeycomb (no flats)",
+    "brakes": "Rear disc + electronic",
+    "abs": false,
+    "suspension": "Front (per listing)",
+    "ip_rating": null,
+    "foldable": true,
+    "seat": false,
+    "certification": "UL 2272",
+    "display": "LCD, cruise control",
+    "max_incline": null,
+    "frame": "Aluminum",
+    "off_road": false
+   },
+   "specs_extra": {
+    "Folded size": "43.7 × 17.3 × 16.1 in",
+    "Lights": "LED headlight",
+    "Cruise control": "Yes",
+    "Warranty": "1 year"
+   },
+   "spec_sources": "Amazon listing (sold by Amazon.com). Weight from the listing bullets (the title says 25.95 lb). Brake layout per Gotrax's GXL V2 description.",
+   "scores": {
+    "speed": 1,
+    "range": 0,
+    "power": 0,
+    "portability": 10,
+    "comfort": 4,
+    "safety": 7,
+    "value": 8
+   },
+   "editorial": {
+    "tagline": "The best-selling 27 lb starter commuter, sold and shipped by Amazon.",
+    "summary": "A light, simple first scooter: 250 W, 15.5 mph, about 12 miles of range, no-flat 8.5\" tires and UL 2272 — backed by 3,400+ ratings and Amazon's own returns.",
+    "body": [
+     "The GXL V2 is Gotrax's long-running entry commuter. A 250 W motor and a 36 V, 187 Wh battery give it a 15.5 mph top speed and a claimed 12 miles — enough for campus runs, a last mile from the train or short errands on flat ground.",
+     "At 27 lb it's one of the easiest adult scooters here to carry up stairs or onto a bus, and the honeycomb tires never go flat. It's UL 2272 certified, has a rear disc plus electronic brake, a clear LCD and cruise control. Because Amazon sells it directly, returns are simple.",
+     "It's a small-battery, low-power scooter: heavier riders say it feels slow, and one owner found the cruise control too easy to engage by accident. Owners repeatedly praise Gotrax support for replacing faulty units, including a controller that failed at 11 months."
+    ],
+    "pros": [
+     "Only 27 lb",
+     "UL 2272 certified",
+     "Sold by Amazon (easy returns)",
+     "No-flat tires",
+     "3,400+ ratings, 83% 4–5 stars"
+    ],
+    "cons": [
+     "250 W feels slow for heavier riders",
+     "12 mi range is short",
+     "Solid tires ride harsh on rough pavement",
+     "Some owners dislike the cruise control"
+    ],
+    "ideal_for": "Students and light adults with short, flat trips.",
+    "not_for": "Riders over ~190 lb, hills or commutes longer than 5 miles each way.",
+    "verdict": "A dependable, very light first scooter — buy it for short hops, not for speed.",
+    "review_summary": "4.3★ from 3,423 ratings (83% 4–5 stars). Owners like how light and easy it is and praise Gotrax support for swapping defective units. Complaints: slow for heavier riders, one reports a controller failure near 11 months, and one finds the cruise control dangerous.",
+    "reviews": [
+     {
+      "author": "Patricia Wolf",
+      "stars": 5,
+      "date": "2026-08-03",
+      "title": null,
+      "excerpt": "A fantastic, smooth commuter.",
+      "paraphrase": true
+     },
+     {
+      "author": "FR",
+      "stars": 5,
+      "date": "2026-08-14",
+      "title": null,
+      "excerpt": "Support exchanged a defective scooter without hassle.",
+      "paraphrase": true
+     },
+     {
+      "author": "natalya",
+      "stars": 4,
+      "date": "2021-06-02",
+      "title": null,
+      "excerpt": "Decent for beginners and easy to assemble.",
+      "paraphrase": true
+     },
+     {
+      "author": "Garret Khougaz",
+      "stars": 1,
+      "date": "2023-06-25",
+      "title": null,
+      "excerpt": "At 190 lb it isn't fast, and they call the cruise control dangerous.",
+      "paraphrase": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "volpam-q1",
+   "asin": "B0GWJ5PJS9",
+   "name": "VOLPAM Q1",
+   "brand": "VOLPAM",
+   "model": "Q1",
+   "variant": null,
+   "affiliate_url": "https://amzn.to/4AzllpA",
+   "affiliate_tag": "microtools0f-20",
+   "canonical_url": "https://www.amazon.com/dp/B0GWJ5PJS9",
+   "images": [
+    "711ZrcoFHqL",
+    "81U0836ZKRL",
+    "81L2yuo8oaL",
+    "81nB9SPJqdL",
+    "817xLW2XEvL",
+    "715sS7iApXL",
+    "816mPJzUXqL",
+    "71KTcXt9nbL"
+   ],
+   "tags": [
+    "urban",
+    "folding",
+    "adults"
+   ],
+   "featured": false,
+   "badge": null,
+   "seller": "VOLPAM Direct",
+   "price": 149.99,
+   "list_price": 229.99,
+   "price_date": "2026-09-25",
+   "availability": "In stock · 3K+ bought last month",
+   "rating": 4.1,
+   "reviews_count": 2331,
+   "rating_breakdown": {
+    "5": 66,
+    "4": 11,
+    "3": 7,
+    "2": 3,
+    "1": 13
+   },
+   "specs": {
+    "top_speed_mph": 19,
+    "range_mi": null,
+    "range_note": "The listing offers 350 W and 500 W versions rated 21, 28 or 40 mi. Pick the version on Amazon; one owner gets about 30 minutes per charge.",
+    "motor_config": "Single hub motor (350 W or 500 W by version)",
+    "motor_rated_w": null,
+    "motor_peak_w": null,
+    "battery_v": null,
+    "battery_ah": null,
+    "battery_wh": null,
+    "battery_removable": null,
+    "charge_time_h": null,
+    "weight_lb": null,
+    "max_load_lb": 264,
+    "tire_size_in": 8.5,
+    "tire_type": "Solid (10\" on some versions)",
+    "brakes": "Dual brakes (type not stated)",
+    "abs": false,
+    "suspension": null,
+    "ip_rating": null,
+    "foldable": true,
+    "seat": false,
+    "certification": null,
+    "display": "Digital display, app",
+    "max_incline": null,
+    "frame": null,
+    "off_road": false
+   },
+   "specs_extra": {
+    "Versions": "350 W / 500 W; 21, 28 or 40 mi claimed",
+    "Lights": "Headlight",
+    "Warranty": "1 year"
+   },
+   "spec_sources": "Amazon listing only. The listing covers several versions and doesn't publish weight, battery or certification, so those stay blank.",
+   "scores": {
+    "speed": 2,
+    "range": null,
+    "power": null,
+    "portability": null,
+    "comfort": 3,
+    "safety": 4,
+    "value": 6
+   },
+   "editorial": {
+    "tagline": "The cheapest adult scooter here, with the thinnest spec sheet.",
+    "summary": "Up to 19 mph and 264 lb capacity for about $150, with 2,300+ ratings. The listing leaves out weight, battery size and any UL certification.",
+    "body": [
+     "The Q1 is a budget folding commuter sold in several versions (350 W or 500 W, 21 to 40 miles claimed). All versions list 19 mph, dual brakes, an app and a 264 lb limit. It's the lowest-priced adult scooter in our catalog.",
+     "The trade-off is information. VOLPAM doesn't list the weight, battery capacity or a UL 2272 certification, so we can't score its range, power or portability and we rate its safety conservatively. Owners report bumps come straight through on rough pavement.",
+     "Most of its 2,300+ ratings are positive and buyers call it good value, but 13% are 1-star — including an E7 error inside two years with slow support. Treat it as a low-cost trial rather than a daily workhorse."
+    ],
+    "pros": [
+     "About $150",
+     "19 mph top speed",
+     "264 lb max load",
+     "2,300+ ratings"
+    ],
+    "cons": [
+     "No UL certification listed",
+     "Weight and battery size not published",
+     "Harsh ride on rough roads",
+     "13% 1-star ratings"
+    ],
+    "ideal_for": "Trying a scooter on a very small budget for short, smooth trips.",
+    "not_for": "Daily commuting where reliability and certified safety matter.",
+    "verdict": "Cheap and popular, but too many unknowns to recommend over a certified pick.",
+    "review_summary": "4.1★ from 2,331 ratings (77% 4–5 stars). Buyers like the price and quick assembly. Riders feel bumps on rough pavement, one gets about 30 minutes per charge, and a 1-star owner reports an E7 error and poor support.",
+    "reviews": [
+     {
+      "author": "Kirk B",
+      "stars": 5,
+      "date": "2024-11-07",
+      "title": null,
+      "excerpt": "Great value and easy to assemble.",
+      "paraphrase": true
+     },
+     {
+      "author": "James Griswald",
+      "stars": 5,
+      "date": "2026-09-19",
+      "title": null,
+      "excerpt": "Happy with it, though you feel bumps on rough pavement.",
+      "paraphrase": true
+     },
+     {
+      "author": "Nathan D.",
+      "stars": 4,
+      "date": "2026-08-30",
+      "title": null,
+      "excerpt": "Gets about 30 minutes per charge.",
+      "paraphrase": true
+     },
+     {
+      "author": "Laurie simmons",
+      "stars": 1,
+      "date": "2026-09-17",
+      "title": null,
+      "excerpt": "E7 error before two years and poor support.",
+      "paraphrase": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "hiboy-s2-pro",
+   "asin": "B086N23QBD",
+   "name": "Hiboy S2 Pro",
+   "brand": "Hiboy",
+   "model": "S2 Pro",
+   "variant": null,
+   "affiliate_url": "https://amzn.to/4joG894",
+   "affiliate_tag": "microtools0f-20",
+   "canonical_url": "https://www.amazon.com/dp/B086N23QBD",
+   "images": [
+    "61gggOqhLXL",
+    "71CTsdANQFL",
+    "819DhaBojsL",
+    "71YSABP3MtL",
+    "81gh5u4Ah+L",
+    "71rDSihgEzL",
+    "716ybM2leRL",
+    "71b-eYsr4kL"
+   ],
+   "tags": [
+    "urban",
+    "folding",
+    "adults"
+   ],
+   "featured": true,
+   "badge": "Most-reviewed commuter",
+   "seller": "Amazon.com",
+   "price": 422.95,
+   "list_price": 469.99,
+   "price_date": "2026-09-25",
+   "availability": "In stock · 700+ bought last month",
+   "rating": 4.3,
+   "reviews_count": 5730,
+   "rating_breakdown": {
+    "5": 72,
+    "4": 13,
+    "3": 4,
+    "2": 2,
+    "1": 9
+   },
+   "specs": {
+    "top_speed_mph": 19,
+    "range_mi": 25.6,
+    "range_note": "Claimed 25.6 mi. Owners report thousands of commuting miles; real range drops with hills and rider weight.",
+    "motor_config": "Single brushless hub motor",
+    "motor_rated_w": 500,
+    "motor_peak_w": 600,
+    "battery_v": 36,
+    "battery_ah": 11.6,
+    "battery_wh": 418,
+    "battery_removable": null,
+    "charge_time_h": 6,
+    "weight_lb": 37.4,
+    "max_load_lb": 220,
+    "tire_size_in": 10,
+    "tire_type": "Solid (no flats)",
+    "brakes": "Disc + regenerative (EABS)",
+    "abs": false,
+    "suspension": "Dual rear shocks",
+    "ip_rating": "IPX4",
+    "foldable": true,
+    "seat": false,
+    "certification": "UL 2272 / UL 2849",
+    "display": "LED display, app (lock, acceleration & braking tuning)",
+    "max_incline": null,
+    "frame": "Aluminum",
+    "off_road": false
+   },
+   "specs_extra": {
+    "Lights": "Headlight (49 ft), taillight",
+    "Accessories": "Optional seat",
+    "Charging": "4–6 h per Hiboy (listing says up to 8 h)",
+    "Warranty": "12 months (6 on some parts)"
+   },
+   "spec_sources": "Amazon listing (sold by Amazon.com) + hiboy.com for weight (37.4 lb), 600 W peak, IPX4 and charge time.",
+   "scores": {
+    "speed": 2,
+    "range": 2,
+    "power": 2,
+    "portability": 9,
+    "comfort": 6,
+    "safety": 7,
+    "value": 8
+   },
+   "editorial": {
+    "tagline": "The most-reviewed commuter in our catalog: 5,700+ ratings and a proven track record.",
+    "summary": "500 W, 19 mph, 25.6 miles, 10\" no-flat tires with rear shocks, UL certified and app-connected — a benchmark mid-range commuter at 37 lb.",
+    "body": [
+     "The S2 Pro has been one of Amazon's default commuter scooters for years. Its 500 W motor (600 W peak) reaches 19 mph, and a 418 Wh battery is rated for 25.6 miles. Dual rear shocks and 10-inch solid tires mean no flats and a reasonably smooth ride.",
+     "It's UL certified, IPX4 splash-resistant, and the app lets you lock the scooter and tune acceleration and regenerative braking. At 37.4 lb it still folds into a trunk. Several owners have replaced a car with it and logged more than a thousand miles.",
+     "The weak points are long-term: owners mention E7 errors or motor grinding after a year, and a few throttles failing early. Hiboy's support gets mostly good marks, and Amazon sells it directly."
+    ],
+    "pros": [
+     "5,700+ ratings, 85% 4–5 stars",
+     "UL certified, IPX4",
+     "No-flat 10\" tires + rear shocks",
+     "App tuning and lock",
+     "Sold by Amazon"
+    ],
+    "cons": [
+     "220 lb max load",
+     "Solid tires grip less in the wet",
+     "Some E7/motor issues after a year"
+    ],
+    "ideal_for": "Daily commuters up to 220 lb who want a proven, low-maintenance scooter.",
+    "not_for": "Heavier riders or steep hills.",
+    "verdict": "The safe, well-proven commuter choice — few scooters have this many happy owners.",
+    "review_summary": "4.3★ from 5,730 ratings (85% 4–5 stars). Owners report long battery life and 1,000+ miles of use; one replaced a car with two of them. Complaints: E7 errors or motor noise after a year and a throttle failure under two months.",
+    "reviews": [
+     {
+      "author": "D. Guenther",
+      "stars": 5,
+      "date": "2026-08-12",
+      "title": null,
+      "excerpt": "Bought two, replaced a car and has ridden thousands of miles.",
+      "paraphrase": true
+     },
+     {
+      "author": "Katie Gibbs",
+      "stars": 5,
+      "date": "2026-07-19",
+      "title": null,
+      "excerpt": "Great value with a long-lasting battery.",
+      "paraphrase": true
+     },
+     {
+      "author": "Bob",
+      "stars": 4,
+      "date": "2021-10-02",
+      "title": null,
+      "excerpt": "The app shows it peaking around 1,200–1,300 W on hills.",
+      "paraphrase": true
+     },
+     {
+      "author": "Olufenwa Famakinwa",
+      "stars": 1,
+      "date": "2026-09-17",
+      "title": null,
+      "excerpt": "Throttle stopped working in under two months.",
+      "paraphrase": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "hiboy-max-pro",
+   "asin": "B0BZCP67SD",
+   "name": "Hiboy MAX Pro",
+   "brand": "Hiboy",
+   "model": "MAX Pro",
+   "variant": null,
+   "affiliate_url": "https://amzn.to/3T7sMDH",
+   "affiliate_tag": "microtools0f-20",
+   "canonical_url": "https://www.amazon.com/dp/B0BZCP67SD",
+   "images": [
+    "61pW3GEUm9L",
+    "71TjJCCsFfL",
+    "71N4cvFxLVL",
+    "71Yqscdxr7L",
+    "81tChLu65IL",
+    "71QruX5xtWL",
+    "61MvXHbZzVL",
+    "61qcWBvXoML"
+   ],
+   "tags": [
+    "urban",
+    "folding",
+    "adults"
+   ],
+   "featured": false,
+   "badge": null,
+   "seller": "Amazon.com",
+   "price": 656.95,
+   "list_price": 729.99,
+   "price_date": "2026-09-25",
+   "availability": "In stock · 50+ bought last month",
+   "rating": 4.1,
+   "reviews_count": 1758,
+   "rating_breakdown": {
+    "5": 64,
+    "4": 13,
+    "3": 8,
+    "2": 4,
+    "1": 11
+   },
+   "specs": {
+    "top_speed_mph": 22,
+    "range_mi": 46.6,
+    "range_note": "Claimed 46.6 mi in Eco. Owners say top speed and range are best-case figures.",
+    "motor_config": "Single brushless hub motor",
+    "motor_rated_w": 500,
+    "motor_peak_w": 650,
+    "battery_v": 48,
+    "battery_ah": 15,
+    "battery_wh": 720,
+    "battery_removable": null,
+    "charge_time_h": 8,
+    "weight_lb": 51.6,
+    "max_load_lb": 265,
+    "tire_size_in": 11,
+    "tire_type": "Pneumatic",
+    "brakes": "Front & rear drum + regenerative",
+    "abs": false,
+    "suspension": "Front & rear",
+    "ip_rating": "IPX4",
+    "foldable": true,
+    "seat": false,
+    "certification": "UL 2272",
+    "display": "LED display, app",
+    "max_incline": "20%",
+    "frame": "Aluminum",
+    "off_road": false
+   },
+   "specs_extra": {
+    "Riding modes": "Eco 11 / D 16 / S 22 mph",
+    "Lights": "Headlight, side ambient lights, taillight",
+    "Charging": "8–9 h",
+    "Warranty": "12 months (6 on some parts)"
+   },
+   "spec_sources": "Amazon listing (sold by Amazon.com) + hiboy.com for weight (51.59 lb), 650 W peak, IPX4, 20% climbing.",
+   "scores": {
+    "speed": 2,
+    "range": 5,
+    "power": 3,
+    "portability": 7,
+    "comfort": 7,
+    "safety": 6,
+    "value": 7
+   },
+   "editorial": {
+    "tagline": "A 720 Wh long-range commuter with air tires and full suspension.",
+    "summary": "48 V / 720 Wh battery for up to 46.6 miles, 22 mph, 11\" pneumatic tires, dual suspension and drum brakes — range-per-dollar is the selling point.",
+    "body": [
+     "The MAX Pro is Hiboy's long-range model. A 48 V, 720 Wh battery is almost twice the S2 Pro's, rated for up to 46.6 miles in Eco. The 500 W motor (650 W peak) reaches 22 mph in Sport mode.",
+     "Big 11-inch air tires and suspension at both ends make it more comfortable than solid-tire commuters, and sealed drum brakes front and rear need little maintenance. It's UL 2272 certified and IPX4. At 51.6 lb it's a two-hand lift, and charging takes 8–9 hours.",
+     "Owners in flat cities call it life-changing, but many note the speed and range are best-case. Complaints include electrical faults and air tires that are hard to repair when they puncture."
+    ],
+    "pros": [
+     "720 Wh battery, 46.6 mi claimed",
+     "11\" air tires + dual suspension",
+     "Low-maintenance drum brakes",
+     "UL 2272, IPX4",
+     "Sold by Amazon"
+    ],
+    "cons": [
+     "650 W peak is modest for hills",
+     "51.6 lb",
+     "8–9 h charging",
+     "Punctures are a hassle to fix"
+    ],
+    "ideal_for": "Longer flat commutes where range matters more than speed.",
+    "not_for": "Steep hills or riders who need to carry it often.",
+    "verdict": "Lots of battery and comfort for the price — just don't expect hill-climbing muscle.",
+    "review_summary": "4.1★ from 1,758 ratings (77% 4–5 stars). Owners love the range and comfort in flat cities and find setup easy. Complaints: claimed speed/range are best-case, it's heavy, and a few report electrical problems and hard-to-fix flats.",
+    "reviews": [
+     {
+      "author": "Kent!",
+      "stars": 5,
+      "date": "2019-12-17",
+      "title": null,
+      "excerpt": "A life-changer in flat Chicago.",
+      "paraphrase": true
+     },
+     {
+      "author": "Brian Whitney",
+      "stars": 5,
+      "date": "2019-05-17",
+      "title": null,
+      "excerpt": "Easy setup; speed and battery figures are best-case.",
+      "paraphrase": true
+     },
+     {
+      "author": "Gordon24",
+      "stars": 4,
+      "date": "2019-12-05",
+      "title": null,
+      "excerpt": "Good scooter, but heavy.",
+      "paraphrase": true
+     },
+     {
+      "author": "Ryan Zurrin",
+      "stars": 1,
+      "date": "2023-10-13",
+      "title": null,
+      "excerpt": "Electrical issues, and a flat tire was hard to fix.",
+      "paraphrase": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "segway-max-g2",
+   "asin": "B0C65CMKTK",
+   "name": "Segway Ninebot MAX G2",
+   "brand": "Segway",
+   "model": "Ninebot MAX G2",
+   "variant": null,
+   "affiliate_url": "https://amzn.to/4xMGfie",
+   "affiliate_tag": "microtools0f-20",
+   "canonical_url": "https://www.amazon.com/dp/B0C65CMKTK",
+   "images": [
+    "61voJ8aLMUL",
+    "81X2CIgWZHL",
+    "71XYZwL+sjL",
+    "81RvMFlEg2L",
+    "81HnOGaTDtL",
+    "71c2tueAdRL",
+    "61R4KFnNVsL",
+    "71X2HSN36mL"
+   ],
+   "tags": [
+    "urban",
+    "folding",
+    "adults"
+   ],
+   "featured": true,
+   "badge": "Best commuter under $800",
+   "seller": "Amazon.com",
+   "price": 749.99,
+   "list_price": 999.99,
+   "price_date": "2026-09-25",
+   "availability": "In stock · 400+ bought last month",
+   "rating": 4.2,
+   "reviews_count": 513,
+   "rating_breakdown": {
+    "5": 69,
+    "4": 10,
+    "3": 6,
+    "2": 1,
+    "1": 14
+   },
+   "specs": {
+    "top_speed_mph": 22,
+    "range_mi": 43,
+    "range_note": "Claimed 43 mi. ERideHero measured about 30 mi in real riding; one owner says the range is overstated.",
+    "motor_config": "Single rear hub motor",
+    "motor_rated_w": 450,
+    "motor_peak_w": 1000,
+    "battery_v": 36,
+    "battery_ah": 15.3,
+    "battery_wh": 551,
+    "battery_removable": null,
+    "charge_time_h": 6,
+    "weight_lb": 53.5,
+    "max_load_lb": 265,
+    "tire_size_in": 10,
+    "tire_type": "Self-healing tubeless",
+    "brakes": "Front drum + rear electronic",
+    "abs": false,
+    "suspension": "Front hydraulic + rear spring",
+    "ip_rating": "IPX5",
+    "foldable": true,
+    "seat": false,
+    "certification": "UL 2272 & UL 2271",
+    "display": "LED dashboard, app, Apple Find My",
+    "max_incline": null,
+    "frame": "Alloy steel",
+    "off_road": false
+   },
+   "specs_extra": {
+    "Traction control": "Yes (TCS)",
+    "Lights": "LED headlight, turn signals, brake light",
+    "Charger": "Built-in",
+    "Tracking": "Apple Find My",
+    "Warranty": "2 years limited"
+   },
+   "spec_sources": "Amazon listing (sold by Amazon.com) + ERideHero spec sheet for weight (53.5 lb), 450 W rated, battery 36 V/15.3 Ah and IPX5.",
+   "scores": {
+    "speed": 2,
+    "range": 4,
+    "power": 4,
+    "portability": 7,
+    "comfort": 8,
+    "safety": 9,
+    "value": 8
+   },
+   "editorial": {
+    "tagline": "Segway's comfort commuter: suspension, traction control and Find My, now $250 off.",
+    "summary": "22 mph, 43 mi claimed, 1,000 W peak, self-healing tubeless tires, front hydraulic + rear spring suspension, turn signals, UL 2272/2271 and a 2-year warranty.",
+    "body": [
+     "The MAX G2 is the scooter many reviewers call the most comfortable commuter under $1,000. A 1,000 W-peak rear motor tops out at 22 mph, and the 551 Wh battery is rated for 43 miles (about 30 in independent testing). The charger is built in, so you just plug in a cable.",
+     "It's packed with safety kit: traction control, self-healing tubeless tires, a hydraulic front fork and rear spring suspension, turn signals, a 2-year warranty and both UL 2272 and UL 2271 certification. Apple Find My support helps if it's stolen.",
+     "At 53.5 lb it's heavy to carry, and the front drum brake is adequate rather than strong. 14% of ratings are 1-star, including one owner whose scooter broke down four times in a year; most owners praise its hill power and all-terrain feel."
+    ],
+    "pros": [
+     "Traction control + turn signals",
+     "Self-healing tubeless tires",
+     "Front hydraulic suspension",
+     "UL 2272 & 2271, IPX5",
+     "2-year warranty, sold by Amazon"
+    ],
+    "cons": [
+     "53.5 lb",
+     "Real range closer to 30 mi",
+     "Drum brake up front",
+     "14% 1-star ratings"
+    ],
+    "ideal_for": "Daily commuters who want comfort, safety features and a big-brand warranty.",
+    "not_for": "Anyone who carries their scooter up stairs.",
+    "verdict": "The most complete sub-$800 commuter here — safe, comfortable and well supported.",
+    "review_summary": "4.2★ from 513 ratings (79% 4–5 stars). Owners praise its hill power, battery and SUV-like ride. Complaints: range is overstated, and one owner had four breakdowns in a year (scraping noise, rear wheel drag).",
+    "reviews": [
+     {
+      "author": "shopping Marine",
+      "stars": 5,
+      "date": "2026-09-08",
+      "title": null,
+      "excerpt": "Great hill power and battery.",
+      "paraphrase": true
+     },
+     {
+      "author": "Veronica Verdecia Quevedo",
+      "stars": 5,
+      "date": "2026-05-10",
+      "title": null,
+      "excerpt": "First scooter; feels like an all-terrain SUV.",
+      "paraphrase": true
+     },
+     {
+      "author": "Ricardo Ledesma",
+      "stars": 4,
+      "date": "2026-05-22",
+      "title": null,
+      "excerpt": "Fun and durable, but range is overstated.",
+      "paraphrase": true
+     },
+     {
+      "author": "Randy",
+      "stars": 1,
+      "date": "2026-07-27",
+      "title": null,
+      "excerpt": "Broke down four times in a year.",
+      "paraphrase": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "segway-f3",
+   "asin": "B0DZ1P8M85",
+   "name": "Segway Ninebot F3",
+   "brand": "Segway",
+   "model": "Ninebot F3",
+   "variant": null,
+   "affiliate_url": "https://amzn.to/4yTGmJN",
+   "affiliate_tag": "microtools0f-20",
+   "canonical_url": "https://www.amazon.com/dp/B0DZ1P8M85",
+   "images": [
+    "61AU16T5LLL",
+    "71+R2qr9BVL",
+    "71AHvyFBdjL",
+    "71ihLJkOO3L",
+    "812Z5zruy8L",
+    "711CWQNImtL",
+    "71w74I4CGaL",
+    "61BpYWm4eLL"
+   ],
+   "tags": [
+    "urban",
+    "folding",
+    "adults"
+   ],
+   "featured": false,
+   "badge": "Lightest Segway commuter",
+   "seller": "Amazon.com",
+   "price": 799.99,
+   "list_price": 849.99,
+   "price_date": "2026-09-25",
+   "availability": "In stock · 200+ bought last month",
+   "rating": 4.4,
+   "reviews_count": 147,
+   "rating_breakdown": {
+    "5": 75,
+    "4": 11,
+    "3": 3,
+    "2": 2,
+    "1": 9
+   },
+   "specs": {
+    "top_speed_mph": 20,
+    "range_mi": 44,
+    "range_note": "Claimed 44 mi in Eco. An optional 460 Wh add-on battery raises the claim to 81 mi.",
+    "motor_config": "Single hub motor",
+    "motor_rated_w": 450,
+    "motor_peak_w": 1000,
+    "battery_v": 46.8,
+    "battery_ah": 9.2,
+    "battery_wh": 477,
+    "battery_removable": null,
+    "charge_time_h": 8,
+    "weight_lb": 41,
+    "max_load_lb": 265,
+    "tire_size_in": 10,
+    "tire_type": "Self-sealing tubeless",
+    "brakes": "Front disc + rear electronic",
+    "abs": false,
+    "suspension": "Front hydraulic + rear elastomer",
+    "ip_rating": "IPX6",
+    "foldable": true,
+    "seat": false,
+    "certification": "UL 2272 & UL 2271",
+    "display": "TFT display, app, Apple Find My",
+    "max_incline": null,
+    "frame": "Magnesium alloy",
+    "off_road": false
+   },
+   "specs_extra": {
+    "Stability": "SegRide stability system",
+    "Expandable battery": "Optional 460 Wh external pack",
+    "Tracking": "Apple Find My",
+    "Warranty": "2 years limited"
+   },
+   "spec_sources": "Amazon listing (sold by Amazon.com) + ERideHero spec sheet for weight (41 lb), 450 W / 1,000 W and battery 46.8 V / 477 Wh.",
+   "scores": {
+    "speed": 2,
+    "range": 4,
+    "power": 4,
+    "portability": 8,
+    "comfort": 8,
+    "safety": 9,
+    "value": 7
+   },
+   "editorial": {
+    "tagline": "A lighter, better-braked Segway commuter with a magnesium frame and IPX6.",
+    "summary": "20 mph, 44 mi claimed, 41 lb, front disc brake, front hydraulic suspension, IPX6, UL 2272/2271 and an optional battery that nearly doubles range.",
+    "body": [
+     "The F3 is Segway's newer premium commuter. A magnesium-alloy frame keeps it at 41 lb — about 12 lb lighter than the MAX G2 — while a 1,000 W-peak motor, 477 Wh battery and 44-mile claimed range cover most commutes. It's capped at 20 mph.",
+     "It improves on the G2 where it matters: a front disc brake instead of a drum, IPX6 water resistance, a TFT display, SegRide stability control and self-sealing tubeless tires with front hydraulic suspension. A plug-in 460 Wh battery can push the claim to 81 miles.",
+     "Owners who came from the MAX G2 or F40 say it climbs better and feels more premium. The 1-star reviews are about a pre-order that never shipped, not the scooter. With 147 ratings, it's newer and less proven than the G2."
+    ],
+    "pros": [
+     "41 lb with a magnesium frame",
+     "Front disc + front hydraulic suspension",
+     "IPX6, UL 2272 & 2271",
+     "Optional range-extender battery",
+     "2-year warranty, sold by Amazon"
+    ],
+    "cons": [
+     "20 mph cap",
+     "8 h charging",
+     "Only 147 ratings so far"
+    ],
+    "ideal_for": "Commuters who want Segway safety features in a lighter, more weatherproof package.",
+    "not_for": "Riders who want more than 20 mph.",
+    "verdict": "The lightest and best-braked Segway commuter — worth the extra $50 over the G2.",
+    "review_summary": "4.4★ from 147 ratings (86% 4–5 stars). Owners describe a premium, stable ride; upgraders from the F40 and MAX G2 say it climbs better and rides more comfortably. The main 1-star complaint is a pre-order that never shipped.",
+    "reviews": [
+     {
+      "author": "Skootz",
+      "stars": 4,
+      "date": "2025-04-28",
+      "title": null,
+      "excerpt": "Better than the MAX G2 in almost every way; climbs better and is lighter.",
+      "paraphrase": true
+     },
+     {
+      "author": "NC",
+      "stars": 5,
+      "date": "2025-07-26",
+      "title": null,
+      "excerpt": "Upgraded from an F40 after 1,500 miles; more torque and comfort.",
+      "paraphrase": true
+     },
+     {
+      "author": "ZC",
+      "stars": 5,
+      "date": "2026-08-04",
+      "title": null,
+      "excerpt": "Great build and stability, though heavy.",
+      "paraphrase": true
+     },
+     {
+      "author": "BP",
+      "stars": 5,
+      "date": "2026-09-18",
+      "title": null,
+      "excerpt": "Feels premium.",
+      "paraphrase": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "cunfon-rz800",
+   "asin": "B0CJXXMLS3",
+   "name": "CUNFON RZ800",
+   "brand": "CUNFON",
+   "model": "RZ800",
+   "variant": null,
+   "affiliate_url": "https://amzn.to/3TSg3VB",
+   "affiliate_tag": "microtools0f-20",
+   "canonical_url": "https://www.amazon.com/dp/B0CJXXMLS3",
+   "images": [
+    "71MLjCvpFYL",
+    "81if3KFKUlL",
+    "81jz+rCbOQL",
+    "71MKF2sipSL",
+    "71+-10-9E+L",
+    "71AfMYX+I2L",
+    "71hLJ4w6CNL",
+    "71NbUcMaDvL"
+   ],
+   "tags": [
+    "urban",
+    "off-road",
+    "folding",
+    "adults"
+   ],
+   "featured": false,
+   "badge": "Fastest under $800",
+   "seller": "CUNFON Official Store",
+   "price": 798.99,
+   "list_price": 849.99,
+   "price_date": "2026-09-25",
+   "availability": "Only a few left in stock",
+   "rating": 4.3,
+   "reviews_count": 699,
+   "rating_breakdown": {
+    "5": 74,
+    "4": 8,
+    "3": 5,
+    "2": 4,
+    "1": 9
+   },
+   "specs": {
+    "top_speed_mph": 31,
+    "range_mi": 50,
+    "range_note": "Claimed 50 mi in Eco, 25 mi in Race mode (CUNFON). A 20 mph version exists for NY/CA.",
+    "motor_config": "Single rear brushless motor",
+    "motor_rated_w": 1200,
+    "motor_peak_w": 1600,
+    "battery_v": 48,
+    "battery_ah": 18,
+    "battery_wh": 864,
+    "battery_removable": null,
+    "charge_time_h": 6,
+    "weight_lb": 59.5,
+    "max_load_lb": 330,
+    "tire_size_in": 10.5,
+    "tire_type": "Pneumatic off-road",
+    "brakes": "Front & rear disc + electronic",
+    "abs": false,
+    "suspension": "Dual spring, adjustable damping",
+    "ip_rating": "IP56 (brand-stated)",
+    "foldable": true,
+    "seat": false,
+    "certification": "UL 2272",
+    "display": "Display, app, fingerprint unlock",
+    "max_incline": "30%",
+    "frame": "Aluminum",
+    "off_road": true
+   },
+   "specs_extra": {
+    "Unlock": "Fingerprint + app",
+    "Lights": "Headlight, turn signals, ambient lights",
+    "Rider height": "5'2\"–6'6\"",
+    "Charging": "6–8 h",
+    "Warranty": "2 years"
+   },
+   "spec_sources": "Amazon listing + mall.cunfon.com for weight (59.5 lb), 1,200 W rated / 1,600 W peak and 48 V 18 Ah. The Amazon title lists 1,000 W for some versions.",
+   "scores": {
+    "speed": 4,
+    "range": 5,
+    "power": 5,
+    "portability": 7,
+    "comfort": 7,
+    "safety": 6,
+    "value": 8
+   },
+   "editorial": {
+    "tagline": "31 mph, 864 Wh and dual disc brakes for under $800.",
+    "summary": "A 1,600 W-peak, 48 V / 864 Wh scooter with 10.5\" air tires, adjustable dual suspension, dual discs, turn signals and fingerprint unlock — Segway-level speed for less.",
+    "body": [
+     "The RZ800 packs more performance than anything else under $800 here. CUNFON rates the rear motor at 1,200 W (1,600 W peak) for 31 mph, and a 48 V, 864 Wh battery is claimed to last 50 miles in Eco. The Amazon listing covers several versions, including a 1,000 W one, so check the selection.",
+     "10.5-inch pneumatic off-road tires, adjustable spring suspension at both ends and front and rear disc brakes make it stable on broken pavement and gravel. It adds turn signals, ambient lights and fingerprint unlock, carries 330 lb and is UL 2272 certified.",
+     "It's 59.5 lb, so it's not for carrying. Owners call the brakes strong and controllable, the board wide and setup easy (four screws); one says it beats their Hiboy. It's sold by CUNFON rather than Amazon, with a 2-year warranty."
+    ],
+    "pros": [
+     "31 mph, 1,600 W peak",
+     "864 Wh battery",
+     "Front & rear disc brakes",
+     "Adjustable dual suspension",
+     "330 lb capacity, 2-year warranty"
+    ],
+    "cons": [
+     "59.5 lb",
+     "Sold by the brand, not Amazon",
+     "Listing mixes versions (check motor/speed)",
+     "IP56 is brand-stated"
+    ],
+    "ideal_for": "Heavier adults who want speed and range on a mid-range budget.",
+    "not_for": "Riders who carry their scooter or live where 20 mph limits apply (get the NY/CA version).",
+    "verdict": "The most scooter per dollar under $800 — if you don't need to lift it.",
+    "review_summary": "4.3★ from 699 ratings (82% 4–5 stars). Owners praise the power, smooth ride, wide deck, strong brakes and bright lights, and say setup takes four screws. One calls it better than their Hiboy; an owner rates it a very good entry-level performance scooter.",
+    "reviews": [
+     {
+      "author": "Marvin Elmer",
+      "stars": 5,
+      "date": "2026-09-03",
+      "title": null,
+      "excerpt": "Smooth, wide board, strong and controllable brakes, bright lights.",
+      "paraphrase": true
+     },
+     {
+      "author": "William",
+      "stars": 5,
+      "date": "2026-01-09",
+      "title": null,
+      "excerpt": "Fantastic, with plenty of power.",
+      "paraphrase": true
+     },
+     {
+      "author": "Casey Haines",
+      "stars": 5,
+      "date": "2026-09-12",
+      "title": null,
+      "excerpt": "Better than their Hiboy.",
+      "paraphrase": true
+     },
+     {
+      "author": "MIKEGOF",
+      "stars": 4,
+      "date": "2025-01-29",
+      "title": null,
+      "excerpt": "A very good entry-level choice.",
+      "paraphrase": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "segway-zt3-pro",
+   "asin": "B0DDTFMPS6",
+   "name": "Segway ZT3 Pro",
+   "brand": "Segway",
+   "model": "ZT3 Pro",
+   "variant": null,
+   "affiliate_url": "https://amzn.to/4dYbjV7",
+   "affiliate_tag": "microtools0f-20",
+   "canonical_url": "https://www.amazon.com/dp/B0DDTFMPS6",
+   "images": [
+    "61sLM-QIp5L",
+    "71Nt31ZEgRL",
+    "71AHvyFBdjL",
+    "81zKSj+NONL",
+    "915J3URSqdL",
+    "71PuEvDL8zL",
+    "814LPBj6iRL",
+    "71usP-vY2iL"
+   ],
+   "tags": [
+    "off-road",
+    "folding",
+    "adults"
+   ],
+   "featured": true,
+   "badge": "Best all-terrain under $1,000",
+   "seller": "Amazon.com",
+   "price": 899.0,
+   "list_price": 999.99,
+   "price_date": "2026-09-25",
+   "availability": "In stock · 200+ bought last month",
+   "rating": 4.5,
+   "reviews_count": 387,
+   "rating_breakdown": {
+    "5": 82,
+    "4": 5,
+    "3": 4,
+    "2": 3,
+    "1": 6
+   },
+   "specs": {
+    "top_speed_mph": 24.9,
+    "range_mi": 43.5,
+    "range_note": "Claimed 43.5 mi in Eco. Owners ride it on grass, dirt and gravel as well as pavement.",
+    "motor_config": "Single hub motor",
+    "motor_rated_w": 650,
+    "motor_peak_w": 1600,
+    "battery_v": 46.8,
+    "battery_ah": 12.8,
+    "battery_wh": 597,
+    "battery_removable": null,
+    "charge_time_h": 4,
+    "weight_lb": 65,
+    "max_load_lb": 265,
+    "tire_size_in": 11,
+    "tire_type": "Off-road tubeless",
+    "brakes": "Front & rear disc",
+    "abs": false,
+    "suspension": "Dual front telescopic fork + rear spring",
+    "ip_rating": "IPX5",
+    "foldable": true,
+    "seat": false,
+    "certification": "UL 2272 & UL 2271",
+    "display": "Display, app, Apple Find My",
+    "max_incline": "25%",
+    "frame": "Alloy steel",
+    "off_road": true
+   },
+   "specs_extra": {
+    "Charging": "Flash charge ~4 h",
+    "Lights": "Headlight, turn signals",
+    "Walk mode": "Yes",
+    "Tracking": "Apple Find My",
+    "Warranty": "2 years"
+   },
+   "spec_sources": "Amazon listing (sold by Amazon.com) + ScooterRank spec sheet for weight (65 lb), 650 W rated and battery 46.8 V / 12.8 Ah / 597 Wh.",
+   "scores": {
+    "speed": 2,
+    "range": 4,
+    "power": 5,
+    "portability": 6,
+    "comfort": 8,
+    "safety": 9,
+    "value": 8
+   },
+   "editorial": {
+    "tagline": "A real all-terrain Segway for under $900, with the best ratings in its class.",
+    "summary": "1,600 W peak, 24.9 mph, 43.5 mi claimed, 11\" off-road tubeless tires, dual suspension, dual discs, IPX5 and UL 2272/2271 — 4.5★ from 387 owners.",
+    "body": [
+     "The ZT3 Pro is Segway's go-anywhere scooter. A 1,600 W-peak motor reaches 24.9 mph and climbs 25% grades; the 597 Wh battery is rated for 43.5 miles and flash-charges in about 4 hours.",
+     "11-inch knobby tubeless tires, a dual telescopic front fork and rear spring suspension let owners ride grass, dirt and gravel as comfortably as pavement. Front and rear disc brakes, turn signals, IPX5, Find My and dual UL certification round it out, with a 2-year warranty.",
+     "At 65 lb it's a heavy fold. It has the highest rating share in our mid-range group (87% 5 or 4 stars); owners, including a 65-year-old rider in Colorado with 100+ miles, describe it as very well built for the price. A few mention small quirks."
+    ],
+    "pros": [
+     "4.5★, 87% 4–5 stars",
+     "11\" off-road tires + dual suspension",
+     "Dual disc brakes, turn signals",
+     "4 h flash charge",
+     "UL 2272 & 2271, 2-year warranty"
+    ],
+    "cons": [
+     "65 lb",
+     "265 lb max load",
+     "24.9 mph is modest for off-road class"
+    ],
+    "ideal_for": "Riders who mix pavement with gravel paths, parks and dirt roads.",
+    "not_for": "Apartment dwellers who need to carry it.",
+    "verdict": "The best-rated all-terrain scooter under $1,000 and a safe big-brand buy.",
+    "review_summary": "4.5★ from 387 ratings (87% 4–5 stars). Owners call it exceptionally well built, confident on grass, dirt and gravel, and like the turn signals, Find My and walk mode. Only minor quirks are mentioned.",
+    "reviews": [
+     {
+      "author": "TODD WARBOYS",
+      "stars": 5,
+      "date": "2026-06-03",
+      "title": null,
+      "excerpt": "Exceptionally well built for the price.",
+      "paraphrase": true
+     },
+     {
+      "author": "Chris Albrecht",
+      "stars": 5,
+      "date": "2026-05-06",
+      "title": null,
+      "excerpt": "Handles grass, dirt, gravel and pavement.",
+      "paraphrase": true
+     },
+     {
+      "author": "HLV",
+      "stars": 5,
+      "date": "2026-06-21",
+      "title": null,
+      "excerpt": "A 65-year-old rider in Colorado, 100+ miles and happy.",
+      "paraphrase": true
+     },
+     {
+      "author": "Rob",
+      "stars": 5,
+      "date": "2026-07-13",
+      "title": null,
+      "excerpt": "Great, with a couple of small quirks.",
+      "paraphrase": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "navee-xt5-pro",
+   "asin": "B0G1BLC71Y",
+   "name": "NAVEE XT5 Pro",
+   "brand": "NAVEE",
+   "model": "XT5 Pro",
+   "variant": "XT5 Pro (multi-model listing)",
+   "affiliate_url": "https://amzn.to/4xWQaSI",
+   "affiliate_tag": "microtools0f-20",
+   "canonical_url": "https://www.amazon.com/dp/B0G1BLC71Y",
+   "images": [
+    "61I1wKnzV9L",
+    "61idRk0JanL",
+    "71NwjD-N9BL",
+    "71SmGMAejqL",
+    "71nKwQ5ge5L",
+    "71TKJcp1taL",
+    "81tZijMSOFL",
+    "711SjREjECL"
+   ],
+   "tags": [
+    "off-road",
+    "folding",
+    "high-power",
+    "adults"
+   ],
+   "featured": false,
+   "badge": null,
+   "seller": "NAVEE Official",
+   "price": 1199.99,
+   "list_price": null,
+   "price_date": "2026-09-25",
+   "availability": "In stock",
+   "rating": 4.2,
+   "reviews_count": 59,
+   "rating_breakdown": {
+    "5": 58,
+    "4": 20,
+    "3": 10,
+    "2": 5,
+    "1": 7
+   },
+   "specs": {
+    "top_speed_mph": 31,
+    "range_mi": 46.6,
+    "range_note": "Claimed 46.6 mi. The Amazon listing groups several NAVEE models; make sure XT5 Pro is selected.",
+    "motor_config": "Single hub motor",
+    "motor_rated_w": 700,
+    "motor_peak_w": 2200,
+    "battery_v": 46.8,
+    "battery_ah": null,
+    "battery_wh": 596.7,
+    "battery_removable": null,
+    "charge_time_h": 1.5,
+    "weight_lb": 77,
+    "max_load_lb": 330,
+    "tire_size_in": 12,
+    "tire_type": "Off-road tubeless",
+    "brakes": "Front & rear disc + regenerative (EABS)",
+    "abs": false,
+    "suspension": "Dual swing-arm",
+    "ip_rating": "IPX6",
+    "foldable": true,
+    "seat": false,
+    "certification": "UL 2272",
+    "display": "Display, app (speed limiting), 4 riding modes",
+    "max_incline": "32%",
+    "frame": "Aluminum alloy",
+    "off_road": true
+   },
+   "specs_extra": {
+    "Charging": "Flash charge 1.25–1.5 h (standard 5–6 h)",
+    "Traction control": "Yes (TCS)",
+    "Lights": "LED incl. under-deck",
+    "Warranty": "2 years"
+   },
+   "spec_sources": "Amazon listing + naveetech.com for weight (77 lb), 700 W rated / 2,200 W peak, 596.7 Wh and 32% climbing. The rating is shared across the listing's NAVEE models.",
+   "scores": {
+    "speed": 4,
+    "range": 5,
+    "power": 6,
+    "portability": 5,
+    "comfort": 8,
+    "safety": 8,
+    "value": 7
+   },
+   "editorial": {
+    "tagline": "12\" off-road tires, swing-arm suspension and a 90-minute flash charge.",
+    "summary": "2,200 W peak, 31 mph, 46.6 mi claimed, dual swing-arm suspension, dual discs + regen, traction control, IPX6 and UL 2272 — with one of the fastest charges we've seen.",
+    "body": [
+     "The XT5 Pro is NAVEE's all-terrain model. Its 2,200 W-peak motor reaches 31 mph and climbs 32% grades, and the 597 Wh battery is rated for 46.6 miles. The standout: flash charging in about 1.5 hours (5–6 h on standard charging).",
+     "Large 12-inch off-road tubeless tires on dual swing-arm suspension soak up rough ground, and front and rear discs with regenerative braking, traction control and IPX6 add confidence. It's UL 2272 certified, carries 330 lb and has a 2-year warranty.",
+     "It weighs 77 lb. The Amazon listing combines several NAVEE models (UT5 Ultra X, UT5 Max, XT5 Pro, NT5 Max), so the 4.2★ from 59 ratings is shared — and one buyer found the listing confusing. Our link opens on the XT5 Pro; check the selection before buying."
+    ],
+    "pros": [
+     "~1.5 h flash charging",
+     "12\" off-road tires, swing-arm suspension",
+     "31 mph, 32% climbing",
+     "Traction control, IPX6, UL 2272",
+     "330 lb capacity"
+    ],
+    "cons": [
+     "77 lb",
+     "Rating shared with other NAVEE models",
+     "Listing mixes models — check the selection",
+     "App required for setup/unlock"
+    ],
+    "ideal_for": "Off-road riders who hate waiting for a charge.",
+    "not_for": "Anyone who needs to carry it or wants a simple, app-free scooter.",
+    "verdict": "A comfortable, fast-charging all-rounder; just verify you're ordering the XT5 Pro.",
+    "review_summary": "4.2★ from 59 ratings shared across four NAVEE models. An XT5 Pro owner praises its speed, size, suspension and customization. Others like the build quality; complaints are the app-dependent setup and a confusing multi-model listing.",
+    "reviews": [
+     {
+      "author": "Maximilian rangel",
+      "stars": 5,
+      "date": "2026-09-14",
+      "title": null,
+      "excerpt": "XT5 Pro: very fast, big, great suspension and customizable.",
+      "paraphrase": true
+     },
+     {
+      "author": "Becs T.",
+      "stars": 5,
+      "date": "2026-04-02",
+      "title": null,
+      "excerpt": "UT5 Max owner: high quality.",
+      "paraphrase": true
+     },
+     {
+      "author": "KiiiNGRooK",
+      "stars": 4,
+      "date": "2026-09-12",
+      "title": null,
+      "excerpt": "Needs a phone to set up and unlock, which feels restrictive.",
+      "paraphrase": true
+     },
+     {
+      "author": "Molly",
+      "stars": 3,
+      "date": "2026-09-09",
+      "title": null,
+      "excerpt": "Found the multi-model listing confusing; price dropped after purchase.",
+      "paraphrase": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "hiboy-titan-pro",
+   "asin": "B0D877ZG2V",
+   "name": "Hiboy Titan Pro",
+   "brand": "Hiboy",
+   "model": "Titan Pro",
+   "variant": null,
+   "affiliate_url": "https://amzn.to/4yZ7aZo",
+   "affiliate_tag": "microtools0f-20",
+   "canonical_url": "https://www.amazon.com/dp/B0D877ZG2V",
+   "images": [
+    "719CidepRaL",
+    "71x0Am0izEL",
+    "81HWUZbli+L",
+    "717SgQWcCeL",
+    "81Pv7zfCVzL",
+    "8199b6EfW7L",
+    "71wPvDEIxvL",
+    "91HoXxoahiL"
+   ],
+   "tags": [
+    "off-road",
+    "folding",
+    "high-power",
+    "adults"
+   ],
+   "featured": false,
+   "badge": "Biggest battery under $1,500",
+   "seller": "Amazon.com",
+   "price": 1299.99,
+   "list_price": 1529.99,
+   "price_date": "2026-09-25",
+   "availability": "In stock",
+   "rating": 4.5,
+   "reviews_count": 17,
+   "rating_breakdown": {
+    "5": 79,
+    "4": 9,
+    "3": 0,
+    "2": 9,
+    "1": 3
+   },
+   "specs": {
+    "top_speed_mph": 31,
+    "range_mi": 80,
+    "range_note": "Claimed 80 mi, tested at 9.3 mph. One owner averages about 17 mph at full throttle and sees 31 mph only downhill.",
+    "motor_config": "Dual hub motors",
+    "motor_rated_w": 1500,
+    "motor_peak_w": 2400,
+    "battery_v": 48,
+    "battery_ah": 36,
+    "battery_wh": 1728,
+    "battery_removable": null,
+    "charge_time_h": 9,
+    "weight_lb": 103.6,
+    "max_load_lb": 300,
+    "tire_size_in": 10,
+    "tire_type": "All-terrain gel-filled tubeless",
+    "brakes": "Front & rear hydraulic disc",
+    "abs": false,
+    "suspension": "Dual (front & rear)",
+    "ip_rating": "IPX4 (battery IPX5)",
+    "foldable": true,
+    "seat": false,
+    "certification": "UL 2272",
+    "display": null,
+    "max_incline": "35%",
+    "frame": "6061 aluminum",
+    "off_road": true
+   },
+   "specs_extra": {
+    "Charging": "8.5–9.5 h",
+    "Awards": "Red Dot design award",
+    "Top speed note": "Hiboy's 2026 product page lists 33 mph; the Amazon listing says 31 mph",
+    "Warranty": "12 months"
+   },
+   "spec_sources": "Amazon listing (sold by Amazon.com) + hiboy.com for net weight (103.6 lb), 2× 750 W rated, IPX4, 35% climbing and charge time.",
+   "scores": {
+    "speed": 4,
+    "range": 9,
+    "power": 6,
+    "portability": 3,
+    "comfort": 8,
+    "safety": 7,
+    "value": 9
+   },
+   "editorial": {
+    "tagline": "A 1,728 Wh dual-motor beast — the biggest battery under $1,500.",
+    "summary": "Dual motors (2,400 W peak), 31 mph, 48 V 36 Ah battery for up to 80 miles, dual hydraulic discs, dual suspension and UL 2272 — but it weighs over 100 lb.",
+    "body": [
+     "The Titan Pro is built around an enormous 48 V, 36 Ah (1,728 Wh) battery — about three times a MAX G2's — rated for up to 80 miles at a relaxed 9.3 mph. Two motors (2,400 W peak combined) give it 31 mph and 35% climbing.",
+     "Dual hydraulic disc brakes, suspension at both ends and 10-inch all-terrain tires make it stable, and big riders say it feels planted. It's UL 2272 certified, carries 300 lb and won a Red Dot design award.",
+     "It weighs 103.6 lb and takes about 9 hours to charge. With only 17 ratings, it's lightly reviewed; one owner says it averages about 17 mph at full throttle, has a wide turning circle and only hits 31 mph downhill. Others call the suspension 'like a cloud'."
+    ],
+    "pros": [
+     "1,728 Wh battery, 80 mi claimed",
+     "Dual motors, 35% climbing",
+     "Dual hydraulic discs + dual suspension",
+     "UL 2272, 300 lb capacity",
+     "Sold by Amazon"
+    ],
+    "cons": [
+     "103.6 lb",
+     "~9 h charging",
+     "Only 17 ratings",
+     "One owner reports lower real top speed"
+    ],
+    "ideal_for": "Heavy riders or long-distance riders who store it at ground level.",
+    "not_for": "Anyone who must lift, carry or fit it in a small car.",
+    "verdict": "Unmatched range per dollar, as long as you never have to lift it.",
+    "review_summary": "4.5★ from 17 ratings. Owners call it a durable beast with a sturdy frame and cloud-like suspension, stable even for big riders. One 2★ owner says it's very heavy, has a wide turning radius and averages about 17 mph flat-out.",
+    "reviews": [
+     {
+      "author": "Jesus Rosas",
+      "stars": 5,
+      "date": "2025-10-16",
+      "title": null,
+      "excerpt": "Stands out against the S2, MAX Pro and U2 Pro; stable for a big rider.",
+      "paraphrase": true
+     },
+     {
+      "author": "dakota hurd",
+      "stars": 5,
+      "date": "2026-04-30",
+      "title": null,
+      "excerpt": "The suspension feels like riding a cloud.",
+      "paraphrase": true
+     },
+     {
+      "author": "john",
+      "stars": 4,
+      "date": "2026-03-30",
+      "title": null,
+      "excerpt": "Smooth throttle and suspension.",
+      "paraphrase": true
+     },
+     {
+      "author": "will kilmore",
+      "stars": 2,
+      "date": "2026-06-06",
+      "title": null,
+      "excerpt": "Very heavy, wide turning radius, about 17 mph average at full throttle.",
+      "paraphrase": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "segway-gt3",
+   "asin": "B0DRXSQMJH",
+   "name": "Segway SuperScooter GT3",
+   "brand": "Segway",
+   "model": "SuperScooter GT3",
+   "variant": null,
+   "affiliate_url": "https://amzn.to/4rzzP4K",
+   "affiliate_tag": "microtools0f-20",
+   "canonical_url": "https://www.amazon.com/dp/B0DRXSQMJH",
+   "images": [
+    "51jWjUEGMbL",
+    "51UMLb+f9GL",
+    "71ux-hDiqJL",
+    "61lk-xgMUYL",
+    "71OEmfiCnRL",
+    "61VXe2yszBL",
+    "71KWoREyiGL",
+    "715bcNwOJFL"
+   ],
+   "tags": [
+    "urban",
+    "folding",
+    "high-power",
+    "adults"
+   ],
+   "featured": false,
+   "badge": "Premium ride for less",
+   "seller": "Amazon.com",
+   "price": 1699.99,
+   "list_price": null,
+   "price_date": "2026-09-25",
+   "availability": "In stock",
+   "rating": 4.4,
+   "reviews_count": 114,
+   "rating_breakdown": {
+    "5": 73,
+    "4": 14,
+    "3": 4,
+    "2": 5,
+    "1": 4
+   },
+   "specs": {
+    "top_speed_mph": 31,
+    "range_mi": 45.6,
+    "range_note": "Claimed 45.6 mi in Eco, about 25 mi in Sport (Segway). A 1-hour fast charge adds about 12 mi.",
+    "motor_config": "Single hub motor",
+    "motor_rated_w": 1200,
+    "motor_peak_w": 2400,
+    "battery_v": 46.8,
+    "battery_ah": 19.2,
+    "battery_wh": 899,
+    "battery_removable": null,
+    "charge_time_h": 6.5,
+    "weight_lb": 87,
+    "max_load_lb": 330,
+    "tire_size_in": 11,
+    "tire_type": "Self-sealing tubeless (gel layer)",
+    "brakes": "Front & rear disc",
+    "abs": false,
+    "suspension": "Dual hydraulic (dual front shocks + rear trailing arm)",
+    "ip_rating": "IPX6",
+    "foldable": true,
+    "seat": false,
+    "certification": "UL 2272 & UL 2271",
+    "display": "2.4\" TFT, app",
+    "max_incline": "30%",
+    "frame": "Alloy steel",
+    "off_road": false
+   },
+   "specs_extra": {
+    "Acceleration": "0–30 mph in 9.5 s (Ultra Boost)",
+    "Lights": "Auto high/low headlight",
+    "Stability": "SegRide stability system",
+    "Charging": "~6.5 h (Segway); listing says 5.5 h",
+    "Warranty": "1 year (battery, display)"
+   },
+   "spec_sources": "Amazon listing (sold by Amazon.com) + segway.la for net weight (~87 lb), 1,200 W rated, battery 46.8 V / 19.2 Ah / 899 Wh and charge time.",
+   "scores": {
+    "speed": 4,
+    "range": 4,
+    "power": 6,
+    "portability": 4,
+    "comfort": 9,
+    "safety": 9,
+    "value": 7
+   },
+   "editorial": {
+    "tagline": "The GT3 Pro's chassis and suspension for $1,000 less.",
+    "summary": "31 mph, 2,400 W peak, 899 Wh, dual hydraulic suspension, dual discs, IPX6 and UL 2272/2271 — the non-Pro version of our Editor's pick.",
+    "body": [
+     "The GT3 is the standard version of the SuperScooter GT3 Pro in our catalog. It keeps the premium chassis — dual front shocks, a hydraulic rear trailing arm and 11-inch self-sealing tires — and the SegRide stability system, but uses a 2,400 W-peak motor for 31 mph and 0–30 in 9.5 seconds.",
+     "An 899 Wh battery is rated for about 45 miles in Eco and 25 in Sport. Front and rear discs, an auto high/low headlight, IPX6 and UL 2272/2271 make it one of the safest fast scooters available, and it carries 330 lb.",
+     "It's still a heavy machine at about 87 lb (one owner says it feels close to 100) and the warranty is 1 year. Owners call it premium and a 'tank', great for commuting with some light adventure, though one misses a few features at this price."
+    ],
+    "pros": [
+     "Dual hydraulic suspension, very comfortable",
+     "31 mph, 2,400 W peak",
+     "IPX6, UL 2272 & 2271",
+     "330 lb capacity",
+     "About $1,000 less than the GT3 Pro"
+    ],
+    "cons": [
+     "~87 lb",
+     "1-year warranty",
+     "Some features missing vs. the Pro"
+    ],
+    "ideal_for": "Fast commuters who want premium suspension without GT3 Pro money.",
+    "not_for": "Riders who carry their scooter or need 40+ mph.",
+    "verdict": "Most of the GT3 Pro experience at a much friendlier price.",
+    "review_summary": "4.4★ from 114 ratings (87% 4–5 stars). Owners call it premium, stable and a game changer for commuting and light adventure; a third-time scooter owner says it's worth it. One 4★ owner calls it a tank that feels close to 100 lb and misses some features.",
+    "reviews": [
+     {
+      "author": "Kevin C",
+      "stars": 5,
+      "date": "2026-07-18",
+      "title": null,
+      "excerpt": "Premium feel for commuting and light adventure.",
+      "paraphrase": true
+     },
+     {
+      "author": "ChrisL",
+      "stars": 5,
+      "date": "2026-07-10",
+      "title": null,
+      "excerpt": "Their third scooter, and worth it.",
+      "paraphrase": true
+     },
+     {
+      "author": "Belinijj",
+      "stars": 5,
+      "date": "2025-10-23",
+      "title": null,
+      "excerpt": "Great speed and stability.",
+      "paraphrase": true
+     },
+     {
+      "author": "GKellyB",
+      "stars": 4,
+      "date": "2026-06-20",
+      "title": null,
+      "excerpt": "A tank at close to 100 lb; a few features missing.",
+      "paraphrase": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "gotrax-gks-mini",
+   "asin": "B0F9W583J5",
+   "name": "Gotrax GKS Mini",
+   "brand": "Gotrax",
+   "model": "GKS Mini",
+   "variant": null,
+   "affiliate_url": "https://amzn.to/4AE0IbS",
+   "affiliate_tag": "microtools0f-20",
+   "canonical_url": "https://www.amazon.com/dp/B0F9W583J5",
+   "images": [
+    "61XB3KeWGmL",
+    "71R2KdLp7NL",
+    "81Ohmb1WBqL",
+    "71FChL3ZqCL",
+    "717JSPycjOL",
+    "61zW8fRvHQL",
+    "61KzF-1vvSL",
+    "71+bvTNLVQL"
+   ],
+   "tags": [
+    "kids"
+   ],
+   "featured": false,
+   "badge": "Under $100",
+   "seller": "Amazon.com",
+   "price": 94.99,
+   "list_price": 119.99,
+   "price_date": "2026-09-25",
+   "availability": "In stock · 200+ bought last month",
+   "rating": 4.3,
+   "reviews_count": 7325,
+   "rating_breakdown": {
+    "5": 72,
+    "4": 13,
+    "3": 4,
+    "2": 2,
+    "1": 9
+   },
+   "specs": {
+    "top_speed_mph": 7.5,
+    "range_mi": 3.75,
+    "range_note": "Claimed 3.75 mi. Kick-to-start (motor engages at about 1.5 mph).",
+    "motor_config": "Hub motor",
+    "motor_rated_w": 150,
+    "motor_peak_w": null,
+    "battery_v": null,
+    "battery_ah": null,
+    "battery_wh": null,
+    "battery_removable": null,
+    "charge_time_h": 6,
+    "weight_lb": null,
+    "max_load_lb": 120,
+    "tire_size_in": 6,
+    "tire_type": "Solid",
+    "brakes": "Electronic + rear foot brake",
+    "abs": false,
+    "suspension": "None",
+    "ip_rating": null,
+    "foldable": null,
+    "seat": false,
+    "certification": "UL 2272 & CPC",
+    "display": "Thumb throttle",
+    "max_incline": null,
+    "frame": "Metal",
+    "off_road": false
+   },
+   "specs_extra": {
+    "Ages": "6–12",
+    "Start": "Kick-to-start",
+    "Warranty": "1 year"
+   },
+   "spec_sources": "Amazon listing (sold by Amazon.com). Weight and battery capacity aren't published by Amazon or Walmart, so they stay blank.",
+   "scores": {
+    "speed": 0,
+    "range": 0,
+    "power": 0,
+    "portability": null,
+    "comfort": 3,
+    "safety": 5,
+    "value": 7
+   },
+   "editorial": {
+    "tagline": "The cheapest kids' scooter here, with 7,300+ ratings — and one fire report to know about.",
+    "summary": "7.5 mph, 3.75 miles, kick-to-start, UL 2272 & CPC certified, under $100 and sold by Amazon. One owner reports it caught fire while charging.",
+    "body": [
+     "The GKS Mini is a simple first electric scooter for ages 6–12: a 150 W motor, a 7.5 mph top speed and about 3.75 miles per charge. The motor only engages after a kick to about 1.5 mph, which helps beginners avoid lurching starts.",
+     "It has a metal frame, 6-inch solid tires, an electronic brake plus a rear foot brake, and carries riders up to 120 lb. It's UL 2272 and CPC (children's product) certified and sold by Amazon.",
+     "Important: one recent 1-star review says the scooter caught fire while charging in a garage after about two months. It's a single report among 7,300+ ratings, but charge any e-scooter on a hard surface, away from anything flammable, and never overnight unattended."
+    ],
+    "pros": [
+     "Under $100",
+     "UL 2272 & CPC certified",
+     "Kick-to-start for beginners",
+     "7,300+ ratings, 85% 4–5 stars",
+     "Sold by Amazon"
+    ],
+    "cons": [
+     "One owner reports a fire while charging",
+     "3.75 mi range",
+     "No suspension",
+     "Weight not published"
+    ],
+    "ideal_for": "Ages 6–10 taking first rides on driveways and sidewalks.",
+    "not_for": "Older kids over 120 lb or anyone wanting range.",
+    "verdict": "A popular, certified starter scooter — follow safe charging habits.",
+    "review_summary": "4.3★ from 7,325 ratings (85% 4–5 stars). Parents say it's the right size for 6–8-year-olds and like the kick-to-start. Gotrax replaced a unit with a throttle issue. One 1-star review reports the scooter caught fire while charging after about two months.",
+    "reviews": [
+     {
+      "author": "Dillon",
+      "stars": 5,
+      "date": "2026-04-07",
+      "title": null,
+      "excerpt": "Great for a 6-year-old.",
+      "paraphrase": true
+     },
+     {
+      "author": "Matthew Korff",
+      "stars": 5,
+      "date": "2026-07-15",
+      "title": null,
+      "excerpt": "An 8-year-old girl loves it; kick-to-start works well.",
+      "paraphrase": true
+     },
+     {
+      "author": "Lauren",
+      "stars": 4,
+      "date": "2026-05-14",
+      "title": null,
+      "excerpt": "Throttle issue, but a replacement was sent.",
+      "paraphrase": true
+     },
+     {
+      "author": "Amy Dombrowski",
+      "stars": 1,
+      "date": "2026-08-17",
+      "title": null,
+      "excerpt": "The scooter caught fire while charging in the garage after about two months.",
+      "paraphrase": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "segway-c2-lite",
+   "asin": "B0DB5SGHX2",
+   "name": "Segway Ninebot C2 Lite",
+   "brand": "Segway",
+   "model": "Ninebot C2 Lite",
+   "variant": null,
+   "affiliate_url": "https://amzn.to/4yr2uvl",
+   "affiliate_tag": "microtools0f-20",
+   "canonical_url": "https://www.amazon.com/dp/B0DB5SGHX2",
+   "images": [
+    "61nBXujGjwL",
+    "81Bb9jsMigL",
+    "71AHvyFBdjL",
+    "71R-TEwPOtL",
+    "710odajClWL",
+    "81VjKPbkl9L",
+    "61olndMPkNL",
+    "51dFrnTIBFL"
+   ],
+   "tags": [
+    "kids"
+   ],
+   "featured": true,
+   "badge": "Safest kids' pick",
+   "seller": "Amazon.com",
+   "price": 179.99,
+   "list_price": null,
+   "price_date": "2026-09-25",
+   "availability": "In stock · 300+ bought last month",
+   "rating": 4.4,
+   "reviews_count": 320,
+   "rating_breakdown": {
+    "5": 77,
+    "4": 11,
+    "3": 3,
+    "2": 1,
+    "1": 8
+   },
+   "specs": {
+    "top_speed_mph": 9.9,
+    "range_mi": 8.7,
+    "range_note": "Up to 70 minutes / 8.7 mi at low speed; 5.6 mi at top speed (Segway).",
+    "motor_config": "Brushless hub motor",
+    "motor_rated_w": null,
+    "motor_peak_w": 130,
+    "battery_v": null,
+    "battery_ah": null,
+    "battery_wh": 56,
+    "battery_removable": null,
+    "charge_time_h": 5.5,
+    "weight_lb": 17,
+    "max_load_lb": 110,
+    "tire_size_in": 7,
+    "tire_type": "Solid",
+    "brakes": "Rear drum + hand brake",
+    "abs": false,
+    "suspension": "None",
+    "ip_rating": "IPX4",
+    "foldable": null,
+    "seat": false,
+    "certification": "UL 2272 & UL 2271",
+    "display": "LED battery display, RGB lights",
+    "max_incline": "5%",
+    "frame": "Steel",
+    "off_road": false
+   },
+   "specs_extra": {
+    "Ages": "6–10 (3'9\"–4'9\")",
+    "Speed modes": "3 (incl. walk-along assist)",
+    "Start": "Kick-to-start at 3 mph",
+    "Lights": "256-color RGB",
+    "Warranty": "1 year"
+   },
+   "spec_sources": "Amazon listing (sold by Amazon.com) + segway.com (130 W) and ScooterRank (weight 7.8 kg / 17 lb, 56 Wh).",
+   "scores": {
+    "speed": 0,
+    "range": 0,
+    "power": 0,
+    "portability": 10,
+    "comfort": 4,
+    "safety": 9,
+    "value": 7
+   },
+   "editorial": {
+    "tagline": "Segway quality for 6–10-year-olds, with dual UL certification.",
+    "summary": "9.9 mph max with three modes, up to 70 minutes of riding, IPX4, UL 2272 & 2271, a hand brake plus rear drum, RGB lights and a 17 lb frame.",
+    "body": [
+     "The C2 Lite is Segway's small kids' scooter, sized for riders 3'9\" to 4'9\". Three speed modes cap it at 9.9 mph, and a power-assist mode lets parents walk alongside. It starts only after a kick to 3 mph.",
+     "It's the only kids' pick here with both UL 2272 and UL 2271 certification, plus IPX4 splash resistance, a mechanical hand brake and a rear drum brake. The 256-color RGB lights are the fun part; the 17 lb frame is easy for parents to carry.",
+     "Range is about 70 minutes of riding (5.6 miles at full speed), and riders must be under 110 lb. Parents of 6–8-year-olds say it's built to last."
+    ],
+    "pros": [
+     "UL 2272 & 2271, IPX4",
+     "Hand brake + rear drum",
+     "17 lb",
+     "Walk-along slow mode",
+     "4.4★, sold by Amazon"
+    ],
+    "cons": [
+     "110 lb max",
+     "Outgrown by about age 10",
+     "5.6 mi at full speed"
+    ],
+    "ideal_for": "Ages 6–10 getting their first powered scooter.",
+    "not_for": "Kids taller than 4'9\" or over 110 lb.",
+    "verdict": "The safest-built kids' scooter in our catalog — a top pick for younger riders.",
+    "review_summary": "4.4★ from 320 ratings (88% 4–5 stars). Parents say it's perfect for 6–10-year-olds, feels built to last and like the 10 mph cap and the slow mode for walking alongside.",
+    "reviews": [
+     {
+      "author": "Miranda.S",
+      "stars": 5,
+      "date": "2026-09-17",
+      "title": null,
+      "excerpt": "Perfect for ages 6–10; the 10 mph cap is reassuring.",
+      "paraphrase": true
+     },
+     {
+      "author": "Mark Doyle",
+      "stars": 5,
+      "date": "2026-08-19",
+      "title": null,
+      "excerpt": "Built to last for a 7-year-old.",
+      "paraphrase": true
+     },
+     {
+      "author": "AllisonT.",
+      "stars": 5,
+      "date": "2026-06-03",
+      "title": null,
+      "excerpt": "The slow mode lets you walk alongside.",
+      "paraphrase": true
+     },
+     {
+      "author": "Joseph",
+      "stars": 4,
+      "date": "2026-04-20",
+      "title": null,
+      "excerpt": "Good quality for an 8-year-old.",
+      "paraphrase": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "iscooter-ik3",
+   "asin": "B0FR8WLLCF",
+   "name": "iScooter IK3",
+   "brand": "iScooter",
+   "model": "IK3 (IK3Max)",
+   "variant": null,
+   "affiliate_url": "https://amzn.to/4jq9sfn",
+   "affiliate_tag": "microtools0f-20",
+   "canonical_url": "https://www.amazon.com/dp/B0FR8WLLCF",
+   "images": [
+    "613sjztRuAL",
+    "71Ycv+2bigL",
+    "81GucKxsWPL",
+    "7151kdiIAEL",
+    "71kRIsd2YRL",
+    "81PjIpdRARL",
+    "81RLEjocHEL",
+    "61h7wS9y1ZL"
+   ],
+   "tags": [
+    "kids",
+    "folding"
+   ],
+   "featured": false,
+   "badge": null,
+   "seller": "iScooter Center",
+   "price": 169.99,
+   "list_price": null,
+   "price_date": "2026-09-25",
+   "availability": "In stock",
+   "rating": 4.1,
+   "reviews_count": 757,
+   "rating_breakdown": {
+    "5": 66,
+    "4": 10,
+    "3": 6,
+    "2": 4,
+    "1": 14
+   },
+   "specs": {
+    "top_speed_mph": 12,
+    "range_mi": 4.3,
+    "range_note": "Three speeds (5 / 8 / 12 mph). One parent says it tops out around 10 mph.",
+    "motor_config": "Hub motor",
+    "motor_rated_w": 200,
+    "motor_peak_w": null,
+    "battery_v": null,
+    "battery_ah": null,
+    "battery_wh": null,
+    "battery_removable": null,
+    "charge_time_h": null,
+    "weight_lb": null,
+    "max_load_lb": 154,
+    "tire_size_in": 6.5,
+    "tire_type": "Wide solid",
+    "brakes": "Electronic (thumb) + rear foot brake",
+    "abs": false,
+    "suspension": "None",
+    "ip_rating": null,
+    "foldable": true,
+    "seat": false,
+    "certification": null,
+    "display": "Display, Bluetooth, horn",
+    "max_incline": null,
+    "frame": "Aluminum",
+    "off_road": false
+   },
+   "specs_extra": {
+    "Ages": "8–14",
+    "Handlebar heights": "32 / 35.5 / 39 in",
+    "Lights": "7-color handlebar + light-up acrylic deck",
+    "Charging": "Magnetic",
+    "Warranty": "360 / 180 days by part"
+   },
+   "spec_sources": "Amazon listing only. Weight, battery and certification aren't published. Same manufacturer as the isinwheel S7 (Shenzhen Xincheng Times).",
+   "scores": {
+    "speed": 0,
+    "range": 0,
+    "power": 0,
+    "portability": null,
+    "comfort": 4,
+    "safety": 5,
+    "value": 6
+   },
+   "editorial": {
+    "tagline": "A light-up, three-speed scooter for 8–14-year-olds.",
+    "summary": "200 W, 5/8/12 mph speed modes, a light-up deck and handlebar lights, Bluetooth, adjustable height and a 154 lb limit.",
+    "body": [
+     "The IK3 targets older kids who want something that looks exciting. A 200 W motor offers 5, 8 and 12 mph modes, the telescopic stem adjusts between 32 and 39 inches, and the acrylic deck and handlebars light up in seven colors.",
+     "It has an electronic thumb brake plus a rear foot brake, 6.5-inch wide solid tires, kick-to-start, a horn and magnetic charging, and folds in seconds. It's rated for riders up to 154 lb.",
+     "The listing doesn't state weight, battery or any UL certification, and 14% of ratings are 1-star — including a buyer unhappy with the return process. Range is short at about 4.3 miles. It's made by the same company as the isinwheel S7."
+    ],
+    "pros": [
+     "Three speed modes up to 12 mph",
+     "Adjustable height for 8–14",
+     "Light-up deck, Bluetooth",
+     "154 lb capacity",
+     "Folds quickly"
+    ],
+    "cons": [
+     "No UL certification listed",
+     "4.3 mi range",
+     "14% 1-star ratings",
+     "Weight not published"
+    ],
+    "ideal_for": "Tweens who want lights and a bit more speed for neighborhood rides.",
+    "not_for": "Parents who want certified safety or longer range.",
+    "verdict": "Fun and flashy, but we'd pick the S7 or C2 Lite for the documented specs.",
+    "review_summary": "4.1★ from 757 ratings (76% 4–5 stars). Parents say it's easy to assemble, the battery lasts and kids love the speed modes. One notes it only reaches about 10 mph; a 1-star buyer calls the return process the worst.",
+    "reviews": [
+     {
+      "author": "Leigha Janey",
+      "stars": 5,
+      "date": "2026-09-15",
+      "title": null,
+      "excerpt": "The best first scooter.",
+      "paraphrase": true
+     },
+     {
+      "author": "Arely",
+      "stars": 5,
+      "date": "2026-07-20",
+      "title": null,
+      "excerpt": "Easy to assemble; kids like the speed modes.",
+      "paraphrase": true
+     },
+     {
+      "author": "David M.",
+      "stars": 4,
+      "date": "2026-09-18",
+      "title": null,
+      "excerpt": "Only goes about 10 mph.",
+      "paraphrase": true
+     },
+     {
+      "author": "Mai Lykins",
+      "stars": 1,
+      "date": "2026-01-28",
+      "title": null,
+      "excerpt": "Worst return process.",
+      "paraphrase": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "isinwheel-s7",
+   "asin": "B0FSS989MF",
+   "name": "isinwheel S7 Kids",
+   "brand": "isinwheel",
+   "model": "S7",
+   "variant": null,
+   "affiliate_url": "https://amzn.to/4hpSkUr",
+   "affiliate_tag": "microtools0f-20",
+   "canonical_url": "https://www.amazon.com/dp/B0FSS989MF",
+   "images": [
+    "61e50TjRxyL",
+    "71k91zeC51L",
+    "71SqVmkCsUL",
+    "71ODSpNrnsL",
+    "819cGGi6G8L",
+    "61CV9e2OC1L",
+    "713L-w6GJ5L",
+    "81pB6gCuFHL"
+   ],
+   "tags": [
+    "kids",
+    "folding"
+   ],
+   "featured": false,
+   "badge": "Longest range for tweens",
+   "seller": "isinwheel-Shop",
+   "price": 169.99,
+   "list_price": 219.99,
+   "price_date": "2026-09-25",
+   "availability": "In stock",
+   "rating": 4.4,
+   "reviews_count": 40,
+   "rating_breakdown": {
+    "5": 80,
+    "4": 6,
+    "3": 0,
+    "2": 4,
+    "1": 10
+   },
+   "specs": {
+    "top_speed_mph": 12,
+    "range_mi": 10,
+    "range_note": "Claimed 10 mi. Three speeds (5 / 8 / 12 mph) with cruise control.",
+    "motor_config": "Hub motor",
+    "motor_rated_w": 250,
+    "motor_peak_w": null,
+    "battery_v": 25.2,
+    "battery_ah": 5.2,
+    "battery_wh": 131,
+    "battery_removable": null,
+    "charge_time_h": null,
+    "weight_lb": 17.4,
+    "max_load_lb": 176,
+    "tire_size_in": 7,
+    "tire_type": "Solid",
+    "brakes": "Electronic front + rear foot brake",
+    "abs": false,
+    "suspension": "None",
+    "ip_rating": null,
+    "foldable": true,
+    "seat": false,
+    "certification": null,
+    "display": "HD display, Bluetooth speaker, cruise control",
+    "max_incline": null,
+    "frame": null,
+    "off_road": false
+   },
+   "specs_extra": {
+    "Ages": "8–14",
+    "Handlebar heights": "3 positions (34.5–39.2 in)",
+    "Lights": "LED",
+    "Warranty": "180 days"
+   },
+   "spec_sources": "Amazon listing only. No UL certification stated. Same manufacturer as the iScooter IK3 (Shenzhen Xincheng Times). One 5★ review on the listing is about an unrelated product and was ignored.",
+   "scores": {
+    "speed": 0,
+    "range": 0,
+    "power": 0,
+    "portability": 10,
+    "comfort": 4,
+    "safety": 5,
+    "value": 7
+   },
+   "editorial": {
+    "tagline": "10 miles and 12 mph for tweens in a 17 lb package.",
+    "summary": "250 W, 131 Wh battery for up to 10 miles, three speeds up to 12 mph, cruise control, a Bluetooth speaker and a 176 lb limit — at 17.4 lb.",
+    "body": [
+     "The S7 gives older kids more range than most: a 131 Wh battery is rated for 10 miles, more than double the IK3 or GKS Mini. A 250 W motor offers 5, 8 and 12 mph modes, and cruise control engages after five seconds at a steady speed.",
+     "It weighs just 17.4 lb, folds, has three handlebar heights and carries up to 176 lb, so it lasts into the early teens. There's an electronic front brake and a rear foot brake, 7-inch solid tires, LED lights and a Bluetooth speaker.",
+     "It's newer and lightly reviewed (40 ratings), no UL certification is listed, and the warranty is only 180 days. One buyer's unit stopped after its second ride and the third-party seller was unhelpful; another says the battery doesn't hold a charge well."
+    ],
+    "pros": [
+     "10 mi claimed range",
+     "17.4 lb and folds",
+     "176 lb capacity",
+     "Cruise control, Bluetooth speaker",
+     "Documented battery specs"
+    ],
+    "cons": [
+     "No UL certification listed",
+     "180-day warranty",
+     "Only 40 ratings",
+     "Sold by a third-party seller"
+    ],
+    "ideal_for": "Kids 8–14 who ride longer loops around the neighborhood.",
+    "not_for": "Parents who require a UL-certified scooter.",
+    "verdict": "The best range for tweens here, with a short warranty to weigh.",
+    "review_summary": "4.4★ from 40 ratings (86% 4–5 stars). Owners call it sturdy and one reports eight months of trouble-free use. Complaints: a unit that stopped after the second use with unhelpful seller support, and a battery that doesn't hold charge well.",
+    "reviews": [
+     {
+      "author": "Frogman",
+      "stars": 5,
+      "date": "2026-05-19",
+      "title": null,
+      "excerpt": "Eight months in and running great.",
+      "paraphrase": true
+     },
+     {
+      "author": "Amazon Customer",
+      "stars": 5,
+      "date": "2026-01-02",
+      "title": null,
+      "excerpt": "Nice and sturdy.",
+      "paraphrase": true
+     },
+     {
+      "author": "Joseph F Lawrence",
+      "stars": 5,
+      "date": "2025-09-23",
+      "title": null,
+      "excerpt": "Rated it 5★ but says the battery doesn't hold a charge well.",
+      "paraphrase": true
+     },
+     {
+      "author": "caitlin dehn",
+      "stars": 1,
+      "date": "2026-01-30",
+      "title": null,
+      "excerpt": "Stopped working after the second use; seller unhelpful.",
+      "paraphrase": true
+     }
+    ]
+   }
+  }
+ ]
+}

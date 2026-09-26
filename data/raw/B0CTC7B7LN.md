@@ -1,0 +1,5 @@
+link https://amzn.to/4hOjohu tag ok ASIN B0CTC7B7LN — Gotrax GXL V2 (sold by Amazon.com) $227.00 list $299.99 (-24%); 100+ bought last month
+rating 4.3 (3,423) 5:69 4:14 3:4 2:3 1:10
+images 61PydAGLjQL 81sU1KTBzgL 81qKlPnmHEL 71HopuPmeQL 81gGFA3JIWL 81JeMRmswUL 8171+cRTeTL 611CI5RBM+L
+specs: 250W; 15.5 mph; 36V 5.2Ah (187 Wh); 12 mi; charge 4 h; 8.5" honeycomb solid; front suspension (table); rear brake (table; Gotrax GXL V2 has e-brake + rear disc per brand); UL2272; cruise control; big LCD; headlight; 27 lb (bullet; title says 25.95 lb); max 220 lb; folded 43.7x17.3x16.1 in; aluminum; mfr Zhejiang Taotao; warranty 365 days
+reviews: Jennifer 5/5 2026-08-26 great scooter & better customer service (daughter school); Patricia Wolf 5/5 2026-08-03 fantastic commuter, smooth; natalya 4/5 2021-06-02 decent for beginners, easy assembly; FR 5/5 2026-08-14 support exchanged defective scooter; Garret Khougaz 1/5 2023-06-25 at 190 lb not fast, "extremely dangerous cruise control"; ashutosh kandpal 5/5 2026-09-03 controller failed at 11 months, support great.
