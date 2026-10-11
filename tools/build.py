@@ -155,20 +155,26 @@ def buy_button(p, label="Check price on Amazon", cls="btn btn--amazon") -> str:
             f'{E(label)}<svg class="ico" aria-hidden="true"><use href="#i-ext"/></svg></a>')
 
 
+PRICE_BANDS = [(150, "Under $150"), (300, "$150–$300"), (500, "$300–$500"), (800, "$500–$800"), (1200, "$800–$1,200"), (10**9, "$1,200+")]
+
+
+def band_index(p):
+    if p.get("price") is None:
+        return None
+    return next(i for i, (cap, _) in enumerate(PRICE_BANDS) if p["price"] < cap)
+
+
+def band(p) -> str:
+    i = band_index(p)
+    return "" if i is None else PRICE_BANDS[i][1]
+
+
 def price_block(p, big=False) -> str:
-    if not SITE.get("show_prices") or p.get("price") is None:
-        return '<div class="price price--hidden">See current price on Amazon</div>'
-    was = ""
-    off = ""
-    if p.get("list_price") and p["list_price"] > p["price"]:
-        was = f'<s class="price__was">{money(p["list_price"])}</s>'
-        pct = round((1 - p["price"] / p["list_price"]) * 100)
-        off = f'<span class="chip chip--deal">−{pct}%</span>'
-    cls = "price price--big" if big else "price"
-    return (f'<div class="{cls}"><span class="price__now">{money(p["price"])}</span>{was}{off}'
-            f'<span class="price__date" title="Prices and availability are accurate as of the date shown and are '
-            f'subject to change. Any price displayed on Amazon at the time of purchase will apply.">'
-            f'Amazon price as of {nice_date(p["price_date"])}</span></div>')
+    # Exact prices are never shown (Amazon only allows them via its API); a broad band helps shoppers compare.
+    b = band(p)
+    cls = "price price--band price--big" if big else "price price--band"
+    inner = f'<span class="price__band" title="Typical price range on Amazon, checked {nice_date(p["price_date"])}. Click through for today\'s exact price.">{E(b)}</span>' if b else ""
+    return f'<div class="{cls}">{inner}<span class="price__note">See today\'s price on Amazon</span></div>'
 
 
 def compare_toggle(p, compact=False) -> str:
@@ -307,7 +313,7 @@ NAV = [
     ("/compare/", "Compare"),
     ("/range-map/", "Range map"),
     ("/guides/", "Buying guides"),
-    ("/deals/", "Deals"),
+    ("/vs/", "Head to head"),
 ]
 
 
@@ -339,11 +345,11 @@ def footer() -> str:
       </div>
       <div><h3>Categories</h3><ul>{cats}</ul></div>
       <div><h3>Guides</h3><ul>{guides}</ul></div>
-      <div><h3>Site</h3><ul><li><a href="/compare/">Compare scooters</a></li><li><a href="/vs/">Head-to-head comparisons</a></li><li><a href="/range-map/">Range map</a></li><li><a href="/deals/">Deals</a></li><li><a href="/how-we-rate/">How we rate</a></li><li><a href="/about/">About &amp; contact</a></li><li><a href="/affiliate-disclosure/">Affiliate disclosure</a></li><li><a href="/privacy/">Privacy &amp; cookies</a></li></ul></div>
+      <div><h3>Site</h3><ul><li><a href="/compare/">Compare scooters</a></li><li><a href="/vs/">Head-to-head comparisons</a></li><li><a href="/range-map/">Range map</a></li><li><a href="/how-we-rate/">How we rate</a></li><li><a href="/about/">About &amp; contact</a></li><li><a href="/affiliate-disclosure/">Affiliate disclosure</a></li><li><a href="/privacy/">Privacy &amp; cookies</a></li></ul></div>
     </div>
     <div class="site-footer__legal">
       <p><strong>Affiliate disclosure:</strong> {E(SITE['name'])} is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. As an Amazon Associate we earn from qualifying purchases, at no extra cost to you.</p>
-      <p>Amazon and the Amazon logo are trademarks of Amazon.com, Inc. or its affiliates. Prices and availability are accurate as of the date shown and are subject to change; the price displayed on Amazon at the time of purchase applies. Product images are served by Amazon.</p>
+      <p>Amazon and the Amazon logo are trademarks of Amazon.com, Inc. or its affiliates. Price ranges are approximate; the price displayed on Amazon at the time of purchase applies. Product images are served by Amazon.</p>
       <p>© {SITE['year']} {E(SITE['name'])}</p>
     </div>
   </div>
@@ -957,10 +963,9 @@ def vs_differences(a, b) -> list[str]:
         out.append(f"<li><b>{E(w)}</b> {word_hi if higher_better else word_lo}: {fmt(wv)} vs {fmt(lv)}</li>")
 
     n = lambda u: (lambda v: f"{fmt_num(v)} {u}")  # noqa: E731
-    if SITE.get("show_prices") and a.get("price") and b.get("price") and a["price"] != b["price"]:
-        lo, hi = (a, b) if a["price"] < b["price"] else (b, a)
-        out.append(f"<li><b>{E(short_name(lo))}</b> costs less: {money(lo['price'])} vs {money(hi['price'])} "
-                   f"(${round(hi['price'] - lo['price']):,} difference, Amazon prices as of {nice_date(lo['price_date'])})</li>")
+    if band_index(a) is not None and band_index(b) is not None and band_index(a) != band_index(b):
+        lo, hi = (a, b) if band_index(a) < band_index(b) else (b, a)
+        out.append(f"<li><b>{E(short_name(lo))}</b> sits in a lower price range: {E(band(lo))} vs {E(band(hi))}</li>")
     cmp(sa.get("top_speed_mph"), sb.get("top_speed_mph"), True, n("mph"), "is faster", "")
     cmp(sa.get("range_mi"), sb.get("range_mi"), True, n("mi"), "has more claimed range", "")
     cmp(sa.get("battery_wh"), sb.get("battery_wh"), True, n("Wh"), "has the bigger battery", "")
@@ -1176,7 +1181,7 @@ def build_static_pages():
 <h2>Owner reviews</h2>
 <p>We read the Amazon customer reviews for each listing and summarize the recurring themes, good and bad. Quotes are short excerpts credited to the reviewer. We don't write, edit the meaning of, or invent reviews.</p>
 <h2>Prices</h2>
-<p>Prices are a snapshot from Amazon.com on the date shown next to them. They change often, so the price on Amazon at the time of purchase is the one that applies. We only call something a deal when Amazon shows a real discount.</p>
+<p>We show a broad price range instead of an exact price, because prices on Amazon change daily and the price shown on Amazon at the time of purchase is the one that applies. Click through to see today's price.</p>
 <h2>Money</h2>
 <p>We earn a commission when you buy through our Amazon links. Commissions never affect scores or rankings. See our <a href="/affiliate-disclosure/">affiliate disclosure</a>.</p>""", "How we rate")
 
@@ -1225,7 +1230,7 @@ def build_db_js():
     for p in PRODUCTS:
         slim.append({
             "id": p["id"], "name": display_name(p), "brand": p["brand"], "url": url_of(p),
-            "aff": p["affiliate_url"], "img": img(p["images"][0], 300), "price": p.get("price") if SITE.get("show_prices") else None,
+            "aff": p["affiliate_url"], "img": img(p["images"][0], 300), "price": p.get("price"), "band": band(p),
             "priceDate": nice_date(p["price_date"]), "rating": p.get("rating"), "reviews": p.get("reviews_count"),
             "score": editor_score(p), "scores": p["scores"], "specs": p["specs"],
             "tagline": p["editorial"]["tagline"], "verdict": p["editorial"]["verdict"], "tags": p["tags"],
@@ -1258,7 +1263,6 @@ def main():
         build_product(p)
     build_categories()
     build_guides()
-    build_deals()
     build_compare()
     build_vs()
     build_range_map()

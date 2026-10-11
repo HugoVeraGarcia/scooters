@@ -201,10 +201,10 @@
           '<p class="rm-card__big"><b>' + r1(x.mi) + " mi</b> " + tripTxt + "</p>" +
           '<p class="rm-card__meta">' + p.specs.range_mi + " mi claimed" + (state.basis === "real" ? " · real-world " + Math.round(CFG.realFactor * 100) + "%" : "") +
           (x.capped ? ' · <span class="rm-cap">capped at the map limit</span>' : "") + (ok ? "" : ' · <span class="rm-cap">map area unavailable</span>') + "</p>" +
-          '<div class="rm-card__actions">' + (p.price != null ? '<span class="rm-card__price">$' + p.price.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + "</span>" : "") +
+          '<div class="rm-card__actions">' + (p.band ? '<span class="rm-card__price">' + esc(p.band) + "</span>" : "") +
           '<a class="btn btn--amazon btn--xs" href="' + esc(p.aff) + '" target="_blank" rel="sponsored nofollow noopener">View on Amazon<svg class="ico"><use href="#i-ext"/></svg></a>' +
           '<a class="btn btn--ghost btn--xs" href="' + esc(p.url) + '">Review</a></div></div></article>';
-      }).join("") + '<p class="note note--muted rm-foot">Prices from Amazon.com as of ' + esc((plans[0].p.priceDate) || "") + ". Areas follow bike-legal streets and paths from the starting point; actual range depends on rider weight, hills, weather and riding mode.</p>";
+      }).join("") + '<p class="note note--muted rm-foot">Price ranges are approximate; check Amazon for today\'s price.' + " Areas follow bike-legal streets and paths from the starting point; actual range depends on rider weight, hills, weather and riding mode.</p>";
     }
 
     function run() {

@@ -664,3 +664,10 @@ body.has-tray { padding-bottom: 72px; }
   .vs-choose, .vs-scores, .vs-pcs { grid-template-columns: 1fr; }
   .vs-table col.c-label { width: 120px; }
 }
+
+/* price ranges instead of exact prices (Amazon Associates policy) */
+.price--band { align-items: center; }
+.price__band { display: inline-block; font-weight: 700; font-size: .95rem; padding: 3px 10px; border-radius: 999px; background: var(--paper-2); color: var(--ink); }
+.price--big .price__band { font-size: 1.1rem; padding: 5px 14px; }
+.price__note { font-size: .78rem; color: var(--muted); }
+.cmp-head__band { display: block; font-weight: 600; font-size: .85rem; margin: 2px 0 6px; color: var(--muted); }

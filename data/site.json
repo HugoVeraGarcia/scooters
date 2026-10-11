@@ -4,7 +4,7 @@
  "base_url": "https://scooters.specversus.com",
  "lang": "en",
  "year": 2026,
- "show_prices": true,
+ "show_prices": false,
  "contact_email": "soporte.microtools.lat@gmail.com",
  "categories": [
   {
@@ -133,7 +133,7 @@
    "slug": "best-electric-scooter-under-1000",
    "title": "Best Electric Scooter Under $1,000 (2026)",
    "h1": "The best electric scooters under $1,000 in 2026",
-   "description": "From $160 commuters to 50 mph dual-motor bargains: the adult electric scooters under $1,000 that give you the most for your money.",
+   "description": "From budget commuters to 50 mph dual-motor bargains: the adult electric scooters under $1,000 that give you the most for your money.",
    "rank_by": "value",
    "filter": "price<=1000",
    "limit": 5,
@@ -503,7 +503,7 @@
    "limit": 6,
    "intro": [
     "An electric scooter is one of the few gifts that changes someone's daily routine: a faster commute, a ride to campus, or a fun way to run errands. It's also a big box with a battery inside, so it pays to match the scooter to the rider before you wrap it.",
-    "These are the best-value adult scooters in our catalog under $800, from about $280 to $800, ranked on value first and then safety, comfort and real-world performance. Every pick links to its full review and spec sheet so you can double-check range, weight limit and brakes."
+    "These are the best-value adult scooters in our catalog under $800, ranked on value first and then safety, comfort and real-world performance. Every pick links to its full review and spec sheet so you can double-check range, weight limit and brakes."
    ],
    "criteria": [
     [

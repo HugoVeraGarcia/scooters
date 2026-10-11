@@ -244,7 +244,7 @@
 
     picker.hidden = false;
     list.innerHTML = DB.products.map(function (p) {
-      return '<button type="button" class="opt" data-opt="' + esc(p.id) + '" aria-pressed="false"><img src="' + esc(p.img) + '" alt="" loading="lazy"><span>' + esc(p.name) + "</span><small>" + esc(p.brand) + (p.price != null ? " · " + money(p.price) : "") + "</small></button>";
+      return '<button type="button" class="opt" data-opt="' + esc(p.id) + '" aria-pressed="false"><img src="' + esc(p.img) + '" alt="" loading="lazy"><span>' + esc(p.name) + "</span><small>" + esc(p.brand) + (p.band ? " · " + esc(p.band) : "") + "</small></button>";
     }).join("");
 
     list.addEventListener("click", function (e) {
@@ -338,7 +338,7 @@
       var head = '<tr><th scope="col"><span class="sr">Spec</span></th>' + items.map(function (p, i) {
         return '<th scope="col"><div class="cmp-head" style="--c:' + colors[i] + '"><div class="cmp-head__img"><img src="' + esc(p.img) + '" alt=""><button type="button" class="cmp-head__rm" data-rm="' + esc(p.id) + '" aria-label="Remove ' + esc(p.name) + '"><svg class="ico"><use href="#i-x"/></svg></button></div>' +
           '<a class="cmp-head__name" href="' + esc(p.url) + '">' + esc(p.name) + "</a>" +
-          (p.price != null ? '<span class="cmp-head__price">' + money(p.price) + '</span><span class="price__date">as of ' + esc(p.priceDate) + "</span>" : "") +
+          (p.band ? '<span class="cmp-head__band">' + esc(p.band) + "</span>" : "") +
           '<a class="btn btn--amazon btn--xs" href="' + esc(p.aff) + '" target="_blank" rel="sponsored nofollow noopener">View on Amazon<svg class="ico"><use href="#i-ext"/></svg></a></div></th>';
       }).join("") + "</tr>";
 
