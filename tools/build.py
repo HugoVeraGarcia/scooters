@@ -149,7 +149,7 @@ def stars(rating, count=None, small=False) -> str:
 
 
 def buy_button(p, label="Check price on Amazon", cls="btn btn--amazon") -> str:
-    # The affiliate link is used verbatim — never rewritten.
+    # Affiliate link: /dp/ASIN?tag=<site affiliate_tag> (validated in validate()).
     return (f'<a class="{cls}" href="{E(p["affiliate_url"])}" target="_blank" '
             f'rel="sponsored nofollow noopener" data-asin="{E(p["asin"])}">'
             f'{E(label)}<svg class="ico" aria-hidden="true"><use href="#i-ext"/></svg></a>')
@@ -1278,7 +1278,8 @@ def validate():
     for p in PRODUCTS:
         assert p["id"] not in seen, f"duplicate id {p['id']}"
         seen.add(p["id"])
-        assert p["affiliate_url"].startswith("https://amzn.to/") or "tag=" in p["affiliate_url"], f"{p['id']}: affiliate link without tag"
+        assert p["affiliate_url"] == f"https://www.amazon.com/dp/{p['asin']}?tag={SITE['affiliate_tag']}", f"{p['id']}: affiliate link must be /dp/ASIN?tag={SITE['affiliate_tag']}"
+        assert p.get("affiliate_tag") == SITE["affiliate_tag"], f"{p['id']}: wrong affiliate_tag"
         assert p.get("affiliate_tag"), f"{p['id']}: missing affiliate_tag"
         for k, _ in SCORE_AXES:
             v = p["scores"].get(k)

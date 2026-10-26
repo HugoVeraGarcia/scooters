@@ -2,6 +2,7 @@
  "name": "ScooterScope",
  "tagline": "Electric scooter reviews & side-by-side comparisons",
  "base_url": "https://scooters.specversus.com",
+ "affiliate_tag": "microtools0f-20",
  "lang": "en",
  "year": 2026,
  "show_prices": false,
